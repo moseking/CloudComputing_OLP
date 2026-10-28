@@ -1,0 +1,1 @@
+"""Independent FastAPI service package."""

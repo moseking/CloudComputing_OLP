@@ -1,0 +1,127 @@
+name: cloudcomputing-olp
+x-api: &api
+  restart: unless-stopped
+  depends_on:
+    postgres:
+      condition: service_healthy
+  healthcheck:
+    test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+    start_period: 15s
+  networks: [backend]
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-platform_admin}
+      POSTGRES_DB: ${POSTGRES_DB:-platform_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      USER_DB_PASSWORD: ${USER_DB_PASSWORD:?Set USER_DB_PASSWORD in .env}
+      COURSE_DB_PASSWORD: ${COURSE_DB_PASSWORD:?Set COURSE_DB_PASSWORD in .env}
+      QUIZ_DB_PASSWORD: ${QUIZ_DB_PASSWORD:?Set QUIZ_DB_PASSWORD in .env}
+      PAYMENT_DB_PASSWORD: ${PAYMENT_DB_PASSWORD:?Set PAYMENT_DB_PASSWORD in .env}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./infrastructure/postgres/init-databases.sh:/docker-entrypoint-initdb.d/10-init-databases.sh:ro
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -h 127.0.0.1 -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks: [backend]
+
+  user-service:
+    <<: *api
+    build: ./services/user-service
+    environment:
+      ROOT_PATH: /services/users
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: users_db
+      DB_USER: users_app
+      DB_PASSWORD: ${USER_DB_PASSWORD:?Set USER_DB_PASSWORD in .env}
+
+  course-service:
+    <<: *api
+    build: ./services/course-service
+    environment:
+      ROOT_PATH: /services/courses
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: courses_db
+      DB_USER: courses_app
+      DB_PASSWORD: ${COURSE_DB_PASSWORD:?Set COURSE_DB_PASSWORD in .env}
+
+  quiz-service:
+    <<: *api
+    build: ./services/quiz-service
+    environment:
+      ROOT_PATH: /services/quizzes
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: quizzes_db
+      DB_USER: quizzes_app
+      DB_PASSWORD: ${QUIZ_DB_PASSWORD:?Set QUIZ_DB_PASSWORD in .env}
+
+  payment-service:
+    <<: *api
+    build: ./services/payment-service
+    environment:
+      ROOT_PATH: /services/payments
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_NAME: payments_db
+      DB_USER: payments_app
+      DB_PASSWORD: ${PAYMENT_DB_PASSWORD:?Set PAYMENT_DB_PASSWORD in .env}
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:80/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [web]
+
+  nginx:
+    image: nginx:1.30-alpine
+    restart: unless-stopped
+    ports:
+      - "${GATEWAY_BIND:-127.0.0.1}:${GATEWAY_PORT:-8080}:80"
+    volumes:
+      - ./infrastructure/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      frontend:
+        condition: service_healthy
+      user-service:
+        condition: service_healthy
+      course-service:
+        condition: service_healthy
+      quiz-service:
+        condition: service_healthy
+      payment-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:80/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [web, backend]
+
+volumes:
+  postgres-data:
+networks:
+  web:
+  backend:
+    internal: true

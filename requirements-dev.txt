@@ -1,0 +1,4 @@
+-r services/user-service/requirements-dev.txt
+-r services/course-service/requirements-dev.txt
+-r services/quiz-service/requirements-dev.txt
+-r services/payment-service/requirements-dev.txt
