@@ -46,3 +46,7 @@ Desktop.ini
 /TEST_REPORT.md
 /NEXT_STEPS.md
 /CLEANUP_REPORT.md
+
+
+# Local JWT signing keys and generated demo secrets.
+/.secrets/
