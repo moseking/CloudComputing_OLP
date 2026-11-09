@@ -8,6 +8,8 @@ Hệ thống cung cấp các chức năng chính như đăng ký, đăng nhập,
 
 Đồ án sử dụng kiến trúc Microservices với frontend React + Vite và 4 dịch vụ backend FastAPI độc lập: User Service, Course Service, Quiz Service và Payment Service. Hệ thống sử dụng PostgreSQL để lưu trữ dữ liệu, Nginx làm API Gateway và Docker Compose để triển khai các dịch vụ.
 
+> **Tài liệu hướng dẫn cho cả nhóm và giảng viên:** [Cài đặt local, kiến trúc, luồng dữ liệu, kiểm thử API và FAQ](docs/INSTALLATION_AND_ARCHITECTURE_GUIDE.md).
+
 ## 2. Công nghệ sử dụng
 
 | Thành phần       | Công nghệ                          |

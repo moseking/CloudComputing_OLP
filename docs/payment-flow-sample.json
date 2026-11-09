@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "base_url": "http://127.0.0.1:8080",
+  "checked_at_utc": "2026-11-09T21:18:47.910708+00:00",
+  "checks": {
+    "gateway_health": "ok",
+    "payment_service_health": "ok",
+    "created_payment_status": "PENDING",
+    "success_payment_status": "SUCCESS",
+    "success_access_status": "granted",
+    "success_enrollment_confirmed": true,
+    "failed_payment_status": "FAILED",
+    "failed_payment_granted_access": false
+  },
+  "course_id": 2,
+  "success_payment_id": "b0ab62db-6e75-42c7-b72c-d853deafa8c1",
+  "failed_payment_id": "8a374eb0-4f79-4745-a972-7f578ec59bf3"
+}

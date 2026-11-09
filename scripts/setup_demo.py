@@ -32,11 +32,15 @@ def setup(env_file='.env', port=8080, key_dir=None, extend=False):
             raise RuntimeError('Public/private keys do not match. No data changed.')
     else:
         directory.mkdir(parents=True,exist_ok=True)
+        directory.chmod(0o700)
         key = rsa.generate_private_key(public_exponent=65537,key_size=2048)
         private_path.write_bytes(key.private_bytes(serialization.Encoding.PEM,serialization.PrivateFormat.PKCS8,serialization.NoEncryption()))
         public_path.write_bytes(key.public_key().public_bytes(serialization.Encoding.PEM,serialization.PublicFormat.SubjectPublicKeyInfo))
-        private_path.chmod(0o600)
+        # The private .secrets directory remains owner-only. The file itself must
+        # be readable by the non-root appuser when Compose mounts it as a secret.
+        private_path.chmod(0o644)
         public_path.chmod(0o644)
+    directory.chmod(0o700)
     template = (root/'.env.example').read_text(encoding='utf-8')
     output = []
     for line in template.splitlines():
@@ -46,7 +50,7 @@ def setup(env_file='.env', port=8080, key_dir=None, extend=False):
                 continue
             if value.startswith('CHANGE_ME'):
                 value = secrets.token_urlsafe(32)
-            elif name == 'GATEWAY_PORT':
+            elif name == 'NGINX_HOST_PORT':
                 value = str(port)
             elif name == 'OELP_SECRET_DIR':
                 value = directory.relative_to(root).as_posix()
