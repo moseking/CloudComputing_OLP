@@ -1,0 +1,2198 @@
+{
+  "(Bỏ trống)": {
+    "vi": "(Bỏ trống)",
+    "en": "(Blank)"
+  },
+  "+ Tạo bài học mới": {
+    "vi": "+ Tạo bài học mới",
+    "en": "+ Create a new lesson"
+  },
+  "A1": {
+    "vi": "A1",
+    "en": "A1"
+  },
+  "A2": {
+    "vi": "A2",
+    "en": "A2"
+  },
+  "ADMIN / MÔI TRƯỜNG DEMO": {
+    "vi": "ADMIN / MÔI TRƯỜNG DEMO",
+    "en": "ADMIN / DEMO ENVIRONMENT"
+  },
+  "ADMIN WORKSPACE": {
+    "vi": "KHÔNG GIAN QUẢN TRỊ",
+    "en": "ADMIN WORKSPACE"
+  },
+  "API hoạt động": {
+    "vi": "API hoạt động",
+    "en": "API available"
+  },
+  "Admin": {
+    "vi": "Quản trị viên",
+    "en": "Admin"
+  },
+  "Advanced": {
+    "vi": "Nâng cao",
+    "en": "Advanced"
+  },
+  "All": {
+    "vi": "Tất cả",
+    "en": "All"
+  },
+  "Anh–Anh (UK)": {
+    "vi": "Anh–Anh (UK)",
+    "en": "British English (UK)"
+  },
+  "Anh–Mỹ": {
+    "vi": "Anh–Mỹ",
+    "en": "American English"
+  },
+  "Anh–Mỹ (US)": {
+    "vi": "Anh–Mỹ (US)",
+    "en": "American English (US)"
+  },
+  "Avatar hiển thị chữ cái từ tên của bạn. Tài khoản chưa hỗ trợ tải ảnh đại diện.": {
+    "vi": "Avatar hiển thị chữ cái từ tên của bạn. Tài khoản chưa hỗ trợ tải ảnh đại diện.",
+    "en": "Your avatar uses your initials. Photo uploads are not available yet."
+  },
+  "B1": {
+    "vi": "B1",
+    "en": "B1"
+  },
+  "B2": {
+    "vi": "B2",
+    "en": "B2"
+  },
+  "BUILD YOUR SKILLS": {
+    "vi": "RÈN LUYỆN KỸ NĂNG",
+    "en": "BUILD YOUR SKILLS"
+  },
+  "Beginner": {
+    "vi": "Sơ cấp",
+    "en": "Beginner"
+  },
+  "Breadcrumb": {
+    "vi": "Đường dẫn",
+    "en": "Breadcrumb"
+  },
+  "Build Your Skills": {
+    "vi": "Rèn luyện kỹ năng",
+    "en": "Build Your Skills"
+  },
+  "Bài": {
+    "vi": "Bài",
+    "en": "Lesson"
+  },
+  "Bài học liên quan": {
+    "vi": "Bài học liên quan",
+    "en": "Related lesson"
+  },
+  "Bài kiểm tra chưa có câu hỏi.": {
+    "vi": "Bài kiểm tra chưa có câu hỏi.",
+    "en": "This quiz has no questions yet."
+  },
+  "Bài tiếp theo": {
+    "vi": "Bài tiếp theo",
+    "en": "Next lesson"
+  },
+  "Bài trước": {
+    "vi": "Bài trước",
+    "en": "Previous lesson"
+  },
+  "Bài {0} · {1}": {
+    "vi": "Bài {0} · {1}",
+    "en": "Lesson {0} · {1}"
+  },
+  "Bài đã hoàn thành": {
+    "vi": "Bài đã hoàn thành",
+    "en": "Lessons completed"
+  },
+  "Bình thường · 1×": {
+    "vi": "Bình thường · 1×",
+    "en": "Normal · 1×"
+  },
+  "Bạn chưa có giao dịch nào.": {
+    "vi": "Bạn chưa có giao dịch nào.",
+    "en": "You have no transactions yet."
+  },
+  "Bạn chưa có kết quả ở đây. Hãy bắt đầu một bài học.": {
+    "vi": "Bạn chưa có kết quả ở đây. Hãy bắt đầu một bài học.",
+    "en": "You have no results here yet. Start with a lesson."
+  },
+  "Bạn chưa nộp bài Quiz nào.": {
+    "vi": "Bạn chưa nộp bài bài kiểm tra nào.",
+    "en": "You have not submitted a quiz yet."
+  },
+  "Bạn chưa đăng ký khóa học nào.": {
+    "vi": "Bạn chưa đăng ký khóa học nào.",
+    "en": "You have not enrolled in a course yet."
+  },
+  "Bạn không có quyền truy cập": {
+    "vi": "Bạn không có quyền truy cập",
+    "en": "You do not have access"
+  },
+  "Bạn sẽ học được gì?": {
+    "vi": "Bạn sẽ học được gì?",
+    "en": "What will you learn?"
+  },
+  "Bạn trả lời:": {
+    "vi": "Bạn trả lời:",
+    "en": "Your answer:"
+  },
+  "Bạn đã có quyền học.": {
+    "vi": "Bạn đã có quyền học.",
+    "en": "You have access to this course."
+  },
+  "Bạn đã sẵn sàng nộp bài?": {
+    "vi": "Bạn đã sẵn sàng nộp bài?",
+    "en": "Ready to submit your quiz?"
+  },
+  "Bạn đã sẵn sàng?": {
+    "vi": "Bạn đã sẵn sàng?",
+    "en": "Ready to start?"
+  },
+  "Bạn đã trả lời": {
+    "vi": "Bạn đã trả lời",
+    "en": "You have answered"
+  },
+  "Bạn đã đăng nhập": {
+    "vi": "Bạn đã đăng nhập",
+    "en": "You are signed in"
+  },
+  "Bắt đầu Quiz": {
+    "vi": "Bắt đầu kiểm tra",
+    "en": "Start quiz"
+  },
+  "Bắt đầu bài học": {
+    "vi": "Bắt đầu bài học",
+    "en": "Start a lesson"
+  },
+  "Bắt đầu học": {
+    "vi": "Bắt đầu học",
+    "en": "Start learning"
+  },
+  "Bắt đầu một hành trình mới": {
+    "vi": "Bắt đầu một hành trình mới",
+    "en": "Start a new journey"
+  },
+  "Bắt đầu một điều mới hôm nay": {
+    "vi": "Bắt đầu một điều mới hôm nay",
+    "en": "Start something new today"
+  },
+  "Bắt đầu từ nơi bạn đang đứng": {
+    "vi": "Bắt đầu từ nơi bạn đang đứng",
+    "en": "Start where you are"
+  },
+  "Bỏ {0} {1} khỏi bản nháp": {
+    "vi": "Bỏ {0} {1} khỏi bản nháp",
+    "en": "Remove {0} {1} from the draft"
+  },
+  "C1": {
+    "vi": "C1",
+    "en": "C1"
+  },
+  "CEFR": {
+    "vi": "CEFR",
+    "en": "CEFR"
+  },
+  "CHECK YOUR KNOWLEDGE": {
+    "vi": "KIỂM TRA KIẾN THỨC",
+    "en": "CHECK YOUR KNOWLEDGE"
+  },
+  "Chào mừng bạn trở lại.": {
+    "vi": "Chào mừng bạn trở lại.",
+    "en": "Welcome back."
+  },
+  "Chưa có": {
+    "vi": "Chưa có",
+    "en": "Not available yet"
+  },
+  "Chưa có Quiz để bắt đầu": {
+    "vi": "Chưa có bài kiểm tra để bắt đầu",
+    "en": "No quizzes to start yet"
+  },
+  "Chưa có audio cho nội dung này.": {
+    "vi": "Chưa có audio cho nội dung này.",
+    "en": "Audio is not available for this content yet."
+  },
+  "Chưa có bài tự luyện.": {
+    "vi": "Chưa có bài tự luyện.",
+    "en": "No practice activities yet."
+  },
+  "Chưa có khóa học trong danh mục.": {
+    "vi": "Chưa có khóa học trong danh mục.",
+    "en": "No courses in the catalog yet."
+  },
+  "Chưa có khóa học trả phí.": {
+    "vi": "Chưa có khóa học trả phí.",
+    "en": "No paid courses yet."
+  },
+  "Chưa có khóa học để theo dõi tiến độ.": {
+    "vi": "Chưa có khóa học để theo dõi tiến độ.",
+    "en": "No courses to track yet."
+  },
+  "Chưa có khóa học ở trình độ này.": {
+    "vi": "Chưa có khóa học ở trình độ này.",
+    "en": "No courses at this level yet."
+  },
+  "Chưa có nội dung lý thuyết.": {
+    "vi": "Chưa có nội dung lý thuyết.",
+    "en": "No theory content yet."
+  },
+  "Chưa có nội dung ngữ pháp.": {
+    "vi": "Chưa có nội dung ngữ pháp.",
+    "en": "No grammar content yet."
+  },
+  "Chưa có tài khoản?": {
+    "vi": "Chưa có tài khoản?",
+    "en": "Do not have an account?"
+  },
+  "Chưa có từ vựng cho bài học này.": {
+    "vi": "Chưa có từ vựng cho bài học này.",
+    "en": "No vocabulary for this lesson yet."
+  },
+  "Chưa kiểm tra": {
+    "vi": "Chưa kiểm tra",
+    "en": "Not checked"
+  },
+  "Chưa thêm nội dung.": {
+    "vi": "Chưa thêm nội dung.",
+    "en": "No content added yet."
+  },
+  "Chưa tìm thấy khóa học phù hợp": {
+    "vi": "Chưa tìm thấy khóa học phù hợp",
+    "en": "No matching courses found"
+  },
+  "Chưa tải được bài học. Chọn lại để thử lại.": {
+    "vi": "Chưa tải được bài học. Chọn lại để thử lại.",
+    "en": "The lesson could not be loaded. Select it again to retry."
+  },
+  "Chưa xác định": {
+    "vi": "Chưa xác định",
+    "en": "Unknown"
+  },
+  "Chưa đúng": {
+    "vi": "Chưa đúng",
+    "en": "Incorrect"
+  },
+  "Chạm để lật thẻ": {
+    "vi": "Chạm để lật thẻ",
+    "en": "Tap to flip the card"
+  },
+  "Chậm · 0.75×": {
+    "vi": "Chậm · 0.75×",
+    "en": "Slow · 0.75×"
+  },
+  "Chỉ liên kết Quiz thuộc đúng khóa học. Bạn có thể tạo Quiz tại mục Quizzes rồi quay lại điền ID.": {
+    "vi": "Chỉ liên kết bài kiểm tra thuộc đúng khóa học. Bạn có thể tạo bài kiểm tra tại mục Bài kiểm tra rồi quay lại điền ID.",
+    "en": "Link only a quiz from this course. Create a quiz in Quizzes, then return here and enter its ID."
+  },
+  "Chọn bài học để sửa": {
+    "vi": "Chọn bài học để sửa",
+    "en": "Select a lesson to edit"
+  },
+  "Chọn khóa học": {
+    "vi": "Chọn khóa học",
+    "en": "Select a course"
+  },
+  "Chọn mã đáp án": {
+    "vi": "Chọn mã đáp án",
+    "en": "Select the correct answer"
+  },
+  "Chọn một bài học và tiếp tục hành trình của bạn.": {
+    "vi": "Chọn một bài học và tiếp tục hành trình của bạn.",
+    "en": "Choose a lesson and continue your journey."
+  },
+  "Chọn một khóa học để quản lý nội dung.": {
+    "vi": "Chọn một khóa học để quản lý nội dung.",
+    "en": "Select a course to manage its content."
+  },
+  "Chọn ngôn ngữ": {
+    "vi": "Chọn ngôn ngữ",
+    "en": "Select a language"
+  },
+  "Chọn trình độ CEFR phù hợp. Các khóa học hiện có được cập nhật từ danh mục của OELP.": {
+    "vi": "Chọn trình độ CEFR phù hợp. Các khóa học hiện có được cập nhật từ danh mục của OELP.",
+    "en": "Choose your CEFR level. Available courses come from the OELP catalog."
+  },
+  "Chọn trình độ, tìm cảm hứng và bắt đầu hành trình học tập của riêng bạn.": {
+    "vi": "Chọn trình độ, tìm cảm hứng và bắt đầu hành trình học tập của riêng bạn.",
+    "en": "Choose a level, find inspiration and start your learning journey."
+  },
+  "Chọn từ danh mục ngôn ngữ hiện có. Nội dung demo hiện tập trung vào tiếng Anh.": {
+    "vi": "Chọn từ danh mục ngôn ngữ hiện có. Nội dung demo hiện tập trung vào tiếng Anh.",
+    "en": "Choose from the available languages. Demo content currently focuses on English."
+  },
+  "Chờ thanh toán": {
+    "vi": "Chờ thanh toán",
+    "en": "Payment pending"
+  },
+  "Continue Learning": {
+    "vi": "Tiếp tục học",
+    "en": "Continue Learning"
+  },
+  "Course Service đã xác nhận cấp quyền học.": {
+    "vi": "Course Service đã xác nhận cấp quyền học.",
+    "en": "Course Service has confirmed learning access."
+  },
+  "Courses": {
+    "vi": "Khóa học",
+    "en": "Courses"
+  },
+  "Các ví dụ (mỗi dòng một câu, tối đa 20)": {
+    "vi": "Các ví dụ (mỗi dòng một câu, tối đa 20)",
+    "en": "Examples (one per line, up to 20)"
+  },
+  "Câu": {
+    "vi": "Câu",
+    "en": "Question"
+  },
+  "Câu hỏi": {
+    "vi": "Câu hỏi",
+    "en": "Questions"
+  },
+  "Câu trả lời của bạn…": {
+    "vi": "Câu trả lời của bạn…",
+    "en": "Your answer…"
+  },
+  "Câu trả lời nháp chỉ nằm trong trang hiện tại, không được lưu hoặc chấm điểm. Bạn có thể dùng Quiz để kiểm tra kiến thức.": {
+    "vi": "Câu trả lời nháp chỉ nằm trong trang hiện tại, không được lưu hoặc chấm điểm. Bạn có thể dùng bài kiểm tra để kiểm tra kiến thức.",
+    "en": "Your practice draft stays on this page and is not saved or graded. Use the quiz to check your knowledge."
+  },
+  "Câu ví dụ": {
+    "vi": "Câu ví dụ",
+    "en": "Example sentence"
+  },
+  "Cấu trúc": {
+    "vi": "Cấu trúc",
+    "en": "Structure"
+  },
+  "Cần đăng ký": {
+    "vi": "Cần đăng ký",
+    "en": "Enrollment required"
+  },
+  "Danh mục hiện có": {
+    "vi": "Danh mục hiện có",
+    "en": "Current catalog"
+  },
+  "Danh sách khóa học": {
+    "vi": "Danh sách khóa học",
+    "en": "Course catalog"
+  },
+  "Dành cho demo đồ án. Không thu tiền thật hoặc yêu cầu thông tin thẻ.": {
+    "vi": "Dành cho demo đồ án. Không thu tiền thật hoặc yêu cầu thông tin thẻ.",
+    "en": "For the project demo. No real charges or card details are involved."
+  },
+  "EXPLORE COURSES": {
+    "vi": "KHÁM PHÁ KHÓA HỌC",
+    "en": "EXPLORE COURSES"
+  },
+  "Elementary": {
+    "vi": "Cơ bản",
+    "en": "Elementary"
+  },
+  "Email": {
+    "vi": "Email",
+    "en": "Email"
+  },
+  "English": {
+    "vi": "Tiếng Anh",
+    "en": "English"
+  },
+  "Explore Courses": {
+    "vi": "Khám phá khóa học",
+    "en": "Explore Courses"
+  },
+  "Explore your lessons": {
+    "vi": "Khám phá bài học",
+    "en": "Explore your lessons"
+  },
+  "FIND YOUR NEXT ADVENTURE": {
+    "vi": "TÌM HÀNH TRÌNH TIẾP THEO",
+    "en": "FIND YOUR NEXT ADVENTURE"
+  },
+  "Flashcard {0}": {
+    "vi": "Thẻ từ vựng {0}",
+    "en": "Flashcard {0}"
+  },
+  "Giao dịch": {
+    "vi": "Giao dịch",
+    "en": "Transactions"
+  },
+  "Giao dịch chưa được cấp quyền học.": {
+    "vi": "Giao dịch chưa được cấp quyền học.",
+    "en": "Learning access has not been granted for this transaction."
+  },
+  "Giao dịch của tôi": {
+    "vi": "Giao dịch của tôi",
+    "en": "My transactions"
+  },
+  "Giá (VND)": {
+    "vi": "Giá (VND)",
+    "en": "Price (VND)"
+  },
+  "Giá tham khảo:": {
+    "vi": "Giá tham khảo:",
+    "en": "Listed price:"
+  },
+  "Giải thích": {
+    "vi": "Giải thích",
+    "en": "Explanation"
+  },
+  "Giọng máy · tự luyện": {
+    "vi": "Giọng máy · tự luyện",
+    "en": "Synthetic voice · self-practice"
+  },
+  "Giọng đọc — {0}": {
+    "vi": "Giọng đọc — {0}",
+    "en": "Voice — {0}"
+  },
+  "Giới thiệu": {
+    "vi": "Giới thiệu",
+    "en": "About you"
+  },
+  "Giữ thông tin và mục tiêu học tập của bạn luôn cập nhật.": {
+    "vi": "Giữ thông tin và mục tiêu học tập của bạn luôn cập nhật.",
+    "en": "Keep your profile and learning goals up to date."
+  },
+  "Good afternoon": {
+    "vi": "Chào buổi chiều",
+    "en": "Good afternoon"
+  },
+  "Good evening": {
+    "vi": "Chào buổi tối",
+    "en": "Good evening"
+  },
+  "Good morning": {
+    "vi": "Chào buổi sáng",
+    "en": "Good morning"
+  },
+  "Grammar": {
+    "vi": "Ngữ pháp",
+    "en": "Grammar"
+  },
+  "Grammar / Ngữ pháp": {
+    "vi": "Ngữ pháp",
+    "en": "Grammar"
+  },
+  "Gợi ý / ví dụ": {
+    "vi": "Gợi ý / ví dụ",
+    "en": "Hint / example"
+  },
+  "Hiểu kiến thức nền tảng": {
+    "vi": "Hiểu kiến thức nền tảng",
+    "en": "Understand the foundations"
+  },
+  "Hiện transcript": {
+    "vi": "Hiện transcript",
+    "en": "Show transcript"
+  },
+  "Hiện {0}": {
+    "vi": "Hiện {0}",
+    "en": "Show {0}"
+  },
+  "Home": {
+    "vi": "Trang chủ",
+    "en": "Home"
+  },
+  "Hoàn thành bài học để lưu tiến độ vào khóa học.": {
+    "vi": "Hoàn thành bài học để lưu tiến độ vào khóa học.",
+    "en": "Complete the lesson to save your course progress."
+  },
+  "Hoàn thành mục tiêu!": {
+    "vi": "Hoàn thành mục tiêu!",
+    "en": "Goal complete!"
+  },
+  "Hành trình của bạn bắt đầu ở đây": {
+    "vi": "Hành trình của bạn bắt đầu ở đây",
+    "en": "Your journey starts here"
+  },
+  "Hành trình mới đang chờ bạn": {
+    "vi": "Hành trình mới đang chờ bạn",
+    "en": "A new journey awaits"
+  },
+  "Hành trình tiếng Anh của bạn bắt đầu từ đây.": {
+    "vi": "Hành trình tiếng Anh của bạn bắt đầu từ đây.",
+    "en": "Your English journey starts here."
+  },
+  "Hành trình tiếng Anh với Tama": {
+    "vi": "Hành trình tiếng Anh với Tama",
+    "en": "Your English journey with Tama"
+  },
+  "Hãy quay lại sau để khám phá khóa học đầu tiên của bạn.": {
+    "vi": "Hãy quay lại sau để khám phá khóa học đầu tiên của bạn.",
+    "en": "Come back to discover your first course."
+  },
+  "Hãy thử sức! Kết quả và giải thích sẽ xuất hiện sau khi bạn nộp bài.": {
+    "vi": "Hãy thử sức! Kết quả và giải thích sẽ xuất hiện sau khi bạn nộp bài.",
+    "en": "Give it a try! Your score and review will appear after submission."
+  },
+  "Họ và tên": {
+    "vi": "Họ và tên",
+    "en": "Full name"
+  },
+  "Học bài": {
+    "vi": "Học bài",
+    "en": "Open lesson"
+  },
+  "Học theo nhịp của bạn": {
+    "vi": "Học theo nhịp của bạn",
+    "en": "Learn at your own pace"
+  },
+  "Học tiếng Anh cùng Tama": {
+    "vi": "Học tiếng Anh cùng Tama",
+    "en": "Learn English with Tama"
+  },
+  "Học tiếng Anh theo trình độ, luyện tập mỗi ngày và khám phá những khả năng mới cùng Tama.": {
+    "vi": "Học tiếng Anh theo trình độ, luyện tập mỗi ngày và khám phá những khả năng mới cùng Tama.",
+    "en": "Learn English at your level, practise every day and explore new possibilities with Tama."
+  },
+  "Học tiếng Anh. Mở rộng thế giới của bạn.": {
+    "vi": "Học tiếng Anh. Mở rộng thế giới của bạn.",
+    "en": "Learn English. Explore your world."
+  },
+  "Học để hiểu. Luyện để nhớ.": {
+    "vi": "Học để hiểu. Luyện để nhớ.",
+    "en": "Learn to understand. Practise to remember."
+  },
+  "Hồ sơ": {
+    "vi": "Hồ sơ",
+    "en": "Profile"
+  },
+  "Hồ sơ người học": {
+    "vi": "Hồ sơ người học",
+    "en": "Learner profile"
+  },
+  "Hồ sơ và cài đặt": {
+    "vi": "Hồ sơ và cài đặt",
+    "en": "Profile and settings"
+  },
+  "Intermediate": {
+    "vi": "Trung cấp",
+    "en": "Intermediate"
+  },
+  "Khu vực quản trị chỉ dành cho tài khoản Admin được backend xác nhận.": {
+    "vi": "Khu vực quản trị chỉ dành cho tài khoản Quản trị viên được backend xác nhận.",
+    "en": "Only accounts verified as Admin by the backend can enter this workspace."
+  },
+  "Khám phá Quiz →": {
+    "vi": "Khám phá bài kiểm tra →",
+    "en": "Explore quizzes →"
+  },
+  "Khám phá khóa học": {
+    "vi": "Khám phá khóa học",
+    "en": "Explore courses"
+  },
+  "Khám phá kiến thức và thực hành theo từng bài học.": {
+    "vi": "Khám phá kiến thức và thực hành theo từng bài học.",
+    "en": "Explore new ideas and practise one lesson at a time."
+  },
+  "Khám phá một khóa học để bắt đầu.": {
+    "vi": "Khám phá một khóa học để bắt đầu.",
+    "en": "Explore a course to get started."
+  },
+  "Khám phá từ vựng": {
+    "vi": "Khám phá từ vựng",
+    "en": "Explore vocabulary"
+  },
+  "Khóa học": {
+    "vi": "Khóa học",
+    "en": "Course"
+  },
+  "Khóa học chưa có API sửa hoặc xóa.": {
+    "vi": "Khóa học chưa có API sửa hoặc xóa.",
+    "en": "Course editing and deletion APIs are not available yet."
+  },
+  "Khóa học chưa có bài học.": {
+    "vi": "Khóa học chưa có bài học.",
+    "en": "This course has no lessons yet."
+  },
+  "Khóa học của bạn": {
+    "vi": "Khóa học của bạn",
+    "en": "Your courses"
+  },
+  "Khóa học dành cho bạn": {
+    "vi": "Khóa học dành cho bạn",
+    "en": "Courses for you"
+  },
+  "Khóa học quản trị": {
+    "vi": "Khóa học quản trị",
+    "en": "Course to manage"
+  },
+  "Khóa học tiếng Anh": {
+    "vi": "Khóa học tiếng Anh",
+    "en": "English courses"
+  },
+  "Khóa học {0} trình độ {1}": {
+    "vi": "Khóa học {0} trình độ {1}",
+    "en": "{0} course at level {1}"
+  },
+  "Khóa đã hoàn thành": {
+    "vi": "Khóa đã hoàn thành",
+    "en": "Courses completed"
+  },
+  "Khóa đã đăng ký": {
+    "vi": "Khóa đã đăng ký",
+    "en": "Courses enrolled"
+  },
+  "Không chọn bài học": {
+    "vi": "Không chọn bài học",
+    "en": "No lesson selected"
+  },
+  "Không có khóa học khớp từ khóa trong danh mục đã tải.": {
+    "vi": "Không có khóa học khớp từ khóa trong danh mục đã tải.",
+    "en": "No courses match your keyword in the loaded catalog."
+  },
+  "Không có yêu cầu đầu vào bổ sung.": {
+    "vi": "Không có yêu cầu đầu vào bổ sung.",
+    "en": "No additional prerequisites."
+  },
+  "Không gian học tập": {
+    "vi": "Không gian học tập",
+    "en": "Learning space"
+  },
+  "Không kết nối được": {
+    "vi": "Không kết nối được",
+    "en": "Could not connect"
+  },
+  "Không kết nối được API. Kiểm tra hệ thống rồi thử lại.": {
+    "vi": "Không kết nối được API. Kiểm tra hệ thống rồi thử lại.",
+    "en": "Could not connect to the API. Check the system and try again."
+  },
+  "Không thể xử lý yêu cầu (HTTP {0}).": {
+    "vi": "Không thể xử lý yêu cầu (HTTP {0}).",
+    "en": "The request could not be processed (HTTP {0})."
+  },
+  "Không tìm thấy nội dung bài học.": {
+    "vi": "Không tìm thấy nội dung bài học.",
+    "en": "Lesson content was not found."
+  },
+  "Không tìm thấy trang": {
+    "vi": "Không tìm thấy trang",
+    "en": "Page not found"
+  },
+  "Không tải được audio.": {
+    "vi": "Không tải được audio.",
+    "en": "Could not load the audio."
+  },
+  "Không tải được bộ audio.": {
+    "vi": "Không tải được bộ audio.",
+    "en": "Could not load the audio library."
+  },
+  "Kiểm tra kiến thức từ những bài học bạn có quyền truy cập.": {
+    "vi": "Kiểm tra kiến thức từ những bài học bạn có quyền truy cập.",
+    "en": "Check your knowledge with quizzes from courses you can access."
+  },
+  "Kết quả học tập": {
+    "vi": "Kết quả học tập",
+    "en": "Learning results"
+  },
+  "LESSON {0}": {
+    "vi": "BÀI {0}",
+    "en": "LESSON {0}"
+  },
+  "Learn": {
+    "vi": "Học tập",
+    "en": "Learn"
+  },
+  "Learn English Online": {
+    "vi": "Học tiếng Anh trực tuyến",
+    "en": "Learn English Online"
+  },
+  "Learn a little. Explore a lot.": {
+    "vi": "Học mỗi ngày. Khám phá mỗi ngày.",
+    "en": "Learn a little. Explore a lot."
+  },
+  "Learner": {
+    "vi": "Người học",
+    "en": "Learner"
+  },
+  "Learning Platform": {
+    "vi": "trực tuyến",
+    "en": "Learning Platform"
+  },
+  "Lessons": {
+    "vi": "Bài học",
+    "en": "Lessons"
+  },
+  "Loại câu hỏi": {
+    "vi": "Loại câu hỏi",
+    "en": "Question type"
+  },
+  "Luyện phát âm từ vựng": {
+    "vi": "Luyện phát âm từ vựng",
+    "en": "Vocabulary pronunciation"
+  },
+  "Làm bài kiểm tra": {
+    "vi": "Làm bài kiểm tra",
+    "en": "Take the quiz"
+  },
+  "Làm lại Quiz": {
+    "vi": "Làm lại bài kiểm tra",
+    "en": "Retry quiz"
+  },
+  "Làm mới": {
+    "vi": "Làm mới",
+    "en": "Refresh"
+  },
+  "Lưu hồ sơ": {
+    "vi": "Lưu hồ sơ",
+    "en": "Save profile"
+  },
+  "Lưu thay đổi bài học": {
+    "vi": "Lưu thay đổi bài học",
+    "en": "Save lesson changes"
+  },
+  "Lưu tiến độ và xem các khóa học của bạn.": {
+    "vi": "Lưu tiến độ và xem các khóa học của bạn.",
+    "en": "Save your progress and access your courses."
+  },
+  "Lượt làm Quiz": {
+    "vi": "Lượt làm bài kiểm tra",
+    "en": "Quiz attempts"
+  },
+  "Lật thẻ để khám phá nghĩa và câu ví dụ.": {
+    "vi": "Lật thẻ để khám phá nghĩa và câu ví dụ.",
+    "en": "Flip a card to reveal its meaning and example."
+  },
+  "Lịch sử Quiz": {
+    "vi": "Lịch sử bài kiểm tra",
+    "en": "Quiz history"
+  },
+  "Lịch sử giao dịch": {
+    "vi": "Lịch sử giao dịch",
+    "en": "Transaction history"
+  },
+  "Lựa chọn": {
+    "vi": "Lựa chọn",
+    "en": "Options"
+  },
+  "Meaning & example": {
+    "vi": "Nghĩa và ví dụ",
+    "en": "Meaning & example"
+  },
+  "Miễn phí": {
+    "vi": "Miễn phí",
+    "en": "Free"
+  },
+  "Mua khóa học mô phỏng": {
+    "vi": "Mua khóa học mô phỏng",
+    "en": "Purchase course in demo"
+  },
+  "My Courses": {
+    "vi": "Khóa học của tôi",
+    "en": "My Courses"
+  },
+  "My learning space": {
+    "vi": "Không gian học tập",
+    "en": "My learning space"
+  },
+  "Mã": {
+    "vi": "Mã",
+    "en": "Code"
+  },
+  "Mã giao dịch": {
+    "vi": "Mã giao dịch",
+    "en": "Transaction ID"
+  },
+  "Mã:": {
+    "vi": "Mã:",
+    "en": "ID:"
+  },
+  "Mô phỏng kết quả giao dịch": {
+    "vi": "Mô phỏng kết quả giao dịch",
+    "en": "Simulate a transaction result"
+  },
+  "Mô phỏng thành công": {
+    "vi": "Mô phỏng thành công",
+    "en": "Simulate success"
+  },
+  "Mô phỏng thất bại": {
+    "vi": "Mô phỏng thất bại",
+    "en": "Simulate failure"
+  },
+  "Mô tả khóa học": {
+    "vi": "Mô tả khóa học",
+    "en": "Course description"
+  },
+  "Mật khẩu": {
+    "vi": "Mật khẩu",
+    "en": "Password"
+  },
+  "Mật khẩu cần từ 8 đến 128 ký tự. Tài khoản đăng ký mới là Learner.": {
+    "vi": "Mật khẩu cần từ 8 đến 128 ký tự. Tài khoản đăng ký mới là Người học.",
+    "en": "Use 8–128 characters. New accounts have the Learner role."
+  },
+  "Mật khẩu xác nhận chưa khớp.": {
+    "vi": "Mật khẩu xác nhận chưa khớp.",
+    "en": "The password confirmation does not match."
+  },
+  "MỖI BƯỚC ĐỀU CÓ Ý NGHĨA": {
+    "vi": "MỖI BƯỚC ĐỀU CÓ Ý NGHĨA",
+    "en": "EVERY STEP COUNTS"
+  },
+  "Mỗi bài học hoàn thành là một bước tiến. Theo dõi hành trình tại đây.": {
+    "vi": "Mỗi bài học hoàn thành là một bước tiến. Theo dõi hành trình tại đây.",
+    "en": "Every completed lesson is a step forward. Track your journey here."
+  },
+  "Mỗi bài học nhỏ đều đưa bạn đi xa hơn.": {
+    "vi": "Mỗi bài học nhỏ đều đưa bạn đi xa hơn.",
+    "en": "Every small lesson takes you further."
+  },
+  "Mỗi ngày học một chút. Mỗi ngày tiến thêm một bước cùng Tama.": {
+    "vi": "Mỗi ngày học một chút. Mỗi ngày tiến thêm một bước cùng Tama.",
+    "en": "Learn a little every day. Take another step with Tama."
+  },
+  "Mỗi ngôn ngữ chỉ nên được chọn một lần.": {
+    "vi": "Mỗi ngôn ngữ chỉ nên được chọn một lần.",
+    "en": "Choose each language only once."
+  },
+  "Một bài Quiz nhỏ,": {
+    "vi": "Một bài kiểm tra nhỏ,",
+    "en": "One small quiz,"
+  },
+  "Một bước tiến thật tuyệt!": {
+    "vi": "Một bước tiến thật tuyệt!",
+    "en": "A great step forward!"
+  },
+  "Một chút mỗi ngày. Đi xa hơn mỗi lần.": {
+    "vi": "Một chút mỗi ngày. Đi xa hơn mỗi lần.",
+    "en": "A little each day. Further every time."
+  },
+  "Một chút tiếng Anh mỗi ngày. Một hành trình mới ở phía trước.": {
+    "vi": "Một chút tiếng Anh mỗi ngày. Một hành trình mới ở phía trước.",
+    "en": "A little English every day. A new adventure ahead."
+  },
+  "Một khởi đầu mới.": {
+    "vi": "Một khởi đầu mới.",
+    "en": "A fresh start."
+  },
+  "Mở menu tài khoản": {
+    "vi": "Mở menu tài khoản",
+    "en": "Open account menu"
+  },
+  "Mở rộng sidebar": {
+    "vi": "Mở rộng sidebar",
+    "en": "Expand sidebar"
+  },
+  "Mở rộng thế giới": {
+    "vi": "Mở rộng thế giới",
+    "en": "Explore your world"
+  },
+  "Mở rộng vốn từ mỗi ngày": {
+    "vi": "Mở rộng vốn từ mỗi ngày",
+    "en": "Grow your vocabulary every day"
+  },
+  "Mở điều hướng": {
+    "vi": "Mở điều hướng",
+    "en": "Open navigation"
+  },
+  "Mục tiêu học tập": {
+    "vi": "Mục tiêu học tập",
+    "en": "Learning goals"
+  },
+  "Nghe bài đọc": {
+    "vi": "Nghe bài đọc",
+    "en": "Listen to the reading"
+  },
+  "Nghe mẫu, đọc lại và so sánh hai giọng. Bài tự luyện hiện chưa ghi âm hoặc chấm điểm phát âm. Phiên âm trên flashcard, nếu có, dùng mẫu Anh–Anh; giọng đọc có thể khác theo accent.": {
+    "vi": "Nghe mẫu, đọc lại và so sánh hai giọng. Bài tự luyện hiện chưa ghi âm hoặc chấm điểm phát âm. Phiên âm trên flashcard, nếu có, dùng mẫu Anh–Anh; giọng đọc có thể khác theo accent.",
+    "en": "Listen, repeat and compare the two accents. Recording and pronunciation scoring are not available yet. Flashcard IPA, when included, uses a British model; the spoken version may vary by accent."
+  },
+  "Nghe một lượt để nắm ý chính, nghe lại để tìm chi tiết, rồi đối chiếu bài đọc. Bạn có thể ẩn transcript khi nghe.": {
+    "vi": "Nghe một lượt để nắm ý chính, nghe lại để tìm chi tiết, rồi đối chiếu bài đọc. Bạn có thể ẩn transcript khi nghe.",
+    "en": "Listen once for the main idea, then again for details and compare with the reading. You can hide the transcript while listening."
+  },
+  "Nghe phát âm từ": {
+    "vi": "Nghe phát âm từ",
+    "en": "Listen to word pronunciation"
+  },
+  "Nghĩa": {
+    "vi": "Nghĩa",
+    "en": "Meaning"
+  },
+  "Nguồn tham khảo & luyện thêm": {
+    "vi": "Nguồn tham khảo & luyện thêm",
+    "en": "References & further practice"
+  },
+  "Ngôn ngữ": {
+    "vi": "Ngôn ngữ",
+    "en": "Language"
+  },
+  "Ngôn ngữ quan tâm": {
+    "vi": "Ngôn ngữ quan tâm",
+    "en": "Language preference"
+  },
+  "Ngôn ngữ {0}": {
+    "vi": "Ngôn ngữ {0}",
+    "en": "Language {0}"
+  },
+  "Ngữ pháp": {
+    "vi": "Ngữ pháp",
+    "en": "Grammar"
+  },
+  "Nhanh · 1.25×": {
+    "vi": "Nhanh · 1.25×",
+    "en": "Fast · 1.25×"
+  },
+  "Nhìn thấy tiến bộ": {
+    "vi": "Nhìn thấy tiến bộ",
+    "en": "See your progress"
+  },
+  "Nhập mã giao dịch của người học. Máy chủ kiểm tra quyền Admin và chế độ demo.": {
+    "vi": "Nhập mã giao dịch của người học. Máy chủ kiểm tra quyền Quản trị viên và chế độ demo.",
+    "en": "Enter the learner’s transaction ID. The server checks your Admin role and demo mode."
+  },
+  "Nội dung bài học": {
+    "vi": "Nội dung bài học",
+    "en": "Lesson content"
+  },
+  "Nội dung câu hỏi": {
+    "vi": "Nội dung câu hỏi",
+    "en": "Question text"
+  },
+  "Nội dung demo của đồ án. Không có khoản thanh toán thật.": {
+    "vi": "Nội dung demo của đồ án. Không có khoản thanh toán thật.",
+    "en": "Project demo content. No real payment is collected."
+  },
+  "Nội dung học theo trình độ": {
+    "vi": "Nội dung học theo trình độ",
+    "en": "Learning content at level"
+  },
+  "Nội dung khóa học": {
+    "vi": "Nội dung khóa học",
+    "en": "Course content"
+  },
+  "Nội dung lựa chọn": {
+    "vi": "Nội dung lựa chọn",
+    "en": "Option text"
+  },
+  "Nội dung mới đang được chuẩn bị": {
+    "vi": "Nội dung mới đang được chuẩn bị",
+    "en": "New content is being prepared"
+  },
+  "Nội dung đang được chuẩn bị": {
+    "vi": "Nội dung đang được chuẩn bị",
+    "en": "Content is being prepared"
+  },
+  "Nộp bài kiểm tra": {
+    "vi": "Nộp bài kiểm tra",
+    "en": "Submit quiz"
+  },
+  "OELP": {
+    "vi": "OELP",
+    "en": "OELP"
+  },
+  "OELP Home": {
+    "vi": "Trang chủ OELP",
+    "en": "OELP Home"
+  },
+  "OELP Plus": {
+    "vi": "OELP Plus",
+    "en": "OELP Plus"
+  },
+  "OELP Plus đang được phát triển": {
+    "vi": "OELP Plus đang được phát triển",
+    "en": "OELP Plus is in development"
+  },
+  "OELP chưa có gói thuê bao Plus. Các khóa học trả phí hiện dùng thanh toán mô phỏng riêng từng khóa; không có phí thật được thu.": {
+    "vi": "OELP chưa có gói thuê bao Plus. Các khóa học trả phí hiện dùng thanh toán mô phỏng riêng từng khóa; không có phí thật được thu.",
+    "en": "OELP does not offer a Plus subscription yet. Paid courses currently use a separate simulated payment for each course; no real fees are collected."
+  },
+  "OELP · ENGLISH FOR EVERYONE": {
+    "vi": "OELP · TIẾNG ANH CHO MỌI NGƯỜI",
+    "en": "OELP · ENGLISH FOR EVERYONE"
+  },
+  "ONE LESSON AT A TIME": {
+    "vi": "TỪNG BÀI HỌC, TỪNG BƯỚC TIẾN",
+    "en": "ONE LESSON AT A TIME"
+  },
+  "Online English": {
+    "vi": "Học tiếng Anh",
+    "en": "Online English"
+  },
+  "Phiên âm IPA": {
+    "vi": "Phiên âm IPA",
+    "en": "IPA transcription"
+  },
+  "Practice": {
+    "vi": "Luyện tập",
+    "en": "Practice"
+  },
+  "Practice / Tự luyện": {
+    "vi": "Tự luyện",
+    "en": "Practice"
+  },
+  "Profile": {
+    "vi": "Hồ sơ",
+    "en": "Profile"
+  },
+  "Progress": {
+    "vi": "Tiến độ",
+    "en": "Progress"
+  },
+  "QUIZ / KIỂM TRA KIẾN THỨC": {
+    "vi": "BÀI KIỂM TRA KIẾN THỨC",
+    "en": "QUIZ / CHECK YOUR KNOWLEDGE"
+  },
+  "Quiz ID liên kết (để trống nếu chưa có)": {
+    "vi": "bài kiểm tra ID liên kết (để trống nếu chưa có)",
+    "en": "Linked quiz ID (leave blank if none)"
+  },
+  "Quiz result": {
+    "vi": "Kết quả bài kiểm tra",
+    "en": "Quiz result"
+  },
+  "Quiz xuất hiện khi khóa học bạn được truy cập có bài kiểm tra được liên kết.": {
+    "vi": "bài kiểm tra xuất hiện khi khóa học bạn được truy cập có bài kiểm tra được liên kết.",
+    "en": "Quizzes appear here when an accessible course has a quiz linked to a lesson."
+  },
+  "Quizzes": {
+    "vi": "Bài kiểm tra",
+    "en": "Quizzes"
+  },
+  "Quizzes của bạn": {
+    "vi": "Bài kiểm tra của bạn",
+    "en": "Your quizzes"
+  },
+  "Quyền học được xác minh bởi máy chủ": {
+    "vi": "Quyền học được xác minh bởi máy chủ",
+    "en": "Learning access is verified by the server"
+  },
+  "Quyền xem dành cho Admin.": {
+    "vi": "Quyền xem dành cho Quản trị viên.",
+    "en": "Admin preview access."
+  },
+  "Quản trị nội dung": {
+    "vi": "Quản trị nội dung",
+    "en": "Content management"
+  },
+  "Reading & Listening": {
+    "vi": "Đọc và nghe",
+    "en": "Reading & Listening"
+  },
+  "Recent results": {
+    "vi": "Kết quả gần đây",
+    "en": "Recent results"
+  },
+  "See all": {
+    "vi": "Xem tất cả",
+    "en": "See all"
+  },
+  "Start Learning": {
+    "vi": "Bắt đầu học",
+    "en": "Start Learning"
+  },
+  "Swagger ↗": {
+    "vi": "Swagger ↗",
+    "en": "Swagger ↗"
+  },
+  "Sắp ra mắt": {
+    "vi": "Sắp ra mắt",
+    "en": "Coming soon"
+  },
+  "Sẵn sàng cho bước tiếp theo?": {
+    "vi": "Sẵn sàng cho bước tiếp theo?",
+    "en": "Ready for the next step?"
+  },
+  "Số tiền giao dịch được xác định tại máy chủ. Khóa học chỉ được mở khi quyền truy cập đã được xác nhận.": {
+    "vi": "Số tiền giao dịch được xác định tại máy chủ. Khóa học chỉ được mở khi quyền truy cập đã được xác nhận.",
+    "en": "The server determines the transaction amount. The course unlocks only after access has been confirmed."
+  },
+  "THANH TOÁN MÔ PHỎNG": {
+    "vi": "THANH TOÁN MÔ PHỎNG",
+    "en": "SIMULATED PAYMENT"
+  },
+  "Tama chào đón bạn đến OELP": {
+    "vi": "Tama chào đón bạn đến OELP",
+    "en": "Tama welcomes you to OELP"
+  },
+  "Tama chúc mừng bạn": {
+    "vi": "Tama chúc mừng bạn",
+    "en": "Tama celebrates your progress"
+  },
+  "Tama khích lệ bạn": {
+    "vi": "Tama khích lệ bạn",
+    "en": "Tama cheers you on"
+  },
+  "Tama vẫy chào bên bờ biển Tasmania, sóng trắng và vách đá": {
+    "vi": "Tama vẫy chào bên bờ biển Tasmania, sóng trắng và vách đá",
+    "en": "Tama waves beside Tasmania’s ocean, white waves and cliffs"
+  },
+  "Tama đồng hành cùng bạn": {
+    "vi": "Tama đồng hành cùng bạn",
+    "en": "Tama joins your journey"
+  },
+  "Tama — linh vật OELP": {
+    "vi": "Tama — linh vật OELP",
+    "en": "Tama — the OELP mascot"
+  },
+  "Thanh toán thành công": {
+    "vi": "Thanh toán thành công",
+    "en": "Payment successful"
+  },
+  "Thanh toán thất bại": {
+    "vi": "Thanh toán thất bại",
+    "en": "Payment failed"
+  },
+  "Thanh toán đã ghi nhận; quyền học đang chờ xác nhận. Thử lại cùng giao dịch để gửi lại thông báo.": {
+    "vi": "Thanh toán đã ghi nhận; quyền học đang chờ xác nhận. Thử lại cùng giao dịch để gửi lại thông báo.",
+    "en": "Payment was recorded; learning access is awaiting confirmation. Retry the same transaction to resend the notification."
+  },
+  "Theo dõi bài đã học và kết quả Quiz thực tế.": {
+    "vi": "Theo dõi bài đã học và kết quả bài kiểm tra thực tế.",
+    "en": "Track completed lessons and your actual quiz results."
+  },
+  "Theory": {
+    "vi": "Lý thuyết",
+    "en": "Theory"
+  },
+  "Theory / Lý thuyết": {
+    "vi": "Lý thuyết",
+    "en": "Theory"
+  },
+  "Theory · Vocabulary · Grammar": {
+    "vi": "Lý thuyết · Từ vựng · Ngữ pháp",
+    "en": "Theory · Vocabulary · Grammar"
+  },
+  "Thu gọn sidebar": {
+    "vi": "Thu gọn sidebar",
+    "en": "Collapse sidebar"
+  },
+  "Thêm": {
+    "vi": "Thêm",
+    "en": "Add"
+  },
+  "Thêm ngôn ngữ": {
+    "vi": "Thêm ngôn ngữ",
+    "en": "Add language"
+  },
+  "Thêm nhiều hành trình học thú vị. Hãy đón chờ!": {
+    "vi": "Thêm nhiều hành trình học thú vị. Hãy đón chờ!",
+    "en": "More exciting learning journeys are on the way. Stay tuned!"
+  },
+  "Thông báo": {
+    "vi": "Thông báo",
+    "en": "Notifications"
+  },
+  "Thông tin đã được lưu.": {
+    "vi": "Thông tin đã được lưu.",
+    "en": "Your information has been saved."
+  },
+  "Thông tin đăng nhập được xử lý bởi User Service. Không chia sẻ mật khẩu hoặc token của bạn.": {
+    "vi": "Thông tin đăng nhập được xử lý bởi User Service. Không chia sẻ mật khẩu hoặc token của bạn.",
+    "en": "User Service handles your sign-in details. Keep your password and token private."
+  },
+  "Thứ tự bài": {
+    "vi": "Thứ tự bài",
+    "en": "Lesson order"
+  },
+  "Thử lại": {
+    "vi": "Thử lại",
+    "en": "Retry"
+  },
+  "Thử một từ khóa khác hoặc chọn tất cả trình độ.": {
+    "vi": "Thử một từ khóa khác hoặc chọn tất cả trình độ.",
+    "en": "Try another keyword or select all levels."
+  },
+  "Thử tải lại": {
+    "vi": "Thử tải lại",
+    "en": "Reload audio"
+  },
+  "Thử áp dụng": {
+    "vi": "Thử áp dụng",
+    "en": "Put it into practice"
+  },
+  "Tiến độ chưa tải được. Vui lòng thử lại ở trang Progress.": {
+    "vi": "Tiến độ chưa tải được. Vui lòng thử lại ở trang Tiến độ.",
+    "en": "Progress could not be loaded. Please retry on the Progress page."
+  },
+  "Tiến độ của bạn": {
+    "vi": "Tiến độ của bạn",
+    "en": "Your progress"
+  },
+  "Tiến độ của bạn đã được lưu.": {
+    "vi": "Tiến độ của bạn đã được lưu.",
+    "en": "Your progress has been saved."
+  },
+  "Tiến độ học tập": {
+    "vi": "Tiến độ học tập",
+    "en": "Learning progress"
+  },
+  "Tiến độ khóa học": {
+    "vi": "Tiến độ khóa học",
+    "en": "Course progress"
+  },
+  "Tiến độ trả lời": {
+    "vi": "Tiến độ trả lời",
+    "en": "Answer progress"
+  },
+  "Tiến độ trả lời Quiz": {
+    "vi": "Tiến độ trả lời bài kiểm tra",
+    "en": "Quiz answer progress"
+  },
+  "Tiến độ tổng": {
+    "vi": "Tiến độ tổng",
+    "en": "Overall progress"
+  },
+  "Tiến độ và kết quả lưu trong tài khoản": {
+    "vi": "Tiến độ và kết quả lưu trong tài khoản",
+    "en": "Progress and results are saved to your account"
+  },
+  "Tiến độ {0}": {
+    "vi": "Tiến độ {0}",
+    "en": "Progress for {0}"
+  },
+  "Tiếng Anh cho việc học, công việc và cuộc sống.": {
+    "vi": "Tiếng Anh cho việc học, công việc và cuộc sống.",
+    "en": "English for study, work and everyday life."
+  },
+  "Tiếp tục": {
+    "vi": "Tiếp tục",
+    "en": "Continue"
+  },
+  "Tiếp tục hành trình học của bạn.": {
+    "vi": "Tiếp tục hành trình học của bạn.",
+    "en": "Continue your learning journey."
+  },
+  "Tiếp tục học": {
+    "vi": "Tiếp tục học",
+    "en": "Continue learning"
+  },
+  "Tiếp tục học →": {
+    "vi": "Tiếp tục học →",
+    "en": "Continue learning →"
+  },
+  "Tiếp tục khám phá những điều mới hôm nay.": {
+    "vi": "Tiếp tục khám phá những điều mới hôm nay.",
+    "en": "Discover something new today."
+  },
+  "Tiếp tục khám phá theo nhịp độ của riêng bạn.": {
+    "vi": "Tiếp tục khám phá theo nhịp độ của riêng bạn.",
+    "en": "Keep exploring at your own pace."
+  },
+  "Tiếp tục phát huy!": {
+    "vi": "Tiếp tục phát huy!",
+    "en": "Keep it up!"
+  },
+  "Trang chủ": {
+    "vi": "Trang chủ",
+    "en": "Home"
+  },
+  "Trung tâm thông báo đang được phát triển. Tiến độ, kết quả Quiz và trạng thái giao dịch hiện được cập nhật tại từng trang tương ứng.": {
+    "vi": "Trung tâm thông báo đang được phát triển. Tiến độ, kết quả bài kiểm tra và trạng thái giao dịch hiện được cập nhật tại từng trang tương ứng.",
+    "en": "The notification centre is in development. Progress, quiz results and transaction status are available on their respective pages."
+  },
+  "Trình duyệt của bạn chưa hỗ trợ audio.": {
+    "vi": "Trình duyệt của bạn chưa hỗ trợ audio.",
+    "en": "Your browser does not support audio."
+  },
+  "Trình độ CEFR": {
+    "vi": "Trình độ CEFR",
+    "en": "CEFR level"
+  },
+  "Trình độ ngôn ngữ {0}": {
+    "vi": "Trình độ ngôn ngữ {0}",
+    "en": "Language level {0}"
+  },
+  "Trình độ tự đánh giá": {
+    "vi": "Trình độ tự đánh giá",
+    "en": "Self-assessed level"
+  },
+  "Trước khi bắt đầu": {
+    "vi": "Trước khi bắt đầu",
+    "en": "Before you start"
+  },
+  "Trắc nghiệm một đáp án": {
+    "vi": "Trắc nghiệm một đáp án",
+    "en": "Single-choice question"
+  },
+  "Tài khoản của bạn": {
+    "vi": "Tài khoản của bạn",
+    "en": "Your account"
+  },
+  "Tài khoản đã được tạo.": {
+    "vi": "Tài khoản đã được tạo.",
+    "en": "Your account has been created."
+  },
+  "Tên Quiz": {
+    "vi": "Tên bài kiểm tra",
+    "en": "Quiz title"
+  },
+  "Tên bài học": {
+    "vi": "Tên bài học",
+    "en": "Lesson title"
+  },
+  "Tên của bạn": {
+    "vi": "Tên của bạn",
+    "en": "Your name"
+  },
+  "Tên khóa học": {
+    "vi": "Tên khóa học",
+    "en": "Course title"
+  },
+  "Tên khóa học, trình độ, chủ đề…": {
+    "vi": "Tên khóa học, trình độ, chủ đề…",
+    "en": "Course title, level or topic…"
+  },
+  "Tìm": {
+    "vi": "Tìm",
+    "en": "Search"
+  },
+  "Tìm khóa học": {
+    "vi": "Tìm khóa học",
+    "en": "Search courses"
+  },
+  "Tìm khóa học, trình độ, chủ đề…": {
+    "vi": "Tìm khóa học, trình độ, chủ đề…",
+    "en": "Search courses, levels and topics…"
+  },
+  "Tìm kiếm": {
+    "vi": "Tìm kiếm",
+    "en": "Search"
+  },
+  "Tìm kiếm khóa học": {
+    "vi": "Tìm kiếm khóa học",
+    "en": "Search courses"
+  },
+  "Tìm trong danh mục thực tế của OELP": {
+    "vi": "Tìm trong danh mục thực tế của OELP",
+    "en": "Search the actual OELP catalog"
+  },
+  "Tạo Quiz": {
+    "vi": "Tạo bài kiểm tra",
+    "en": "Create quiz"
+  },
+  "Tạo bài học": {
+    "vi": "Tạo bài học",
+    "en": "Create lesson"
+  },
+  "Tạo giao dịch mô phỏng": {
+    "vi": "Tạo giao dịch mô phỏng",
+    "en": "Create simulated transaction"
+  },
+  "Tạo khóa học": {
+    "vi": "Tạo khóa học",
+    "en": "Create course"
+  },
+  "Tạo khóa học, biên soạn bài học và thiết lập Quiz cho hành trình OELP.": {
+    "vi": "Tạo khóa học, biên soạn bài học và thiết lập bài kiểm tra cho hành trình OELP.",
+    "en": "Create courses, write lessons and set up quizzes for OELP learners."
+  },
+  "Tạo tài khoản": {
+    "vi": "Tạo tài khoản",
+    "en": "Create account"
+  },
+  "Tạo tài khoản miễn phí và bắt đầu hành trình tiếng Anh cùng Tama.": {
+    "vi": "Tạo tài khoản miễn phí và bắt đầu hành trình tiếng Anh cùng Tama.",
+    "en": "Create a free account and start your English journey with Tama."
+  },
+  "Tất cả trình độ": {
+    "vi": "Tất cả trình độ",
+    "en": "All levels"
+  },
+  "Tốc độ — {0}": {
+    "vi": "Tốc độ — {0}",
+    "en": "Speed — {0}"
+  },
+  "Từ / cụm từ": {
+    "vi": "Từ / cụm từ",
+    "en": "Word / phrase"
+  },
+  "Từ muốn luyện phát âm": {
+    "vi": "Từ muốn luyện phát âm",
+    "en": "Word to practise"
+  },
+  "Từ vựng": {
+    "vi": "Từ vựng",
+    "en": "Vocabulary"
+  },
+  "Từng bài học ngắn, từng bước tiến vững vàng.": {
+    "vi": "Từng bài học ngắn, từng bước tiến vững vàng.",
+    "en": "Short lessons. Steady progress."
+  },
+  "Từng bước làm chủ kiến thức": {
+    "vi": "Từng bước làm chủ kiến thức",
+    "en": "Build your knowledge step by step"
+  },
+  "Tự luyện": {
+    "vi": "Tự luyện",
+    "en": "Self-practice"
+  },
+  "Tự tin với từng cấu trúc": {
+    "vi": "Tự tin với từng cấu trúc",
+    "en": "Build confidence with every structure"
+  },
+  "UUID giao dịch": {
+    "vi": "UUID giao dịch",
+    "en": "Transaction UUID"
+  },
+  "Upper intermediate": {
+    "vi": "Trung cấp cao",
+    "en": "Upper intermediate"
+  },
+  "Vai trò và email không được thay đổi tại đây.": {
+    "vi": "Vai trò và email không được thay đổi tại đây.",
+    "en": "Your role and email cannot be changed here."
+  },
+  "Viết câu trả lời của bạn…": {
+    "vi": "Viết câu trả lời của bạn…",
+    "en": "Write your answer…"
+  },
+  "Việc học của tôi": {
+    "vi": "Việc học của tôi",
+    "en": "My learning"
+  },
+  "Vocabulary": {
+    "vi": "Từ vựng",
+    "en": "Vocabulary"
+  },
+  "Vocabulary flashcards": {
+    "vi": "Thẻ từ vựng",
+    "en": "Vocabulary flashcards"
+  },
+  "Vào bài học": {
+    "vi": "Vào bài học",
+    "en": "Open lesson"
+  },
+  "Ví dụ tham khảo": {
+    "vi": "Ví dụ tham khảo",
+    "en": "Sample answer"
+  },
+  "Về Dashboard": {
+    "vi": "Về Trang tổng quan",
+    "en": "Back to dashboard"
+  },
+  "Về khóa học": {
+    "vi": "Về khóa học",
+    "en": "Back to course"
+  },
+  "Về khóa học của tôi": {
+    "vi": "Về khóa học của tôi",
+    "en": "Back to my courses"
+  },
+  "Về trang chủ": {
+    "vi": "Về trang chủ",
+    "en": "Back to home"
+  },
+  "WELCOME TO YOUR NEXT ADVENTURE": {
+    "vi": "CHÀO MỪNG HÀNH TRÌNH MỚI",
+    "en": "WELCOME TO YOUR NEXT ADVENTURE"
+  },
+  "Xem chi tiết": {
+    "vi": "Xem chi tiết",
+    "en": "View details"
+  },
+  "Xem khóa học": {
+    "vi": "Xem khóa học",
+    "en": "View course"
+  },
+  "Xem lại": {
+    "vi": "Xem lại",
+    "en": "Review"
+  },
+  "Xem lại câu trả lời": {
+    "vi": "Xem lại câu trả lời",
+    "en": "Review your answers"
+  },
+  "Xem tiến độ học tập": {
+    "vi": "Xem tiến độ học tập",
+    "en": "View learning progress"
+  },
+  "Xem toàn bộ khóa học": {
+    "vi": "Xem toàn bộ khóa học",
+    "en": "Browse all courses"
+  },
+  "Xem tất cả": {
+    "vi": "Xem tất cả",
+    "en": "See all"
+  },
+  "Xem điểm và lịch sử những bài kiểm tra bạn đã nộp.": {
+    "vi": "Xem điểm và lịch sử những bài kiểm tra bạn đã nộp.",
+    "en": "View scores and the history of quizzes you have submitted."
+  },
+  "Xác nhận mật khẩu": {
+    "vi": "Xác nhận mật khẩu",
+    "en": "Confirm password"
+  },
+  "Xác nhận nộp bài": {
+    "vi": "Xác nhận nộp bài",
+    "en": "Confirm submission"
+  },
+  "Xóa": {
+    "vi": "Xóa",
+    "en": "Remove"
+  },
+  "Xóa ngôn ngữ {0}": {
+    "vi": "Xóa ngôn ngữ {0}",
+    "en": "Remove language {0}"
+  },
+  "YOUR LEARNING COLLECTION": {
+    "vi": "BỘ SƯU TẬP HỌC TẬP",
+    "en": "YOUR LEARNING COLLECTION"
+  },
+  "YOUR LEARNING JOURNEY": {
+    "vi": "HÀNH TRÌNH HỌC TẬP",
+    "en": "YOUR LEARNING JOURNEY"
+  },
+  "YOUR LEVEL. YOUR JOURNEY.": {
+    "vi": "TRÌNH ĐỘ CỦA BẠN. HÀNH TRÌNH CỦA BẠN.",
+    "en": "YOUR LEVEL. YOUR JOURNEY."
+  },
+  "YOUR NEXT ADVENTURE": {
+    "vi": "HÀNH TRÌNH TIẾP THEO",
+    "en": "YOUR NEXT ADVENTURE"
+  },
+  "YOUR SPACE, YOUR STORY": {
+    "vi": "KHÔNG GIAN CỦA BẠN, CÂU CHUYỆN CỦA BẠN",
+    "en": "YOUR SPACE, YOUR STORY"
+  },
+  "Your learning journey": {
+    "vi": "Tiến trình học của bạn",
+    "en": "Your learning journey"
+  },
+  "Your next adventure": {
+    "vi": "Hành trình tiếp theo",
+    "en": "Your next adventure"
+  },
+  "Yêu cầu quá thời gian. Vui lòng thử lại.": {
+    "vi": "Yêu cầu quá thời gian. Vui lòng thử lại.",
+    "en": "The request timed out. Please try again."
+  },
+  "bài hoàn thành": {
+    "vi": "bài hoàn thành",
+    "en": "lessons completed"
+  },
+  "bài học": {
+    "vi": "bài học",
+    "en": "lessons"
+  },
+  "bài học hoàn thành": {
+    "vi": "bài học hoàn thành",
+    "en": "lessons completed"
+  },
+  "bài ·": {
+    "vi": "bài ·",
+    "en": "lessons ·"
+  },
+  "bạn": {
+    "vi": "bạn",
+    "en": "you"
+  },
+  "câu": {
+    "vi": "câu",
+    "en": "questions"
+  },
+  "câu trả lời đúng": {
+    "vi": "câu trả lời đúng",
+    "en": "correct answers"
+  },
+  "câu. Bài làm sẽ được gửi để chấm điểm và lưu kết quả.": {
+    "vi": "câu. Bài làm sẽ được gửi để chấm điểm và lưu kết quả.",
+    "en": "questions. Your answers will be submitted for grading and saved."
+  },
+  "một bước tiến mới.": {
+    "vi": "một bước tiến mới.",
+    "en": "another step forward."
+  },
+  "ngoại ngữ": {
+    "vi": "ngoại ngữ",
+    "en": "language"
+  },
+  "nguồn tham khảo": {
+    "vi": "nguồn tham khảo",
+    "en": "references"
+  },
+  "qua từng bài học.": {
+    "vi": "qua từng bài học.",
+    "en": "one lesson at a time."
+  },
+  "starts with a word.": {
+    "vi": "bắt đầu từ một từ mới.",
+    "en": "starts with a word."
+  },
+  "you@example.com": {
+    "vi": "you@example.com",
+    "en": "you@example.com"
+  },
+  "{0} / Bài học của bạn": {
+    "vi": "{0} / Bài học của bạn",
+    "en": "{0} / Your lessons"
+  },
+  "{0} khóa học phù hợp": {
+    "vi": "{0} khóa học phù hợp",
+    "en": "{0} matching courses"
+  },
+  "{0} khóa học trong hành trình của bạn.": {
+    "vi": "{0} khóa học trong hành trình của bạn.",
+    "en": "{0} courses on your learning journey."
+  },
+  "{0}/{1} bài học hoàn thành": {
+    "vi": "{0}/{1} bài học hoàn thành",
+    "en": "{0}/{1} lessons completed"
+  },
+  "© OELP · Online English Learning Platform": {
+    "vi": "© OELP · Nền tảng học tiếng Anh trực tuyến",
+    "en": "© OELP · Online English Learning Platform"
+  },
+  "· CEFR": {
+    "vi": "· CEFR",
+    "en": "· CEFR"
+  },
+  "· ID": {
+    "vi": "· ID",
+    "en": "· ID"
+  },
+  "· Quiz": {
+    "vi": "· bài kiểm tra",
+    "en": "· Quiz"
+  },
+  "Đang chờ xác nhận quyền học.": {
+    "vi": "Đang chờ xác nhận quyền học.",
+    "en": "Awaiting learning access confirmation."
+  },
+  "Đang học": {
+    "vi": "Đang học",
+    "en": "In progress"
+  },
+  "Đang lưu…": {
+    "vi": "Đang lưu…",
+    "en": "Saving…"
+  },
+  "Đang tìm khóa học…": {
+    "vi": "Đang tìm khóa học…",
+    "en": "Finding courses…"
+  },
+  "Đang tải audio…": {
+    "vi": "Đang tải audio…",
+    "en": "Loading audio…"
+  },
+  "Đang tải dữ liệu…": {
+    "vi": "Đang tải dữ liệu…",
+    "en": "Loading data…"
+  },
+  "Đang xử lý…": {
+    "vi": "Đang xử lý…",
+    "en": "Processing…"
+  },
+  "Đang đăng ký…": {
+    "vi": "Đang đăng ký…",
+    "en": "Enrolling…"
+  },
+  "Điền câu trả lời": {
+    "vi": "Điền câu trả lời",
+    "en": "Enter your answer"
+  },
+  "Điền từ": {
+    "vi": "Điền từ",
+    "en": "Fill in the blank"
+  },
+  "Điều hướng OELP": {
+    "vi": "Điều hướng OELP",
+    "en": "OELP navigation"
+  },
+  "Điều hướng chính": {
+    "vi": "Điều hướng chính",
+    "en": "Main navigation"
+  },
+  "Điều hướng khách": {
+    "vi": "Điều hướng khách",
+    "en": "Guest navigation"
+  },
+  "Điều kiện đầu vào": {
+    "vi": "Điều kiện đầu vào",
+    "en": "Prerequisites"
+  },
+  "Điểm Quiz trung bình": {
+    "vi": "Điểm kiểm tra trung bình",
+    "en": "Average quiz score"
+  },
+  "Điểm câu hỏi": {
+    "vi": "Điểm câu hỏi",
+    "en": "Question points"
+  },
+  "Đánh dấu hoàn thành": {
+    "vi": "Đánh dấu hoàn thành",
+    "en": "Mark as complete"
+  },
+  "Đáp án do Admin nhập khi tạo nội dung; người học chỉ nhận đáp án sau khi nộp bài. Quiz hiện chưa hỗ trợ sửa hoặc xóa.": {
+    "vi": "Đáp án do Quản trị viên nhập khi tạo nội dung; người học chỉ nhận đáp án sau khi nộp bài. bài kiểm tra hiện chưa hỗ trợ sửa hoặc xóa.",
+    "en": "Admins set the answer keys when creating content. Learners receive answers only after submission. Quiz editing and deletion are not available yet."
+  },
+  "Đáp án đúng": {
+    "vi": "Đáp án đúng",
+    "en": "Correct answer"
+  },
+  "Đáp án:": {
+    "vi": "Đáp án:",
+    "en": "Answer:"
+  },
+  "Đã có tài khoản?": {
+    "vi": "Đã có tài khoản?",
+    "en": "Already have an account?"
+  },
+  "Đã hoàn thành": {
+    "vi": "Đã hoàn thành",
+    "en": "Completed"
+  },
+  "Đã hoàn thành bài học": {
+    "vi": "Đã hoàn thành bài học",
+    "en": "Lesson completed"
+  },
+  "Đã hoàn thành {0} trên {1} bài học": {
+    "vi": "Đã hoàn thành {0} trên {1} bài học",
+    "en": "Completed {0} of {1} lessons"
+  },
+  "Đã lưu bài học “{0}” (ID {1}).": {
+    "vi": "Đã lưu bài học “{0}” (ID {1}).",
+    "en": "Saved lesson “{0}” (ID {1})."
+  },
+  "Đã tạo Quiz ID {0}. Để Quiz xuất hiện trong bài học, mở mục Lessons, chọn bài tương ứng và lưu Quiz ID {1}.": {
+    "vi": "Đã tạo bài kiểm tra ID {0}. Để bài kiểm tra xuất hiện trong bài học, mở mục Bài học, chọn bài tương ứng và lưu bài kiểm tra ID {1}.",
+    "en": "Created quiz ID {0}. To show it in a lesson, open Lessons, select the lesson and save quiz ID {1}."
+  },
+  "Đã tạo giao dịch {0}. Trạng thái: {1}.": {
+    "vi": "Đã tạo giao dịch {0}. Trạng thái: {1}.",
+    "en": "Created transaction {0}. Status: {1}."
+  },
+  "Đã tạo khóa học “{0}” (ID {1}).": {
+    "vi": "Đã tạo khóa học “{0}” (ID {1}).",
+    "en": "Created course “{0}” (ID {1})."
+  },
+  "Đã được cấp quyền học.": {
+    "vi": "Đã được cấp quyền học.",
+    "en": "Learning access granted."
+  },
+  "Đóng": {
+    "vi": "Đóng",
+    "en": "Close"
+  },
+  "Đóng điều hướng": {
+    "vi": "Đóng điều hướng",
+    "en": "Close navigation"
+  },
+  "Đúng": {
+    "vi": "Đúng",
+    "en": "Correct"
+  },
+  "Đăng ký": {
+    "vi": "Đăng ký",
+    "en": "Register"
+  },
+  "Đăng ký khóa học trả phí": {
+    "vi": "Đăng ký khóa học trả phí",
+    "en": "Enroll in a paid course"
+  },
+  "Đăng ký miễn phí": {
+    "vi": "Đăng ký miễn phí",
+    "en": "Enroll for free"
+  },
+  "Đăng ký một khóa học để xem các bài học tại đây.": {
+    "vi": "Đăng ký một khóa học để xem các bài học tại đây.",
+    "en": "Enroll in a course to see its lessons here."
+  },
+  "Đăng ký tài khoản": {
+    "vi": "Đăng ký tài khoản",
+    "en": "Create account"
+  },
+  "Đăng nhập": {
+    "vi": "Đăng nhập",
+    "en": "Sign in"
+  },
+  "Đăng nhập để bắt đầu học.": {
+    "vi": "Đăng nhập để bắt đầu học.",
+    "en": "Sign in to start learning."
+  },
+  "Đăng nhập để tiếp tục": {
+    "vi": "Đăng nhập để tiếp tục",
+    "en": "Sign in to continue"
+  },
+  "Đăng xuất": {
+    "vi": "Đăng xuất",
+    "en": "Sign out"
+  },
+  "Đưa kiến thức vào thực tế": {
+    "vi": "Đưa kiến thức vào thực tế",
+    "en": "Put your knowledge into practice"
+  },
+  "Đường dẫn này chưa có trên OELP.": {
+    "vi": "Đường dẫn này chưa có trên OELP.",
+    "en": "This page is not available on OELP yet."
+  },
+  "ĐẦU TƯ CHO HÀNH TRÌNH CỦA BẠN": {
+    "vi": "ĐẦU TƯ CHO HÀNH TRÌNH CỦA BẠN",
+    "en": "INVEST IN YOUR LEARNING JOURNEY"
+  },
+  "Đề bài tự luyện": {
+    "vi": "Đề bài tự luyện",
+    "en": "Practice prompt"
+  },
+  "điểm": {
+    "vi": "điểm",
+    "en": "points"
+  },
+  "Ẩn transcript": {
+    "vi": "Ẩn transcript",
+    "en": "Hide transcript"
+  },
+  "Ẩn {0}": {
+    "vi": "Ẩn {0}",
+    "en": "Hide {0}"
+  },
+  "Ngôn ngữ giao diện": {
+    "vi": "Ngôn ngữ giao diện",
+    "en": "Interface language"
+  },
+  "Mục tiêu": {
+    "vi": "Mục tiêu",
+    "en": "Learning goals"
+  },
+  "Nội dung": {
+    "vi": "Nội dung",
+    "en": "Lesson notes"
+  },
+  "Reading": {
+    "vi": "Bài đọc",
+    "en": "Reading"
+  },
+  "Tự kiểm tra": {
+    "vi": "Tự kiểm tra",
+    "en": "Check your understanding"
+  },
+  "Pronunciation": {
+    "vi": "Phát âm",
+    "en": "Pronunciation"
+  },
+  "Nguồn tham khảo": {
+    "vi": "Nguồn tham khảo",
+    "en": "References"
+  },
+  "Anh–Anh": {
+    "vi": "Anh–Anh",
+    "en": "British English"
+  },
+  "PENDING": {
+    "vi": "Chờ thanh toán",
+    "en": "Pending"
+  },
+  "SUCCESS": {
+    "vi": "Thành công",
+    "en": "Successful"
+  },
+  "FAILED": {
+    "vi": "Thất bại",
+    "en": "Failed"
+  },
+  "Chào hỏi, giới thiệu bản thân và làm quen tiếng Anh.": {
+    "vi": "Chào hỏi, giới thiệu bản thân và làm quen tiếng Anh.",
+    "en": "Greetings, introductions and your first steps in English."
+  },
+  "Mô tả thói quen và giao tiếp trong sinh hoạt hằng ngày.": {
+    "vi": "Mô tả thói quen và giao tiếp trong sinh hoạt hằng ngày.",
+    "en": "Describe routines and communicate in everyday situations."
+  },
+  "Viết email và trao đổi lịch làm việc bằng tiếng Anh.": {
+    "vi": "Viết email và trao đổi lịch làm việc bằng tiếng Anh.",
+    "en": "Write emails and discuss work schedules in English."
+  },
+  "Không cần kiến thức đầu vào.": {
+    "vi": "Không cần kiến thức đầu vào.",
+    "en": "No prior knowledge required."
+  },
+  "Đã làm quen từ vựng và câu đơn A1.": {
+    "vi": "Đã làm quen từ vựng và câu đơn A1.",
+    "en": "Familiarity with A1 vocabulary and simple sentences."
+  },
+  "Có kiến thức câu cơ bản ở mức A2.": {
+    "vi": "Có kiến thức câu cơ bản ở mức A2.",
+    "en": "A foundation in A2 sentence structures."
+  },
+  "Tự giới thiệu và trao đổi thông tin cơ bản.": {
+    "vi": "Tự giới thiệu và trao đổi thông tin cơ bản.",
+    "en": "Introduce yourself and exchange basic information."
+  },
+  "Nói về lịch trình, hoạt động và kế hoạch gần.": {
+    "vi": "Nói về lịch trình, hoạt động và kế hoạch gần.",
+    "en": "Talk about routines, activities and upcoming plans."
+  },
+  "Viết email ngắn, đề xuất và xác nhận một cuộc hẹn.": {
+    "vi": "Viết email ngắn, đề xuất và xác nhận một cuộc hẹn.",
+    "en": "Write short emails, suggest and confirm an appointment."
+  },
+  "Làm quen, mô tả đồ vật và gọi món qua ba tình huống gần gũi; có bài đọc, nghe giọng máy UK/US và Quiz tổng kết.": {
+    "vi": "Làm quen, mô tả đồ vật và gọi món qua ba tình huống gần gũi; có bài đọc, nghe giọng máy UK/US và Quiz tổng kết.",
+    "en": "Meet people, describe everyday objects and order at a café through three practical situations, with reading, UK/US synthetic audio and a final quiz."
+  },
+  "Dành cho người bắt đầu học tiếng Anh.": {
+    "vi": "Dành cho người bắt đầu học tiếng Anh.",
+    "en": "For learners taking their first steps in English."
+  },
+  "Giới thiệu bản thân, mô tả căn phòng và gọi món bằng câu đơn.": {
+    "vi": "Giới thiệu bản thân, mô tả căn phòng và gọi món bằng câu đơn.",
+    "en": "Introduce yourself, describe a room and place an order using simple sentences."
+  },
+  "Hỏi đường, nhận phòng và kể về chuyến đi; luyện đọc hiểu, nghe và phát âm với hai giọng.": {
+    "vi": "Hỏi đường, nhận phòng và kể về chuyến đi; luyện đọc hiểu, nghe và phát âm với hai giọng.",
+    "en": "Ask for directions, check in and talk about a trip while practising reading, listening and two accents."
+  },
+  "Đã biết câu đơn, động từ be và hiện tại đơn.": {
+    "vi": "Đã biết câu đơn, động từ be và hiện tại đơn.",
+    "en": "A foundation in simple sentences, be and the present simple."
+  },
+  "Hỏi và hiểu chỉ dẫn, đưa ra yêu cầu lịch sự, kể lại chuyến đi ngắn.": {
+    "vi": "Hỏi và hiểu chỉ dẫn, đưa ra yêu cầu lịch sự, kể lại chuyến đi ngắn.",
+    "en": "Follow directions, make polite requests and describe a short trip."
+  },
+  "Kể trải nghiệm, cân nhắc lựa chọn và trình bày ý kiến có lý do trong những đoạn văn liên kết.": {
+    "vi": "Kể trải nghiệm, cân nhắc lựa chọn và trình bày ý kiến có lý do trong những đoạn văn liên kết.",
+    "en": "Share experiences, weigh options and support opinions in connected paragraphs."
+  },
+  "Có nền tảng A2 và biết quá khứ đơn.": {
+    "vi": "Có nền tảng A2 và biết quá khứ đơn.",
+    "en": "An A2 foundation and familiarity with the past simple."
+  },
+  "Phân biệt trải nghiệm và thời điểm quá khứ, dùng điều kiện thực, hỗ trợ ý kiến bằng ví dụ.": {
+    "vi": "Phân biệt trải nghiệm và thời điểm quá khứ, dùng điều kiện thực, hỗ trợ ý kiến bằng ví dụ.",
+    "en": "Distinguish experiences from finished past events, use real conditionals and support opinions with examples."
+  },
+  "So sánh phương án, đọc tin có chọn lọc và cùng tìm giải pháp; luyện diễn đạt tương phản và tình huống giả định.": {
+    "vi": "So sánh phương án, đọc tin có chọn lọc và cùng tìm giải pháp; luyện diễn đạt tương phản và tình huống giả định.",
+    "en": "Compare solutions, read reports critically and reach a compromise using contrast and hypothetical situations."
+  },
+  "Có thể đọc đoạn văn và trình bày ý kiến ở mức B1.": {
+    "vi": "Có thể đọc đoạn văn và trình bày ý kiến ở mức B1.",
+    "en": "The ability to read paragraphs and express opinions at B1 level."
+  },
+  "Đánh giá ưu nhược điểm, phân biệt thông tin và suy luận, đề xuất thỏa hiệp có lý do.": {
+    "vi": "Đánh giá ưu nhược điểm, phân biệt thông tin và suy luận, đề xuất thỏa hiệp có lý do.",
+    "en": "Weigh trade-offs, separate facts from inferences and propose reasoned compromises."
+  },
+  "Đọc lập luận, viết đề xuất và thương lượng có sắc thái; chú trọng hedging, mạch lạc và ngôn ngữ trang trọng.": {
+    "vi": "Đọc lập luận, viết đề xuất và thương lượng có sắc thái; chú trọng hedging, mạch lạc và ngôn ngữ trang trọng.",
+    "en": "Evaluate arguments, write proposals and negotiate with nuance, focusing on hedging, coherence and formal language."
+  },
+  "Có thể hiểu văn bản và thảo luận ý tưởng ở mức B2.": {
+    "vi": "Có thể hiểu văn bản và thảo luận ý tưởng ở mức B2.",
+    "en": "The ability to understand texts and discuss ideas at B2 level."
+  },
+  "Đánh giá mức độ chắc chắn của nhận định, viết đề xuất súc tích và diễn đạt điều kiện có sắc thái.": {
+    "vi": "Đánh giá mức độ chắc chắn của nhận định, viết đề xuất súc tích và diễn đạt điều kiện có sắc thái.",
+    "en": "Evaluate certainty, write concise proposals and express conditions with nuance."
+  },
+  "{0}. {1}": {
+    "vi": "{0}. {1}",
+    "en": "{0}. {1}"
+  },
+  " · {0}": {
+    "vi": " · {0}",
+    "en": " · {0}"
+  },
+  "OELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.": {
+    "vi": "OELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.",
+    "en": "OELP authored the readings, examples and exercises. These links provide topic references and further practice."
+  },
+  "Vui lòng đăng nhập.": {
+    "vi": "Vui lòng đăng nhập.",
+    "en": "Please sign in."
+  },
+  "Chức năng này chỉ dành cho Admin.": {
+    "vi": "Chức năng này chỉ dành cho Admin.",
+    "en": "Only an Admin can perform this action."
+  },
+  "Chưa cấu hình xác thực liên service.": {
+    "vi": "Chưa cấu hình xác thực liên service.",
+    "en": "The service is temporarily unavailable. Please try again."
+  },
+  "Phiên đăng nhập không hợp lệ hoặc đã hết hạn.": {
+    "vi": "Phiên đăng nhập không hợp lệ hoặc đã hết hạn.",
+    "en": "Your session is invalid or has expired. Please sign in again."
+  },
+  "Dịch vụ xác thực chưa sẵn sàng.": {
+    "vi": "Dịch vụ xác thực chưa sẵn sàng.",
+    "en": "Authentication is temporarily unavailable."
+  },
+  "Yêu cầu xác thực liên service hợp lệ.": {
+    "vi": "Yêu cầu xác thực liên service hợp lệ.",
+    "en": "You do not have permission to perform this action."
+  },
+  "Course Service chưa sẵn sàng. Vui lòng thử lại.": {
+    "vi": "Course Service chưa sẵn sàng. Vui lòng thử lại.",
+    "en": "The course service is temporarily unavailable. Please try again."
+  },
+  "Course Service trả phản hồi không hợp lệ.": {
+    "vi": "Course Service trả phản hồi không hợp lệ.",
+    "en": "The course service is temporarily unavailable. Please try again."
+  },
+  "Không xác minh được thông tin với Course Service.": {
+    "vi": "Không xác minh được thông tin với Course Service.",
+    "en": "The course service is temporarily unavailable. Please try again."
+  },
+  "Tài khoản không còn tồn tại.": {
+    "vi": "Tài khoản không còn tồn tại.",
+    "en": "Please sign in again."
+  },
+  "Email đã được đăng ký.": {
+    "vi": "Email đã được đăng ký.",
+    "en": "This email is already registered."
+  },
+  "Email hoặc mật khẩu chưa đúng.": {
+    "vi": "Email hoặc mật khẩu chưa đúng.",
+    "en": "The email or password is incorrect."
+  },
+  "Không tìm thấy bài kiểm tra.": {
+    "vi": "Không tìm thấy bài kiểm tra.",
+    "en": "Quiz not found."
+  },
+  "Bạn cần đăng ký khóa học trước khi làm bài kiểm tra.": {
+    "vi": "Bạn cần đăng ký khóa học trước khi làm bài kiểm tra.",
+    "en": "Enroll in this course before opening its lessons or quizzes."
+  },
+  "Bài học không thuộc khóa học đã chọn.": {
+    "vi": "Bài học không thuộc khóa học đã chọn.",
+    "en": "Please check the information you entered."
+  },
+  "Không tìm thấy giao dịch.": {
+    "vi": "Không tìm thấy giao dịch.",
+    "en": "The requested item was not found."
+  },
+  "Idempotency-Key đã được dùng cho khóa học khác.": {
+    "vi": "Idempotency-Key đã được dùng cho khóa học khác.",
+    "en": "This request conflicts with an existing record."
+  },
+  "Khóa học miễn phí có thể đăng ký trực tiếp.": {
+    "vi": "Khóa học miễn phí có thể đăng ký trực tiếp.",
+    "en": "The request could not be processed."
+  },
+  "Bạn đã có quyền học khóa học này.": {
+    "vi": "Bạn đã có quyền học khóa học này.",
+    "en": "You are already enrolled in this course."
+  },
+  "Bạn không có quyền xem giao dịch này.": {
+    "vi": "Bạn không có quyền xem giao dịch này.",
+    "en": "You do not have permission to perform this action."
+  },
+  "Mô phỏng chỉ được bật trong môi trường demo.": {
+    "vi": "Mô phỏng chỉ được bật trong môi trường demo.",
+    "en": "Payment simulation is not enabled in this environment."
+  },
+  "Giao dịch đã có kết quả cuối cùng khác.": {
+    "vi": "Giao dịch đã có kết quả cuối cùng khác.",
+    "en": "This request conflicts with an existing record."
+  },
+  "Không tìm thấy khóa học.": {
+    "vi": "Không tìm thấy khóa học.",
+    "en": "Course not found."
+  },
+  "Bạn cần đăng ký khóa học trước khi truy cập nội dung.": {
+    "vi": "Bạn cần đăng ký khóa học trước khi truy cập nội dung.",
+    "en": "Enroll in this course before opening its lessons or quizzes."
+  },
+  "Ngôn ngữ chưa có trong danh mục.": {
+    "vi": "Ngôn ngữ chưa có trong danh mục.",
+    "en": "Please check the information you entered."
+  },
+  "Vị trí bài học đã được sử dụng trong khóa học.": {
+    "vi": "Vị trí bài học đã được sử dụng trong khóa học.",
+    "en": "This request conflicts with an existing record."
+  },
+  "Không tìm thấy bài học.": {
+    "vi": "Không tìm thấy bài học.",
+    "en": "Lesson not found."
+  },
+  "Khóa học trả phí cần giao dịch thanh toán được xác nhận.": {
+    "vi": "Khóa học trả phí cần giao dịch thanh toán được xác nhận.",
+    "en": "This course requires a simulated payment."
+  },
+  "Số tiền hoặc tiền tệ không khớp khóa học.": {
+    "vi": "Số tiền hoặc tiền tệ không khớp khóa học.",
+    "en": "This request conflicts with an existing record."
+  },
+  "Mã giao dịch đã được dùng với thông tin khác.": {
+    "vi": "Mã giao dịch đã được dùng với thông tin khác.",
+    "en": "This request conflicts with an existing record."
+  },
+  "The request could not be processed.": {
+    "vi": "Yêu cầu không thể xử lý.",
+    "en": "The request could not be processed."
+  },
+  "Please sign in again.": {
+    "vi": "Vui lòng đăng nhập lại.",
+    "en": "Please sign in again."
+  },
+  "This course requires a simulated payment.": {
+    "vi": "Khóa học này cần thanh toán mô phỏng.",
+    "en": "This course requires a simulated payment."
+  },
+  "You do not have permission to perform this action.": {
+    "vi": "Bạn không có quyền thực hiện thao tác này.",
+    "en": "You do not have permission to perform this action."
+  },
+  "The requested item was not found.": {
+    "vi": "Không tìm thấy mục được yêu cầu.",
+    "en": "The requested item was not found."
+  },
+  "This request conflicts with an existing record.": {
+    "vi": "Yêu cầu xung đột với dữ liệu hiện có.",
+    "en": "This request conflicts with an existing record."
+  },
+  "Please check the information you entered.": {
+    "vi": "Vui lòng kiểm tra thông tin bạn đã nhập.",
+    "en": "Please check the information you entered."
+  },
+  "The service is temporarily unavailable. Please try again.": {
+    "vi": "Dịch vụ tạm thời chưa sẵn sàng. Vui lòng thử lại.",
+    "en": "The service is temporarily unavailable. Please try again."
+  },
+  "1 bài học": {
+    "vi": "1 bài học",
+    "en": "1 lesson"
+  },
+  "{0} bài học": {
+    "vi": "{0} bài học",
+    "en": "{0} lessons"
+  },
+  "{0}/{1} bài · {2}%": {
+    "vi": "{0}/{1} bài · {2}%",
+    "en": "{0}/{1} lessons · {2}%"
+  },
+  "Nội dung học theo trình độ {0}": {
+    "vi": "Nội dung học theo trình độ {0}",
+    "en": "Learning content at CEFR level {0}"
+  },
+  "Cấu trúc {0}": {
+    "vi": "Cấu trúc {0}",
+    "en": "Structure {0}"
+  },
+  "{0}/{1} câu": {
+    "vi": "{0}/{1} câu",
+    "en": "{0}/{1} questions"
+  },
+  "Câu {0} · {1} điểm": {
+    "vi": "Câu {0} · {1} điểm",
+    "en": "Question {0} · {1} points"
+  },
+  "Câu {0} · 1 điểm": {
+    "vi": "Câu {0} · 1 điểm",
+    "en": "Question {0} · 1 point"
+  },
+  "Bạn đã trả lời {0}/{1} câu. Bài làm sẽ được gửi để chấm điểm và lưu kết quả.": {
+    "vi": "Bạn đã trả lời {0}/{1} câu. Bài làm sẽ được gửi để chấm điểm và lưu kết quả.",
+    "en": "You have answered {0}/{1} questions. Your answers will be submitted for grading and saved."
+  },
+  "1 câu trả lời đúng": {
+    "vi": "1 câu trả lời đúng",
+    "en": "1 correct answer"
+  },
+  "{0} câu trả lời đúng": {
+    "vi": "{0} câu trả lời đúng",
+    "en": "{0} correct answers"
+  },
+  "Bài {0}": {
+    "vi": "Bài {0}",
+    "en": "Lesson {0}"
+  },
+  "Mã: {0}": {
+    "vi": "Mã: {0}",
+    "en": "ID: {0}"
+  }
+}

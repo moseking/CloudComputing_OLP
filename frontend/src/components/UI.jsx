@@ -1,3 +1,4 @@
+import { t, getLocale } from '../lib/i18n.js';
 import React, { useCallback, useEffect, useId, useRef, useState } from 'react';
 import {
   AlertCircle,
@@ -11,14 +12,15 @@ import {
 } from 'lucide-react';
 import { api, message } from '../api/client.js';
 import { initials, LEVELS } from '../lib/learning.js';
-
 export const money = (value, currency = 'VND') =>
   Number(value) === 0
-    ? 'Miễn phí'
-    : new Intl.NumberFormat('vi-VN', { style: 'currency', currency }).format(
-        value,
-      );
-export const dateTime = (value) => new Date(value).toLocaleString('vi-VN');
+    ? t('Miễn phí')
+    : new Intl.NumberFormat(getLocale() === 'en' ? 'en-US' : 'vi-VN', {
+        style: 'currency',
+        currency,
+      }).format(value);
+export const dateTime = (value) =>
+  new Date(value).toLocaleString(getLocale() === 'en' ? 'en-GB' : 'vi-VN');
 export const navigate = (path) => {
   window.location.hash = path;
 };
@@ -28,7 +30,6 @@ export const ASSETS = {
   background: '/assets/tasmania-background.png',
   hero: '/assets/tasmania-coast-hero.png',
 };
-
 const buttonVariants = {
   primary: 'bg-primary text-white hover:bg-primary-hover shadow-orange',
   secondary: 'border border-border bg-white text-navy hover:bg-slate-50',
@@ -53,13 +54,13 @@ export function Button({
   if (href)
     return (
       <a className={classes} href={href} {...props}>
-        {children}
+        {t(children)}
       </a>
     );
   return (
     <button className={classes} disabled={disabled || busy} {...props}>
-      {busy && <LoaderCircle size={17} className="animate-spin" />}
-      {children}
+      {t(busy && <LoaderCircle size={17} className="animate-spin" />)}
+      {t(children)}
     </button>
   );
 }
@@ -72,7 +73,7 @@ export function Card({ children, className, ...props }) {
       )}
       {...props}
     >
-      {children}
+      {t(children)}
     </div>
   );
 }
@@ -82,20 +83,22 @@ export function Input({ label, hint, className, ...props }) {
   const hintId = useId();
   return (
     <label className="flex min-w-0 flex-col gap-2 text-sm font-medium text-navy">
-      {label}
+      {t(label)}
       <input
-        aria-label={label}
+        aria-label={t(label)}
         aria-describedby={hint ? hintId : undefined}
         className={cx(inputClass, className)}
         {...props}
       />
-      {hint && (
-        <span
-          id={hintId}
-          className="text-xs font-normal leading-relaxed text-muted"
-        >
-          {hint}
-        </span>
+      {t(
+        hint && (
+          <span
+            id={hintId}
+            className="text-xs font-normal leading-relaxed text-muted"
+          >
+            {t(hint)}
+          </span>
+        ),
       )}
     </label>
   );
@@ -103,22 +106,26 @@ export function Input({ label, hint, className, ...props }) {
 export function Select({ label, hint, children, className, ...props }) {
   return (
     <label className="flex min-w-0 flex-col gap-2 text-sm font-medium text-navy">
-      {label}
+      {t(label)}
       <select
-        aria-label={label}
+        aria-label={t(label)}
         className={cx(inputClass, className)}
         {...props}
       >
-        {children}
+        {t(children)}
       </select>
-      {hint && <span className="text-xs font-normal text-muted">{hint}</span>}
+      {t(
+        hint && (
+          <span className="text-xs font-normal text-muted">{t(hint)}</span>
+        ),
+      )}
     </label>
   );
 }
 export function Textarea({ label, className, ...props }) {
   return (
     <label className="flex min-w-0 flex-col gap-2 text-sm font-medium text-navy">
-      {label}
+      {t(label)}
       <textarea className={cx(inputClass, 'resize-y', className)} {...props} />
     </label>
   );
@@ -140,27 +147,27 @@ export function Badge({ children, tone = 'orange', className }) {
         className,
       )}
     >
-      {children}
+      {t(children)}
     </span>
   );
 }
 export function Avatar({ name, className }) {
   return (
     <span
-      title={name}
+      title={t(name)}
       className={cx(
         'flex size-11 shrink-0 items-center justify-center rounded-full border-2 border-white bg-orange-100 text-sm font-bold text-primary-hover',
         className,
       )}
     >
-      {initials(name)}
+      {t(initials(name))}
     </span>
   );
 }
 export function Progress({ value = 0, label, className }) {
   return (
     <progress
-      aria-label={label || 'Tiến độ học tập'}
+      aria-label={t(label || t('Tiến độ học tập'))}
       className={cx(
         'oelp-progress h-2 w-full overflow-hidden rounded-full',
         className,
@@ -181,7 +188,7 @@ export function Skeleton({ className }) {
 export function Loading() {
   return (
     <div role="status" className="space-y-4 py-3">
-      <span className="sr-only">Đang tải dữ liệu…</span>
+      <span className="sr-only">{t('Đang tải dữ liệu…')}</span>
       <Skeleton className="h-8 w-2/5" />
       <Skeleton className="h-36 w-full" />
     </div>
@@ -195,14 +202,16 @@ export function ErrorBox({ children, onRetry }) {
     >
       <AlertCircle size={18} className="mt-0.5 shrink-0" />
       <div className="min-w-0 flex-1 break-words">
-        {children}
-        {onRetry && (
-          <button
-            className="mt-2 block font-semibold underline"
-            onClick={onRetry}
-          >
-            Thử lại
-          </button>
+        {t(children)}
+        {t(
+          onRetry && (
+            <button
+              className="mt-2 block font-semibold underline"
+              onClick={onRetry}
+            >
+              {t('Thử lại')}
+            </button>
+          ),
         )}
       </div>
     </div>
@@ -215,7 +224,7 @@ export function SuccessBox({ children }) {
       className="flex items-start gap-3 rounded-xl border border-emerald-100 bg-emerald-50 p-4 text-sm leading-relaxed text-emerald-800"
     >
       <CheckCircle2 size={18} className="mt-0.5 shrink-0" />
-      <div>{children}</div>
+      <div>{t(children)}</div>
     </div>
   ) : null;
 }
@@ -234,7 +243,7 @@ export function Empty({
     >
       <img
         src={ASSETS.logo}
-        alt="Tama đồng hành cùng bạn"
+        alt={t('Tama đồng hành cùng bạn')}
         className={
           compact
             ? 'mb-3 h-14 w-20 object-contain'
@@ -242,11 +251,15 @@ export function Empty({
         }
         loading="lazy"
       />
-      {title && <h2 className="mb-2 text-lg font-bold text-navy">{title}</h2>}
+      {t(
+        title && (
+          <h2 className="mb-2 text-lg font-bold text-navy">{t(title)}</h2>
+        ),
+      )}
       <div className="max-w-md text-sm leading-relaxed text-muted">
-        {children}
+        {t(children)}
       </div>
-      {action && <div className="mt-5">{action}</div>}
+      {t(action && <div className="mt-5">{t(action)}</div>)}
     </div>
   );
 }
@@ -254,30 +267,35 @@ export function PageTitle({ eyebrow, title, children, action }) {
   return (
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
       <div>
-        {eyebrow && (
-          <p className="mb-2 text-xs font-semibold tracking-[0.16em] text-primary-hover">
-            {eyebrow}
-          </p>
+        {t(
+          eyebrow && (
+            <p className="mb-2 text-xs font-semibold tracking-[0.16em] text-primary-hover">
+              {t(eyebrow)}
+            </p>
+          ),
         )}
         <h1 className="text-2xl font-bold tracking-tight text-navy sm:text-3xl">
-          {title}
+          {t(title)}
         </h1>
-        {children && (
-          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
-            {children}
-          </p>
+        {t(
+          children && (
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">
+              {t(children)}
+            </p>
+          ),
         )}
       </div>
-      {action}
+      {t(action)}
     </div>
   );
 }
 export function SignInRequired() {
   return (
-    <Empty title="Đăng nhập để tiếp tục">
-      <p className="mb-5">Lưu tiến độ và xem các khóa học của bạn.</p>
+    <Empty title={t('Đăng nhập để tiếp tục')}>
+      <p className="mb-5">{t('Lưu tiến độ và xem các khóa học của bạn.')}</p>
       <Button href="#/login">
-        Đăng nhập <ArrowRight size={16} />
+        {t('Đăng nhập')}
+        <ArrowRight size={16} />
       </Button>
     </Empty>
   );
@@ -286,15 +304,16 @@ export function AccessDenied() {
   return (
     <Card className="mx-auto max-w-xl py-12 text-center">
       <LockKeyhole className="mx-auto mb-4 text-primary" size={34} />
-      <h1 className="text-2xl font-bold">Bạn không có quyền truy cập</h1>
+      <h1 className="text-2xl font-bold">{t('Bạn không có quyền truy cập')}</h1>
       <p className="my-4 text-sm text-muted">
-        Khu vực quản trị chỉ dành cho tài khoản Admin được backend xác nhận.
+        {t(
+          'Khu vực quản trị chỉ dành cho tài khoản Admin được backend xác nhận.',
+        )}
       </p>
-      <Button href="#/">Về trang chủ</Button>
+      <Button href="#/">{t('Về trang chủ')}</Button>
     </Card>
   );
 }
-
 export function Modal({ open, title, children, onClose, drawer = false }) {
   const ref = useRef(null);
   useEffect(() => {
@@ -310,7 +329,7 @@ export function Modal({ open, title, children, onClose, drawer = false }) {
   return (
     <dialog
       ref={ref}
-      aria-label={title}
+      aria-label={t(title)}
       onCancel={(event) => {
         event.preventDefault();
         onClose();
@@ -324,27 +343,28 @@ export function Modal({ open, title, children, onClose, drawer = false }) {
           : 'm-auto w-[calc(100%_-_2rem)] max-w-lg rounded-2xl border border-border bg-white p-6 text-navy shadow-xl backdrop:bg-navy/50'
       }
     >
-      {drawer ? (
-        children
-      ) : (
-        <>
-          <div className="mb-4 flex items-center justify-between gap-3">
-            <h2 className="text-xl font-bold">{title}</h2>
-            <button
-              aria-label="Đóng"
-              onClick={onClose}
-              className="rounded-lg p-2 hover:bg-slate-100"
-            >
-              <X size={20} />
-            </button>
-          </div>
-          {children}
-        </>
+      {t(
+        drawer ? (
+          t(children)
+        ) : (
+          <>
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <h2 className="text-xl font-bold">{t(title)}</h2>
+              <button
+                aria-label={t('Đóng')}
+                onClick={onClose}
+                className="rounded-lg p-2 hover:bg-slate-100"
+              >
+                <X size={20} />
+              </button>
+            </div>
+            {t(children)}
+          </>
+        ),
       )}
     </dialog>
   );
 }
-
 const statusVariants = {
   PENDING: 'bg-amber-50 text-amber-800',
   SUCCESS: 'bg-emerald-50 text-emerald-700',
@@ -364,7 +384,7 @@ export function StatusBadge({ status }) {
         status?.toLowerCase(),
       )}
     >
-      {labels[status] || status}
+      {t(labels[status] || t(status))}
     </span>
   );
 }
@@ -384,7 +404,10 @@ export function CourseCard({ course, enrolled = false, compact = false }) {
       >
         <img
           src={ASSETS.background}
-          alt={`Khóa học ${course.language || 'ngoại ngữ'} trình độ ${course.level}`}
+          alt={t('Khóa học {0} trình độ {1}', {
+            0: course.language || 'ngoại ngữ',
+            1: course.level,
+          })}
           className={cx(
             'w-full object-cover transition duration-500 group-hover:scale-105',
             compact ? 'h-28' : 'h-40',
@@ -395,19 +418,23 @@ export function CourseCard({ course, enrolled = false, compact = false }) {
           height="200"
         />
         <Badge className="absolute left-3 top-3 border border-white/70 bg-white/95 text-navy">
-          {course.level}
+          {t(course.level)}
         </Badge>
-        {enrolled && (
-          <span className="absolute bottom-3 right-3 flex size-6 items-center justify-center rounded-full bg-success text-white">
-            <Check size={14} />
-          </span>
+        {t(
+          enrolled && (
+            <span className="absolute bottom-3 right-3 flex size-6 items-center justify-center rounded-full bg-success text-white">
+              <Check size={14} />
+            </span>
+          ),
         )}
       </a>
       <div className={compact ? 'p-3.5' : 'p-5'}>
         <p className="text-[11px] font-medium text-muted">
-          {course.language} ·{' '}
-          {LEVELS.find((item) => item.code === course.level)?.name ||
-            course.level}
+          {t(course.language)} ·{t(' ')}
+          {t(
+            LEVELS.find((item) => item.code === course.level)?.name ||
+              t(course.level),
+          )}
         </p>
         <h2
           className={cx(
@@ -415,22 +442,24 @@ export function CourseCard({ course, enrolled = false, compact = false }) {
             compact ? 'text-sm' : 'text-lg',
           )}
         >
-          <a href={`#/courses/${course.id}`}>{course.title}</a>
+          <a href={`#/courses/${course.id}`}>{t(course.title)}</a>
         </h2>
-        {!compact && (
-          <p className="mt-2 line-clamp-2 min-h-10 text-xs leading-relaxed text-muted">
-            {course.description}
-          </p>
+        {t(
+          !compact && (
+            <p className="mt-2 line-clamp-2 min-h-10 text-xs leading-relaxed text-muted">
+              {t(course.description)}
+            </p>
+          ),
         )}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-border pt-3 text-xs">
           <span className="font-semibold text-primary-hover">
-            {money(course.price, course.currency)}
+            {t(money(course.price, course.currency))}
           </span>
           <a
             className="flex items-center gap-1 font-semibold text-navy"
             href={`#/courses/${course.id}`}
           >
-            {enrolled ? 'Tiếp tục học' : 'Xem khóa học'}
+            {t(enrolled ? t('Tiếp tục học') : t('Xem khóa học'))}
             <ChevronRight size={14} />
           </a>
         </div>
@@ -438,7 +467,6 @@ export function CourseCard({ course, enrolled = false, compact = false }) {
     </article>
   );
 }
-
 export function useResource(path) {
   const [version, setVersion] = useState(0);
   const [state, setState] = useState({
@@ -449,21 +477,42 @@ export function useResource(path) {
   const reload = useCallback(() => setVersion((value) => value + 1), []);
   useEffect(() => {
     if (!path) {
-      setState({ data: null, loading: false, error: '' });
+      setState({
+        data: null,
+        loading: false,
+        error: '',
+      });
       return;
     }
     const controller = new AbortController();
-    setState({ data: null, loading: true, error: '' });
-    api(path, { signal: controller.signal })
+    setState({
+      data: null,
+      loading: true,
+      error: '',
+    });
+    api(path, {
+      signal: controller.signal,
+    })
       .then((data) => {
         if (!controller.signal.aborted)
-          setState({ data, loading: false, error: '' });
+          setState({
+            data,
+            loading: false,
+            error: '',
+          });
       })
       .catch((error) => {
         if (!controller.signal.aborted)
-          setState({ data: null, loading: false, error: message(error) });
+          setState({
+            data: null,
+            loading: false,
+            error: message(error),
+          });
       });
     return () => controller.abort();
   }, [path, version]);
-  return { ...state, reload };
+  return {
+    ...state,
+    reload,
+  };
 }

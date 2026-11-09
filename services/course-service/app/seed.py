@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 """Small original English lessons. Stable IDs link to independently owned quiz data."""
 from psycopg.types.json import Jsonb
 from .database import connect
@@ -38,6 +40,10 @@ LESSONS = [
      [{'prompt':'Suggest a meeting and offer an alternative day.','example':'Could we meet on Friday? Monday also works for me.'}],3),
 ]
 
+
+_content = json.loads(Path(__file__).with_name('learning_content.json').read_text(encoding='utf-8'))
+COURSES.extend(_content['courses'])
+LESSONS.extend(_content['lessons'])
 
 def seed():
     with connect() as db:

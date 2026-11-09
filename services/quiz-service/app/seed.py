@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 from .database import connect
 
 QUIZZES = [(1,1,12,'First Steps Checkpoint'),(2,2,22,'Everyday English Checkpoint'),(3,3,32,'Workplace English Checkpoint')]
@@ -10,6 +12,10 @@ QUESTIONS = [
     (32,3,'fill_blank','Complete: Please ___ the meeting time.','confirm',1,2,[]),
 ]
 
+
+_content = json.loads(Path(__file__).with_name('learning_content.json').read_text(encoding='utf-8'))
+QUIZZES.extend(_content['quizzes'])
+QUESTIONS.extend(_content['questions'])
 
 def seed():
     with connect() as db:

@@ -1,8 +1,8 @@
+import { t } from '../lib/i18n.js';
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { ASSETS, Button, cx } from './UI.jsx';
 import { greeting } from '../lib/learning.js';
-
 export default function Hero({ user, href, landing = false }) {
   const firstName = user?.display_name?.trim().split(/\s+/).at(-1);
   return (
@@ -14,8 +14,8 @@ export default function Hero({ user, href, landing = false }) {
     >
       <img
         src={ASSETS.hero}
-        alt="Tama vẫy chào bên bờ biển Tasmania, sóng trắng và vách đá"
-        className="absolute inset-0 -z-20 size-full object-cover object-[62%_50%] sm:object-center"
+        alt={t('Tama vẫy chào bên bờ biển Tasmania, sóng trắng và vách đá')}
+        className="absolute inset-0 -z-20 size-full object-cover object-[68%_0%] sm:object-top"
         fetchPriority="high"
         width="1984"
         height="793"
@@ -37,7 +37,7 @@ export default function Hero({ user, href, landing = false }) {
         )}
       >
         <span className="inline-flex rounded-full bg-orange px-3.5 py-1.5 text-[10px] font-semibold tracking-wide text-white">
-          Learn English Online
+          {t('Learn English Online')}
         </span>
         <h1
           className={cx(
@@ -47,29 +47,41 @@ export default function Hero({ user, href, landing = false }) {
               : 'text-2xl sm:text-[32px]',
           )}
         >
-          {landing ? (
-            <>
-              Mở rộng thế giới
-              <br />
-              <span className="text-orange-300">qua từng bài học.</span>
-            </>
-          ) : (
-            <>
-              {greeting()},<br />
-              <span className="text-orange-300">{firstName || 'bạn'}!</span>
-            </>
+          {t(
+            landing ? (
+              <>
+                {t('Mở rộng thế giới')}
+                <br />
+                <span className="text-orange-300">
+                  {t('qua từng bài học.')}
+                </span>
+              </>
+            ) : (
+              <>
+                {t(greeting())},<br />
+                <span className="text-orange-300">
+                  {t(firstName || t('bạn'))}!
+                </span>
+              </>
+            ),
           )}
         </h1>
         <p className="mt-3 max-w-sm text-xs leading-relaxed text-white/90 sm:text-sm">
-          {landing
-            ? 'Học tiếng Anh theo trình độ, luyện tập mỗi ngày và khám phá những khả năng mới cùng Tama.'
-            : 'Một chút tiếng Anh mỗi ngày. Một hành trình mới ở phía trước.'}
+          {t(
+            landing
+              ? t(
+                  'Học tiếng Anh theo trình độ, luyện tập mỗi ngày và khám phá những khả năng mới cùng Tama.',
+                )
+              : t(
+                  'Một chút tiếng Anh mỗi ngày. Một hành trình mới ở phía trước.',
+                ),
+          )}
         </p>
         <Button
           href={href || (landing ? '#/register' : '#/my-learning')}
           className="mt-5 rounded-full bg-orange text-white hover:bg-primary sm:mt-6"
         >
-          {landing ? 'Start Learning' : 'Continue Learning'}
+          {t(landing ? t('Start Learning') : t('Continue Learning'))}
           <ArrowRight size={17} />
         </Button>
       </div>
