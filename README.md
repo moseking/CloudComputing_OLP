@@ -52,15 +52,16 @@ Nếu đã có source code trên máy, mở terminal tại thư mục chứa fil
 
 ### 4.3. Cấu hình môi trường
 
-Tạo file `.env` từ file mẫu:
+Máy mới cần Python 3.13/3.14. Từ thư mục gốc repo, tạo cấu hình demo và cặp khóa JWT bằng script có sẵn:
 
 ```powershell
-Copy-Item .env.example .env
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt
+.\.venv\Scripts\python.exe scripts/setup_demo.py
+docker compose config --quiet
 ```
 
-Mở file `.env` và thay các giá trị `CHANGE_ME_*` bằng mật khẩu riêng theo yêu cầu cấu hình.
-
-Lưu ý: Không chia sẻ hoặc commit file `.env` lên GitHub.
+Script tạo `.env` với giá trị riêng và khóa trong `.secrets/`; `.env.example` chỉ là mẫu placeholder. Nếu đã có `.env` và khóa, giữ nguyên; chỉ dùng `scripts/setup_demo.py --extend` khi cần bổ sung biến còn thiếu. Không chia sẻ hoặc commit `.env` và private key lên GitHub.
 
 ### 4.4. Khởi chạy hệ thống
 
@@ -136,3 +137,27 @@ git push -u origin feature/user-frontend
 Thay tên nhánh và nội dung commit cho phù hợp với công việc thực tế.
 
 Sau khi push, tạo Pull Request từ nhánh cá nhân vào `main` để các thành viên cùng kiểm tra trước khi merge.
+
+## 6. Nội dung học thử và ngôn ngữ giao diện
+
+Ngoài 3 khóa demo ban đầu, có thêm 5 khóa miễn phí A1–C1; mỗi khóa có 3 bài học và 1 Quiz tổng kết 10 câu. Mỗi bài gồm đoạn đọc tiếng Anh, 6 từ vựng, ngữ pháp, bài tự luyện và nguồn tham khảo British Council/VOA. Nội dung do OELP biên soạn để demo, tham chiếu mức độ CEFR; không phải khóa học được chứng nhận.
+
+| Cấp độ | Khóa mới |
+| --- | --- |
+| A1 | English for Daily Life |
+| A2 | Travel with Confidence |
+| B1 | Stories and Decisions |
+| B2 | Communication and Ideas |
+| C1 | Academic and Professional English |
+
+Dùng bộ chọn Tiếng Việt / English ở đầu trang để đổi ngôn ngữ giao diện; lựa chọn được lưu trên trình duyệt. Phần nội dung học vẫn giữ bài đọc tiếng Anh và phần giải nghĩa phục vụ người học Việt Nam. Trong bài, mở mục Lý thuyết để đọc/nghe; mở Từ vựng để nghe phát âm. Audio là giọng máy Anh–Anh và Anh–Mỹ tạo sẵn, có chọn tốc độ và ẩn transcript; không ghi âm hoặc chấm phát âm. Các MP3 được phục vụ cùng frontend nên không cần API key hay giọng hệ thống.
+
+Dữ liệu nằm trong app/learning_content.json của Course Service và Quiz Service, được seed khi DEMO_MODE=true và SEED_DEMO=true. Seed chỉ thêm bản ghi còn thiếu, giữ nguyên các khóa/dữ liệu cũ. Máy mới cần khởi động cả hai service; máy đang chạy cần rebuild Course, Quiz và frontend để nhận data/audio mới. Sửa JSON không ghi đè dữ liệu đã seed; cần thống nhất cách cập nhật nội dung với Người 2 khi muốn sửa bản ghi đang tồn tại. Không xóa volume để nạp dữ liệu.
+
+Kiểm tra dữ liệu từ thư mục gốc repo, sau khi đã cài requirements-dev:
+
+```powershell
+.\.venv\Scripts\python.exe scripts/validate_learning_content.py
+```
+
+Nguồn tham khảo chủ điểm: [British Council grammar](https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2), [British Council listening](https://learnenglish.britishcouncil.org/en/listen-and-watch), [VOA Learning English](https://learningenglish.voanews.com/p/5644.html), [CEFR levels](https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions). Mỗi bài có liên kết tham khảo tương ứng; đoạn đọc và câu hỏi không chép nguyên bộ bài từ các trang này.

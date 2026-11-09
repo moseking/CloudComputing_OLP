@@ -1,0 +1,991 @@
+{
+  "quizzes": [
+    [
+      4,
+      4,
+      43,
+      "Daily Life Checkpoint"
+    ],
+    [
+      5,
+      5,
+      53,
+      "Travel with Confidence Checkpoint"
+    ],
+    [
+      6,
+      6,
+      63,
+      "Stories and Decisions Checkpoint"
+    ],
+    [
+      7,
+      7,
+      73,
+      "Communication and Ideas Checkpoint"
+    ],
+    [
+      8,
+      8,
+      83,
+      "Academic and Professional Checkpoint"
+    ]
+  ],
+  "questions": [
+    [
+      40,
+      4,
+      "single_choice",
+      "Choose the correct sentence.",
+      "b",
+      1,
+      1,
+      [
+        [
+          "a",
+          "I is a student."
+        ],
+        [
+          "b",
+          "I am a student."
+        ],
+        [
+          "c",
+          "I are a student."
+        ]
+      ]
+    ],
+    [
+      41,
+      4,
+      "single_choice",
+      "Reading 1: What does Ben like?",
+      "a",
+      1,
+      2,
+      [
+        [
+          "a",
+          "Music"
+        ],
+        [
+          "b",
+          "Football"
+        ],
+        [
+          "c",
+          "Cooking"
+        ]
+      ]
+    ],
+    [
+      42,
+      4,
+      "single_choice",
+      "Which question uses be correctly?",
+      "c",
+      1,
+      3,
+      [
+        [
+          "a",
+          "You are a student? Is"
+        ],
+        [
+          "b",
+          "Do you a student?"
+        ],
+        [
+          "c",
+          "Are you a student?"
+        ]
+      ]
+    ],
+    [
+      43,
+      4,
+      "fill_blank",
+      "Complete with a or an: There is ___ orange notebook on the desk.",
+      "an",
+      1,
+      4,
+      []
+    ],
+    [
+      44,
+      4,
+      "single_choice",
+      "Reading 2: Where is the blue bag?",
+      "b",
+      1,
+      5,
+      [
+        [
+          "a",
+          "On the window"
+        ],
+        [
+          "b",
+          "Under the chair"
+        ],
+        [
+          "c",
+          "In the lamp"
+        ]
+      ]
+    ],
+    [
+      45,
+      4,
+      "fill_blank",
+      "Complete with is or are: These ___ books.",
+      "are",
+      1,
+      6,
+      []
+    ],
+    [
+      46,
+      4,
+      "single_choice",
+      "Choose the most polite café order.",
+      "c",
+      1,
+      7,
+      [
+        [
+          "a",
+          "Give sandwich now."
+        ],
+        [
+          "b",
+          "Sandwich! Fast!"
+        ],
+        [
+          "c",
+          "Can I have a sandwich, please?"
+        ]
+      ]
+    ],
+    [
+      47,
+      4,
+      "single_choice",
+      "Reading 3: How much is Mina’s order altogether?",
+      "a",
+      1,
+      8,
+      [
+        [
+          "a",
+          "Six pounds"
+        ],
+        [
+          "b",
+          "Two pounds"
+        ],
+        [
+          "c",
+          "Ten pounds"
+        ]
+      ]
+    ],
+    [
+      48,
+      4,
+      "fill_blank",
+      "Complete with one word: I would ___ a cup of tea, please.",
+      "like",
+      1,
+      9,
+      []
+    ],
+    [
+      49,
+      4,
+      "single_choice",
+      "Which phrase names one serving of tea?",
+      "b",
+      1,
+      10,
+      [
+        [
+          "a",
+          "a tea of cup"
+        ],
+        [
+          "b",
+          "a cup of tea"
+        ],
+        [
+          "c",
+          "a cups tea"
+        ]
+      ]
+    ],
+    [
+      50,
+      5,
+      "single_choice",
+      "Choose a natural way to ask for directions.",
+      "a",
+      1,
+      1,
+      [
+        [
+          "a",
+          "Excuse me, how do I get to the museum?"
+        ],
+        [
+          "b",
+          "You museum where go!"
+        ],
+        [
+          "c",
+          "Museum to I how?"
+        ]
+      ]
+    ],
+    [
+      51,
+      5,
+      "single_choice",
+      "Reading 1: Ravi turns right at the ...",
+      "b",
+      1,
+      2,
+      [
+        [
+          "a",
+          "hospital"
+        ],
+        [
+          "b",
+          "bakery"
+        ],
+        [
+          "c",
+          "river"
+        ]
+      ]
+    ],
+    [
+      52,
+      5,
+      "fill_blank",
+      "Use the word meaning đối diện: The museum is ___ the park.",
+      "opposite",
+      1,
+      3,
+      []
+    ],
+    [
+      53,
+      5,
+      "single_choice",
+      "Choose the correct direction.",
+      "c",
+      1,
+      4,
+      [
+        [
+          "a",
+          "Turning you right."
+        ],
+        [
+          "b",
+          "You to turn right."
+        ],
+        [
+          "c",
+          "Turn right at the bakery."
+        ]
+      ]
+    ],
+    [
+      54,
+      5,
+      "single_choice",
+      "Reading 2: Nora has booked a room for ...",
+      "b",
+      1,
+      5,
+      [
+        [
+          "a",
+          "one night"
+        ],
+        [
+          "b",
+          "two nights"
+        ],
+        [
+          "c",
+          "three nights"
+        ]
+      ]
+    ],
+    [
+      55,
+      5,
+      "single_choice",
+      "Which pair commonly refers to the same thing in British and American English?",
+      "a",
+      1,
+      6,
+      [
+        [
+          "a",
+          "lift / elevator"
+        ],
+        [
+          "b",
+          "passport / breakfast"
+        ],
+        [
+          "c",
+          "stairs / reservation"
+        ]
+      ]
+    ],
+    [
+      56,
+      5,
+      "fill_blank",
+      "Use one word to make a polite request: ___ you tell me where the stairs are?",
+      "Could",
+      1,
+      7,
+      []
+    ],
+    [
+      57,
+      5,
+      "single_choice",
+      "Reading 3: Why did Linh and her brother go to a café?",
+      "c",
+      1,
+      8,
+      [
+        [
+          "a",
+          "The garden was closed."
+        ],
+        [
+          "b",
+          "They missed the train."
+        ],
+        [
+          "c",
+          "It rained in the afternoon."
+        ]
+      ]
+    ],
+    [
+      58,
+      5,
+      "fill_blank",
+      "Write the past simple of take: They ___ a train to Hue.",
+      "took",
+      1,
+      9,
+      []
+    ],
+    [
+      59,
+      5,
+      "single_choice",
+      "Choose the correct past-simple question.",
+      "b",
+      1,
+      10,
+      [
+        [
+          "a",
+          "Did you enjoyed the trip?"
+        ],
+        [
+          "b",
+          "Did you enjoy the trip?"
+        ],
+        [
+          "c",
+          "Did enjoyed you the trip?"
+        ]
+      ]
+    ],
+    [
+      60,
+      6,
+      "single_choice",
+      "Choose the sentence that describes an experience without a finished past-time marker.",
+      "a",
+      1,
+      1,
+      [
+        [
+          "a",
+          "I have joined several events."
+        ],
+        [
+          "b",
+          "I have joined the event yesterday."
+        ],
+        [
+          "c",
+          "I has joined several events."
+        ]
+      ]
+    ],
+    [
+      61,
+      6,
+      "fill_blank",
+      "Complete with the correct auxiliary: She ___ never tried kayaking.",
+      "has",
+      1,
+      2,
+      []
+    ],
+    [
+      62,
+      6,
+      "single_choice",
+      "Reading 1: Which event did the club organise last spring?",
+      "c",
+      1,
+      3,
+      [
+        [
+          "a",
+          "A cycling race"
+        ],
+        [
+          "b",
+          "A music show"
+        ],
+        [
+          "c",
+          "A book exchange"
+        ]
+      ]
+    ],
+    [
+      63,
+      6,
+      "single_choice",
+      "Choose the correct sentence with a finished past time.",
+      "b",
+      1,
+      4,
+      [
+        [
+          "a",
+          "I have visited the museum last July."
+        ],
+        [
+          "b",
+          "I visited the museum last July."
+        ],
+        [
+          "c",
+          "I visit the museum last July."
+        ]
+      ]
+    ],
+    [
+      64,
+      6,
+      "fill_blank",
+      "Complete with the present-simple form: If it ___ tomorrow, we will stay indoors. (rain)",
+      "rains",
+      1,
+      5,
+      []
+    ],
+    [
+      65,
+      6,
+      "single_choice",
+      "Reading 2: What will the group choose if it rains?",
+      "a",
+      1,
+      6,
+      [
+        [
+          "a",
+          "The science centre"
+        ],
+        [
+          "b",
+          "The cycling trip"
+        ],
+        [
+          "c",
+          "Neither plan"
+        ]
+      ]
+    ],
+    [
+      66,
+      6,
+      "single_choice",
+      "Which connector introduces a reason?",
+      "b",
+      1,
+      7,
+      [
+        [
+          "a",
+          "however"
+        ],
+        [
+          "b",
+          "because"
+        ],
+        [
+          "c",
+          "finally"
+        ]
+      ]
+    ],
+    [
+      67,
+      6,
+      "single_choice",
+      "Reading 3: What does the writer recommend for the reading club?",
+      "c",
+      1,
+      8,
+      [
+        [
+          "a",
+          "Only freely chosen books"
+        ],
+        [
+          "b",
+          "No shared activities"
+        ],
+        [
+          "c",
+          "One shared book and one freely chosen book"
+        ]
+      ]
+    ],
+    [
+      68,
+      6,
+      "fill_blank",
+      "Use the connector meaning tuy nhiên: Choice is useful. ___, shared reading also has benefits.",
+      "However",
+      1,
+      9,
+      []
+    ],
+    [
+      69,
+      6,
+      "single_choice",
+      "Which sentence best supports an opinion with a reason?",
+      "b",
+      1,
+      10,
+      [
+        [
+          "a",
+          "Group study is the best. That is all."
+        ],
+        [
+          "b",
+          "I prefer small groups because everyone has time to speak."
+        ],
+        [
+          "c",
+          "Everyone must like my group."
+        ]
+      ]
+    ],
+    [
+      70,
+      7,
+      "single_choice",
+      "Choose the sentence with the correct structure after despite.",
+      "c",
+      1,
+      1,
+      [
+        [
+          "a",
+          "Despite the cost is high, we chose it."
+        ],
+        [
+          "b",
+          "Despite of the high cost, we chose it."
+        ],
+        [
+          "c",
+          "Despite the high cost, we chose it."
+        ]
+      ]
+    ],
+    [
+      71,
+      7,
+      "fill_blank",
+      "Use the contrast connector meaning trong khi: The app is flexible, ___ the desk service offers personal support.",
+      "whereas",
+      1,
+      2,
+      []
+    ],
+    [
+      72,
+      7,
+      "single_choice",
+      "Reading 1: Why is a small trial proposed?",
+      "a",
+      1,
+      3,
+      [
+        [
+          "a",
+          "To compare demand before a larger commitment"
+        ],
+        [
+          "b",
+          "To prove that libraries need no staff"
+        ],
+        [
+          "c",
+          "To remove all printed materials immediately"
+        ]
+      ]
+    ],
+    [
+      73,
+      7,
+      "single_choice",
+      "Which sentence is passive?",
+      "b",
+      1,
+      4,
+      [
+        [
+          "a",
+          "Volunteers completed the survey."
+        ],
+        [
+          "b",
+          "Sales figures were not collected."
+        ],
+        [
+          "c",
+          "The app works quickly."
+        ]
+      ]
+    ],
+    [
+      74,
+      7,
+      "single_choice",
+      "Reading 2: What is a limitation of the café report?",
+      "c",
+      1,
+      5,
+      [
+        [
+          "a",
+          "It includes every café in the country."
+        ],
+        [
+          "b",
+          "Its revenue figures are complete."
+        ],
+        [
+          "c",
+          "Its interviews exclude people who avoid smartphones."
+        ]
+      ]
+    ],
+    [
+      75,
+      7,
+      "single_choice",
+      "Reading 2: Which conclusion is supported?",
+      "b",
+      1,
+      6,
+      [
+        [
+          "a",
+          "The app increased every café’s revenue."
+        ],
+        [
+          "b",
+          "Some volunteers in this limited trial found the app convenient."
+        ],
+        [
+          "c",
+          "All customers prefer apps to staff."
+        ]
+      ]
+    ],
+    [
+      76,
+      7,
+      "fill_blank",
+      "Complete the hypothetical conditional: If we ___ another room, we would run both meetings together. (have)",
+      "had",
+      1,
+      7,
+      []
+    ],
+    [
+      77,
+      7,
+      "single_choice",
+      "Reading 3: What compromise do the teams reach?",
+      "a",
+      1,
+      8,
+      [
+        [
+          "a",
+          "Split Friday afternoon and review the arrangement later"
+        ],
+        [
+          "b",
+          "Cancel both meetings permanently"
+        ],
+        [
+          "c",
+          "Give the room to only one team forever"
+        ]
+      ]
+    ],
+    [
+      78,
+      7,
+      "fill_blank",
+      "Complete with would or will: If the team moved online, it ___ lose access to the shared screen.",
+      "would",
+      1,
+      9,
+      []
+    ],
+    [
+      79,
+      7,
+      "single_choice",
+      "Which response both acknowledges a view and raises a constraint?",
+      "c",
+      1,
+      10,
+      [
+        [
+          "a",
+          "That is stupid."
+        ],
+        [
+          "b",
+          "Whatever you say."
+        ],
+        [
+          "c",
+          "I see your point, but we still need a shared screen."
+        ]
+      ]
+    ],
+    [
+      80,
+      8,
+      "single_choice",
+      "Reading 1: Why is a causal claim about quiet hours uncertain?",
+      "b",
+      1,
+      1,
+      [
+        [
+          "a",
+          "Satisfaction scores never changed."
+        ],
+        [
+          "b",
+          "The same period included other changes that might explain the result."
+        ],
+        [
+          "c",
+          "A larger trial has already isolated the policy’s effect."
+        ]
+      ]
+    ],
+    [
+      81,
+      8,
+      "single_choice",
+      "Which sentence best matches the evidence in Reading 1?",
+      "c",
+      1,
+      2,
+      [
+        [
+          "a",
+          "Quiet hours definitely caused every improvement."
+        ],
+        [
+          "b",
+          "The policy has no possible value."
+        ],
+        [
+          "c",
+          "The policy may have contributed, but its independent effect is not established."
+        ]
+      ]
+    ],
+    [
+      82,
+      8,
+      "fill_blank",
+      "Use one word for cautious possibility: The policy ___ have contributed to the change. (Use may, not might.)",
+      "may",
+      1,
+      3,
+      []
+    ],
+    [
+      83,
+      8,
+      "single_choice",
+      "Reading 2: Under what condition should the mentoring pilot proceed?",
+      "a",
+      1,
+      4,
+      [
+        [
+          "a",
+          "Enough mentors volunteer"
+        ],
+        [
+          "b",
+          "Every new member is required to participate"
+        ],
+        [
+          "c",
+          "All personal information is published"
+        ]
+      ]
+    ],
+    [
+      84,
+      8,
+      "single_choice",
+      "Which rewrite is clearer and keeps the agent explicit?",
+      "c",
+      1,
+      5,
+      [
+        [
+          "a",
+          "The implementation of the carrying out of evaluation is a process."
+        ],
+        [
+          "b",
+          "Evaluation is of evaluation."
+        ],
+        [
+          "c",
+          "The committee will evaluate the pilot."
+        ]
+      ]
+    ],
+    [
+      85,
+      8,
+      "fill_blank",
+      "Complete the condition marker: The pilot can proceed provided ___ enough mentors volunteer.",
+      "that",
+      1,
+      6,
+      []
+    ],
+    [
+      86,
+      8,
+      "single_choice",
+      "Reading 2: Which evidence is proposed for evaluation?",
+      "a",
+      1,
+      7,
+      [
+        [
+          "a",
+          "Attendance records and anonymous feedback"
+        ],
+        [
+          "b",
+          "Rumours and guesses"
+        ],
+        [
+          "c",
+          "A launch date alone"
+        ]
+      ]
+    ],
+    [
+      87,
+      8,
+      "single_choice",
+      "Reading 3: What does Mira’s position show?",
+      "b",
+      1,
+      8,
+      [
+        [
+          "a",
+          "She rejects the shared goal completely."
+        ],
+        [
+          "b",
+          "She supports a pilot subject to essential checks."
+        ],
+        [
+          "c",
+          "She promises a date regardless of unresolved concerns."
+        ]
+      ]
+    ],
+    [
+      88,
+      8,
+      "fill_blank",
+      "Rewrite with conditional inversion: If further issues arise → ___ further issues arise, we will revise the schedule.",
+      "Should",
+      1,
+      9,
+      []
+    ],
+    [
+      89,
+      8,
+      "single_choice",
+      "Which sentence correctly uses inversion for an unreal past condition?",
+      "a",
+      1,
+      10,
+      [
+        [
+          "a",
+          "Had we known about the delay, we would have changed the plan."
+        ],
+        [
+          "b",
+          "Had we know about the delay, we will changed the plan."
+        ],
+        [
+          "c",
+          "Should we knew about the delay, we would changed the plan."
+        ]
+      ]
+    ]
+  ]
+}

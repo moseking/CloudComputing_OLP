@@ -1,3 +1,4 @@
+import { t, useLanguage } from './lib/i18n.js';
 import React from 'react';
 import { AuthProvider, useAuth } from './auth.jsx';
 import {
@@ -18,7 +19,6 @@ import Library from './pages/Library.jsx';
 import ProgressPage from './pages/Progress.jsx';
 import Payments from './pages/Payments.jsx';
 import Admin from './pages/Admin.jsx';
-
 function Shell() {
   const { user, loading } = useAuth();
   const route = useHashRoute();
@@ -59,10 +59,10 @@ function Shell() {
   else if (path === '/register' || path === '/login')
     page = user ? (
       <Empty
-        title="Bạn đã đăng nhập"
-        action={<Button href="#/">Về Dashboard</Button>}
+        title={t('Bạn đã đăng nhập')}
+        action={<Button href="#/">{t('Về Dashboard')}</Button>}
       >
-        Tiếp tục hành trình học của bạn.
+        {t('Tiếp tục hành trình học của bạn.')}
       </Empty>
     ) : (
       <AccountForm register={path === '/register'} />
@@ -83,20 +83,20 @@ function Shell() {
   else
     page = (
       <Empty
-        title="Không tìm thấy trang"
-        action={<Button href="#/">Về trang chủ</Button>}
+        title={t('Không tìm thấy trang')}
+        action={<Button href="#/">{t('Về trang chủ')}</Button>}
       >
-        Đường dẫn này chưa có trên OELP.
+        {t('Đường dẫn này chưa có trên OELP.')}
       </Empty>
     );
   return user ? (
-    <AppLayout route={route}>{page}</AppLayout>
+    <AppLayout route={route}>{t(page)}</AppLayout>
   ) : (
-    <PublicLayout location={route.location}>{page}</PublicLayout>
+    <PublicLayout location={route.location}>{t(page)}</PublicLayout>
   );
 }
-
 export default function App() {
+  useLanguage();
   return (
     <AuthProvider>
       <Shell />

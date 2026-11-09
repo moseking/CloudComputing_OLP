@@ -1,0 +1,1160 @@
+{
+  "courses": [
+    [
+      4,
+      "en",
+      "A1",
+      "A1 English for Daily Life",
+      "Làm quen, mô tả đồ vật và gọi món qua ba tình huống gần gũi; có bài đọc, nghe giọng máy UK/US và Quiz tổng kết.",
+      0,
+      "Dành cho người bắt đầu học tiếng Anh.",
+      "Giới thiệu bản thân, mô tả căn phòng và gọi món bằng câu đơn."
+    ],
+    [
+      5,
+      "en",
+      "A2",
+      "A2 Travel with Confidence",
+      "Hỏi đường, nhận phòng và kể về chuyến đi; luyện đọc hiểu, nghe và phát âm với hai giọng.",
+      0,
+      "Đã biết câu đơn, động từ be và hiện tại đơn.",
+      "Hỏi và hiểu chỉ dẫn, đưa ra yêu cầu lịch sự, kể lại chuyến đi ngắn."
+    ],
+    [
+      6,
+      "en",
+      "B1",
+      "B1 Stories and Decisions",
+      "Kể trải nghiệm, cân nhắc lựa chọn và trình bày ý kiến có lý do trong những đoạn văn liên kết.",
+      0,
+      "Có nền tảng A2 và biết quá khứ đơn.",
+      "Phân biệt trải nghiệm và thời điểm quá khứ, dùng điều kiện thực, hỗ trợ ý kiến bằng ví dụ."
+    ],
+    [
+      7,
+      "en",
+      "B2",
+      "B2 Communication and Ideas",
+      "So sánh phương án, đọc tin có chọn lọc và cùng tìm giải pháp; luyện diễn đạt tương phản và tình huống giả định.",
+      0,
+      "Có thể đọc đoạn văn và trình bày ý kiến ở mức B1.",
+      "Đánh giá ưu nhược điểm, phân biệt thông tin và suy luận, đề xuất thỏa hiệp có lý do."
+    ],
+    [
+      8,
+      "en",
+      "C1",
+      "C1 Academic and Professional English",
+      "Đọc lập luận, viết đề xuất và thương lượng có sắc thái; chú trọng hedging, mạch lạc và ngôn ngữ trang trọng.",
+      0,
+      "Có thể hiểu văn bản và thảo luận ý tưởng ở mức B2.",
+      "Đánh giá mức độ chắc chắn của nhận định, viết đề xuất súc tích và diễn đạt điều kiện có sắc thái."
+    ]
+  ],
+  "lessons": [
+    [
+      41,
+      4,
+      "Meeting a new classmate",
+      1,
+      "## Mục tiêu\nTự giới thiệu tên, nơi ở và sở thích bằng những câu ngắn; tìm thông tin trực tiếp trong đoạn đọc.\n\n## Nội dung\nDùng I am / you are / he is / she is để nói về danh tính. Trong hội thoại, I am thường rút gọn thành I’m. Để hỏi, đổi vị trí be và chủ ngữ: Are you a student? Câu trả lời ngắn là Yes, I am hoặc No, I’m not. Dùng my/your cho sở hữu: My name is Mai. Sau like có thể dùng danh từ số nhiều: I like books.\n\n## Reading\nHello! My name is Mai. I am a student in Da Nang. My classmate is Ben. He is from Bristol, but he is in Viet Nam now. We are in the same English class. I like books and Ben likes music. After class, we say hello to our teacher and walk to the library together.\n\n## Tự kiểm tra\n1. Where is Mai a student?\n2. What does Ben like?\nGợi ý sau khi tự trả lời: Mai học ở Da Nang; Ben thích âm nhạc.\n\n## Pronunciation\nNghe student, teacher và together ở cả hai giọng. Chú ý âm đầu của student và âm cuối của teacher; đọc cả câu thay vì tách từng chữ.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — A1/A2 grammar | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "classmate",
+          "ipa": "/ˈklɑːsmeɪt/",
+          "meaning": "bạn cùng lớp",
+          "example": "Ben is my classmate."
+        },
+        {
+          "term": "student",
+          "ipa": "/ˈstjuːdənt/",
+          "meaning": "học sinh, sinh viên",
+          "example": "I am a student."
+        },
+        {
+          "term": "teacher",
+          "ipa": "/ˈtiːtʃə/",
+          "meaning": "giáo viên",
+          "example": "Our teacher is friendly."
+        },
+        {
+          "term": "library",
+          "ipa": "/ˈlaɪbrəri/",
+          "meaning": "thư viện",
+          "example": "We walk to the library."
+        },
+        {
+          "term": "together",
+          "ipa": "/təˈɡeðə/",
+          "meaning": "cùng nhau",
+          "example": "We study together."
+        },
+        {
+          "term": "music",
+          "ipa": "/ˈmjuːzɪk/",
+          "meaning": "âm nhạc",
+          "example": "Ben likes music."
+        }
+      ],
+      [
+        {
+          "pattern": "Subject + am/is/are + noun/place",
+          "explanation": "Chọn be theo chủ ngữ; không dùng I is hoặc they is.",
+          "examples": [
+            "I am a learner.",
+            "Ben is from Bristol.",
+            "We are classmates."
+          ]
+        },
+        {
+          "pattern": "Am/Is/Are + subject ...?",
+          "explanation": "Đưa be lên trước chủ ngữ để đặt câu hỏi yes/no.",
+          "examples": [
+            "Are you a student?",
+            "Is Ben in your class?"
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết ba câu giới thiệu tên, nơi ở và vai trò của bạn.",
+          "example": "My name is An. I am from Hue. I am a student."
+        },
+        {
+          "prompt": "Viết một câu hỏi và câu trả lời ngắn để làm quen.",
+          "example": "Are you in my class? Yes, I am."
+        }
+      ],
+      null
+    ],
+    [
+      42,
+      4,
+      "My room and my things",
+      2,
+      "## Mục tiêu\nDùng a/an, this/these và there is/there are để mô tả căn phòng.\n\n## Nội dung\nA/an đứng trước danh từ đếm được số ít khi nhắc đến một vật chưa xác định. Chọn theo âm đầu: a book, an apple. This đi với vật số ít ở gần; these đi với số nhiều ở gần. There is mô tả một vật; there are mô tả nhiều vật. In, on và under giúp nói vị trí. Ví dụ: There is a bag under the desk.\n\n## Reading\nThis is my room. There is a desk near the window and a chair next to it. On the desk, there is an orange notebook and a small lamp. These books are for my English class. My blue bag is under the chair. The room is small, but it is bright and quiet. I study here every evening.\n\n## Tự kiểm tra\n1. Where is the blue bag?\n2. Is the room big?\nGợi ý: Túi ở dưới ghế; căn phòng nhỏ.\n\n## Pronunciation\nĐọc desk rõ âm /k/ cuối và books rõ âm /s/ cuối. Nghe chair và under bằng hai giọng rồi chú ý cách âm r được thể hiện.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Articles: a, an, the | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "desk",
+          "ipa": "/desk/",
+          "meaning": "bàn học, bàn làm việc",
+          "example": "My notebook is on the desk."
+        },
+        {
+          "term": "chair",
+          "ipa": "/tʃeə/",
+          "meaning": "ghế",
+          "example": "The chair is next to the desk."
+        },
+        {
+          "term": "window",
+          "ipa": "/ˈwɪndəʊ/",
+          "meaning": "cửa sổ",
+          "example": "The room has one window."
+        },
+        {
+          "term": "notebook",
+          "ipa": "/ˈnəʊtbʊk/",
+          "meaning": "vở ghi",
+          "example": "This is an orange notebook."
+        },
+        {
+          "term": "under",
+          "ipa": "/ˈʌndə/",
+          "meaning": "ở dưới",
+          "example": "The bag is under the chair."
+        },
+        {
+          "term": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "meaning": "yên tĩnh",
+          "example": "The library is quiet."
+        }
+      ],
+      [
+        {
+          "pattern": "a/an + singular countable noun",
+          "explanation": "Chọn a/an theo âm, không chỉ theo chữ cái.",
+          "examples": [
+            "a desk",
+            "an orange notebook",
+            "an English book"
+          ]
+        },
+        {
+          "pattern": "There is / There are",
+          "explanation": "Is dùng với một vật; are dùng với nhiều vật.",
+          "examples": [
+            "There is a lamp.",
+            "There are two books."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Mô tả ba đồ vật thật trong phòng bạn và vị trí của chúng.",
+          "example": "There is a phone on my desk. There are two books near the window."
+        },
+        {
+          "prompt": "Đổi sang số nhiều: This is a book.",
+          "example": "These are books."
+        }
+      ],
+      null
+    ],
+    [
+      43,
+      4,
+      "Ordering at a café",
+      3,
+      "## Mục tiêu\nGọi món lịch sự, hỏi giá và xác định số lượng trong hội thoại ngắn.\n\n## Nội dung\nI’d like là cách lịch sự để nói mình muốn gọi gì; dạng đầy đủ là I would like. Can I have ...? cũng dùng khi gọi món. Dùng a/an cho một món đếm được, two/three cho số nhiều. Với tea hoặc water, có thể nói a cup of tea / a bottle of water để nêu đơn vị. How much is it? dùng hỏi tổng giá của một đơn hàng.\n\n## Reading\nMina: Good morning. Can I have a cheese sandwich, please?\nLeo: Of course. Would you like a drink?\nMina: Yes, I’d like a cup of tea.\nLeo: Anything else?\nMina: No, thank you. How much is it?\nLeo: It is six pounds altogether.\nMina: Here you are. Thank you!\nLeo: You’re welcome. Your order will be ready soon.\n\n## Tự kiểm tra\n1. What food does Mina order?\n2. How much is her order?\nGợi ý: Một sandwich phô mai; tổng cộng sáu bảng.\n\n## Pronunciation\nLuyện nối I’d like thành một cụm, không đọc would thành một từ riêng khi dùng dạng rút gọn. So sánh order ở hai giọng và giữ ngữ điệu lịch sự ở please.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Articles: a, an, the | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "sandwich",
+          "ipa": "/ˈsænwɪtʃ/",
+          "meaning": "bánh mì kẹp",
+          "example": "I would like a sandwich."
+        },
+        {
+          "term": "order",
+          "ipa": "/ˈɔːdə/",
+          "meaning": "đơn gọi món; gọi món",
+          "example": "Your order is ready."
+        },
+        {
+          "term": "drink",
+          "ipa": "/drɪŋk/",
+          "meaning": "đồ uống",
+          "example": "Would you like a drink?"
+        },
+        {
+          "term": "cup",
+          "ipa": "/kʌp/",
+          "meaning": "tách, cốc",
+          "example": "A cup of tea, please."
+        },
+        {
+          "term": "altogether",
+          "ipa": "/ˌɔːltəˈɡeðə/",
+          "meaning": "tổng cộng",
+          "example": "It is six pounds altogether."
+        },
+        {
+          "term": "ready",
+          "ipa": "/ˈredi/",
+          "meaning": "sẵn sàng",
+          "example": "The sandwich is ready."
+        }
+      ],
+      [
+        {
+          "pattern": "I would like / I’d like + noun",
+          "explanation": "Mẫu câu lịch sự khi gọi món.",
+          "examples": [
+            "I’d like a cup of tea.",
+            "I would like two sandwiches."
+          ]
+        },
+        {
+          "pattern": "Can I have ... , please?",
+          "explanation": "Đưa ra yêu cầu đơn giản và thêm please để lịch sự.",
+          "examples": [
+            "Can I have some water, please?",
+            "Can I have the menu, please?"
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết hội thoại bốn lượt gọi đồ ăn và thức uống.",
+          "example": "A: Can I have a sandwich, please? B: Of course. A: And a cup of tea. B: Certainly."
+        },
+        {
+          "prompt": "Đọc đơn hàng sau bằng tiếng Anh: một sandwich và hai chai nước.",
+          "example": "I’d like a sandwich and two bottles of water, please."
+        }
+      ],
+      4
+    ],
+    [
+      51,
+      5,
+      "Getting around town",
+      1,
+      "## Mục tiêu\nHỏi đường và theo dõi chỉ dẫn gồm các mốc vị trí đơn giản.\n\n## Nội dung\nBắt đầu hỏi đường bằng Excuse me, how do I get to ...? Người chỉ đường thường dùng mệnh lệnh: go straight, turn left, cross the road. Near, opposite và next to mô tả vị trí. Không đặt to ngay sau opposite khi dùng như giới từ: The bank is opposite the station. Đọc toàn bộ chỉ dẫn trước rồi xác định điểm xuất phát và đích đến.\n\n## Reading\nRavi arrives at Green Street station. He wants to visit the town museum. A local resident tells him to go straight along Green Street, turn right at the bakery, and cross the small bridge. The museum is opposite the park, next to a bookshop. Ravi repeats the directions to check that he has understood. The resident smiles and says the walk takes about ten minutes.\n\n## Tự kiểm tra\n1. Where does Ravi turn right?\n2. What is next to the museum?\nGợi ý: Ở tiệm bánh; một hiệu sách.\n\n## Pronunciation\nNhấn vào các từ mang thông tin đường đi: STRAIGHT, RIGHT, BRIDGE. Nghe lại directions bằng cả hai giọng; nhắc lại cả cụm turn right at the bakery.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — A1/A2 grammar | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "straight",
+          "ipa": "/streɪt/",
+          "meaning": "thẳng",
+          "example": "Go straight along this road."
+        },
+        {
+          "term": "opposite",
+          "ipa": "/ˈɒpəzɪt/",
+          "meaning": "đối diện",
+          "example": "The museum is opposite the park."
+        },
+        {
+          "term": "bridge",
+          "ipa": "/brɪdʒ/",
+          "meaning": "cầu",
+          "example": "Cross the small bridge."
+        },
+        {
+          "term": "bakery",
+          "ipa": "/ˈbeɪkəri/",
+          "meaning": "tiệm bánh",
+          "example": "Turn right at the bakery."
+        },
+        {
+          "term": "resident",
+          "ipa": "/ˈrezɪdənt/",
+          "meaning": "cư dân",
+          "example": "A resident gives Ravi directions."
+        },
+        {
+          "term": "directions",
+          "ipa": "/dəˈrekʃənz/",
+          "meaning": "chỉ dẫn đường đi",
+          "example": "Please repeat the directions."
+        }
+      ],
+      [
+        {
+          "pattern": "Imperative: verb + place/direction",
+          "explanation": "Dùng động từ nguyên mẫu cho chỉ dẫn.",
+          "examples": [
+            "Turn right at the bakery.",
+            "Cross the bridge."
+          ]
+        },
+        {
+          "pattern": "Place + be + opposite/next to + place",
+          "explanation": "Giới từ giúp xác định vị trí theo một mốc khác.",
+          "examples": [
+            "The museum is opposite the park.",
+            "The shop is next to the station."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết ba bước chỉ đường từ trường đến một địa điểm gần đó.",
+          "example": "Go straight. Turn left at the bank. The café is next to the library."
+        },
+        {
+          "prompt": "Viết câu nhắc lại chỉ dẫn để kiểm tra mình hiểu đúng.",
+          "example": "So I turn right at the bakery, then cross the bridge?"
+        }
+      ],
+      null
+    ],
+    [
+      52,
+      5,
+      "Checking in at a hotel",
+      2,
+      "## Mục tiêu\nNhận phòng, xác nhận thông tin đặt phòng và đưa ra yêu cầu lịch sự.\n\n## Nội dung\nDùng I have a reservation under the name ... để nói tên đặt phòng. Could I ...? và Could you ...? là những cách lịch sự để xin phép hoặc nhờ giúp đỡ. Could I have a quieter room? là yêu cầu; không có nghĩa người nói đang hỏi khả năng trong quá khứ. Khi nghe, tập trung vào tên, số đêm, số phòng và giờ ăn sáng.\n\n## Reading\nReceptionist: Welcome to Oak Hotel. How can I help?\nNora: I have a reservation under the name Nora Tran.\nReceptionist: Yes, a single room for two nights. May I see your passport?\nNora: Certainly. Could I have a room away from the lift?\nReceptionist: Room 204 is quiet. Breakfast starts at seven.\nNora: Thank you. Could you tell me where the stairs are?\nReceptionist: Just behind you, on the left.\n\n## Tự kiểm tra\n1. How many nights is Nora staying?\n2. What time does breakfast start?\nGợi ý: Hai đêm; lúc bảy giờ.\n\n## Pronunciation\nNghe lift và elevator để nhận ra hai từ thường gặp cho cùng đồ vật. Luyện đọc Could you tell me ...? thành một cụm, giữ trọng âm vào thông tin cần hỏi.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — A1/A2 grammar | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "meaning": "đặt chỗ, đặt phòng",
+          "example": "I have a reservation."
+        },
+        {
+          "term": "passport",
+          "ipa": "/ˈpɑːspɔːt/",
+          "meaning": "hộ chiếu",
+          "example": "May I see your passport?"
+        },
+        {
+          "term": "single room",
+          "ipa": "",
+          "meaning": "phòng đơn",
+          "example": "I booked a single room."
+        },
+        {
+          "term": "lift",
+          "ipa": "/lɪft/",
+          "meaning": "thang máy (thường dùng ở Anh)",
+          "example": "The lift is near reception."
+        },
+        {
+          "term": "elevator",
+          "ipa": "",
+          "meaning": "thang máy (thường dùng ở Mỹ)",
+          "example": "Take the elevator to the second floor."
+        },
+        {
+          "term": "stairs",
+          "ipa": "/steəz/",
+          "meaning": "cầu thang bộ",
+          "example": "The stairs are on the left."
+        }
+      ],
+      [
+        {
+          "pattern": "Could I have + noun ...?",
+          "explanation": "Xin một vật hoặc dịch vụ một cách lịch sự.",
+          "examples": [
+            "Could I have a quiet room?",
+            "Could I have another key?"
+          ]
+        },
+        {
+          "pattern": "Could you + base verb ...?",
+          "explanation": "Nhờ người khác thực hiện hành động.",
+          "examples": [
+            "Could you help me?",
+            "Could you repeat the room number?"
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết một yêu cầu đổi phòng hoặc xin thêm đồ dùng.",
+          "example": "Could I have an extra towel, please?"
+        },
+        {
+          "prompt": "Viết hai câu xác nhận thông tin đặt phòng.",
+          "example": "I have a reservation under the name An Le. It is for two nights."
+        }
+      ],
+      null
+    ],
+    [
+      53,
+      5,
+      "Talking about a trip",
+      3,
+      "## Mục tiêu\nKể lại một chuyến đi theo thứ tự, phân biệt động từ quá khứ có quy tắc và bất quy tắc.\n\n## Nội dung\nQuá khứ đơn dùng cho sự việc đã kết thúc: We visited Hue last month. Động từ có quy tắc thường thêm -ed; một số động từ đổi dạng: go → went, take → took. Câu hỏi dùng did + động từ nguyên mẫu; phủ định dùng didn’t + nguyên mẫu. Các từ first, then và finally giúp người nghe theo dõi trình tự.\n\n## Reading\nLast weekend, Linh and her brother took a train to Hue. First, they left their bags at a small hotel. Then they visited an old garden and tried a local dish. It rained in the afternoon, so they went to a café instead of walking by the river. They did not visit every place on their list, but they enjoyed the trip. Finally, they bought postcards and returned home on Sunday evening.\n\n## Tự kiểm tra\n1. Why did they go to a café?\n2. Did they visit every place on their list?\nGợi ý: Vì trời mưa; không.\n\n## Pronunciation\nLuyện đuôi -ed qua visited, enjoyed và walked bằng giọng máy. Nghe từng từ rồi đọc cả câu; không thêm một âm tiết mới vào mọi từ có -ed.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — A1/A2 grammar | https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2\nVOA Learning English — Let’s Learn English | https://learningenglish.voanews.com/p/5644.html",
+      [
+        {
+          "term": "trip",
+          "ipa": "/trɪp/",
+          "meaning": "chuyến đi",
+          "example": "We enjoyed the trip."
+        },
+        {
+          "term": "postcard",
+          "ipa": "/ˈpəʊstkɑːd/",
+          "meaning": "bưu thiếp",
+          "example": "She bought a postcard."
+        },
+        {
+          "term": "instead",
+          "ipa": "/ɪnˈsted/",
+          "meaning": "thay vào đó",
+          "example": "We went to a café instead."
+        },
+        {
+          "term": "return",
+          "ipa": "/rɪˈtɜːn/",
+          "meaning": "trở về",
+          "example": "They returned home on Sunday."
+        },
+        {
+          "term": "local",
+          "ipa": "/ˈləʊkəl/",
+          "meaning": "địa phương",
+          "example": "We tried a local dish."
+        },
+        {
+          "term": "finally",
+          "ipa": "/ˈfaɪnəli/",
+          "meaning": "cuối cùng",
+          "example": "Finally, we bought postcards."
+        }
+      ],
+      [
+        {
+          "pattern": "Past simple: verb-ed / irregular past",
+          "explanation": "Dùng mốc thời gian đã kết thúc như yesterday, last weekend.",
+          "examples": [
+            "We visited a garden.",
+            "They took a train."
+          ]
+        },
+        {
+          "pattern": "Did + subject + base verb? / didn’t + base verb",
+          "explanation": "Sau did/didn’t, dùng nguyên mẫu, không dùng dạng quá khứ.",
+          "examples": [
+            "Did you enjoy the trip?",
+            "We didn’t visit the museum."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Kể chuyến đi thật hoặc tưởng tượng trong 60–80 từ, có first/then/finally.",
+          "example": "Last Saturday, I went to a park. First, I met a friend. Then we walked around the lake."
+        },
+        {
+          "prompt": "Viết câu hỏi về chuyến đi và câu trả lời phủ định.",
+          "example": "Did you take a bus? No, I didn’t. I took a train."
+        }
+      ],
+      5
+    ],
+    [
+      61,
+      6,
+      "Experiences that matter",
+      1,
+      "## Mục tiêu\nKể trải nghiệm có liên hệ hiện tại, rồi bổ sung chi tiết bằng quá khứ đơn.\n\n## Nội dung\nPresent perfect dùng have/has + past participle để nói trải nghiệm không gắn một thời điểm quá khứ đã kết thúc: I have tried kayaking. Khi kể thời điểm cụ thể, chuyển sang quá khứ đơn: I tried it last summer. Ever hỏi về trải nghiệm; never nghĩa là chưa từng. Không đặt yesterday hoặc last year trong mệnh đề present perfect nói về sự việc đã xảy ra ở mốc đó.\n\n## Reading\nI have volunteered at several community events, but one Saturday has stayed in my memory. Last spring, our club organised a book exchange. I helped visitors find books and spoke to people I had never met before. At first, I was nervous about starting conversations. By the end of the day, I felt more confident. Since then, I have joined two other events. Volunteering has helped me practise listening as well as speaking.\n\n## Tự kiểm tra\n1. What event did the club organise?\n2. How has volunteering helped the writer?\nGợi ý: Một buổi đổi sách; giúp luyện nghe, nói và tự tin hơn.\n\n## Pronunciation\nNghe dạng rút gọn I’ve và các cụm have joined / have tried. Đọc động từ chính rõ hơn trợ động từ; so sánh cách đọc volunteer ở hai giọng.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Present perfect | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "volunteer",
+          "ipa": "/ˌvɒlənˈtɪə/",
+          "meaning": "tình nguyện; người tình nguyện",
+          "example": "I volunteer at local events."
+        },
+        {
+          "term": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "meaning": "cộng đồng",
+          "example": "The community runs a book exchange."
+        },
+        {
+          "term": "exchange",
+          "ipa": "/ɪksˈtʃeɪndʒ/",
+          "meaning": "trao đổi",
+          "example": "We organised a book exchange."
+        },
+        {
+          "term": "confident",
+          "ipa": "/ˈkɒnfɪdənt/",
+          "meaning": "tự tin",
+          "example": "I feel more confident now."
+        },
+        {
+          "term": "experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "meaning": "trải nghiệm",
+          "example": "It was a useful experience."
+        },
+        {
+          "term": "several",
+          "ipa": "/ˈsevrəl/",
+          "meaning": "một vài, một số",
+          "example": "I have joined several events."
+        }
+      ],
+      [
+        {
+          "pattern": "have/has + past participle",
+          "explanation": "Nói trải nghiệm hoặc kết quả có liên hệ hiện tại.",
+          "examples": [
+            "I have joined three events.",
+            "She has never tried kayaking."
+          ]
+        },
+        {
+          "pattern": "Past simple + finished time",
+          "explanation": "Thêm chi tiết với mốc thời gian đã kết thúc.",
+          "examples": [
+            "I joined the club last spring.",
+            "We organised an event on Saturday."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết một câu present perfect và một câu quá khứ đơn về cùng trải nghiệm.",
+          "example": "I have visited a science museum. I went there last July."
+        },
+        {
+          "prompt": "Viết hai câu hỏi Have you ever ...? để hỏi bạn học.",
+          "example": "Have you ever volunteered at a local event?"
+        }
+      ],
+      null
+    ],
+    [
+      62,
+      6,
+      "Choosing a weekend activity",
+      2,
+      "## Mục tiêu\nĐưa ra lựa chọn có lý do và dùng điều kiện loại một cho kế hoạch có thể xảy ra.\n\n## Nội dung\nDùng if + hiện tại đơn, will + nguyên mẫu cho kết quả tương lai có thể xảy ra. Không dùng will ngay sau if trong mẫu cơ bản này. Because nêu lý do; so nêu kết quả. Khi so sánh phương án, cân nhắc thời gian, chi phí và nhu cầu của nhóm thay vì chỉ đưa ra sở thích cá nhân.\n\n## Reading\nOur study group has two plans for Saturday: a cycling trip or a visit to the science centre. Cycling costs less, but the weather forecast is uncertain. The science centre is indoors and has an exhibition about energy. If it rains, we will choose the centre. If the weather is clear, we will cycle to the lake. We have agreed to decide on Friday evening so everyone has time to prepare.\n\n## Tự kiểm tra\n1. Which plan will the group choose if it rains?\n2. Why will they decide on Friday evening?\nGợi ý: Trung tâm khoa học; để mọi người có thời gian chuẩn bị.\n\n## Pronunciation\nChia câu điều kiện thành hai cụm nghĩa và ngắt nhẹ sau mệnh đề if khi nó đứng đầu. Luyện nối we will thành we’ll khi nghe nói tự nhiên.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Zero, first and second conditionals | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "forecast",
+          "ipa": "/ˈfɔːkɑːst/",
+          "meaning": "dự báo",
+          "example": "The forecast says it may rain."
+        },
+        {
+          "term": "uncertain",
+          "ipa": "/ʌnˈsɜːtn/",
+          "meaning": "không chắc chắn",
+          "example": "The weather is uncertain."
+        },
+        {
+          "term": "exhibition",
+          "ipa": "/ˌeksɪˈbɪʃən/",
+          "meaning": "triển lãm",
+          "example": "The exhibition is about energy."
+        },
+        {
+          "term": "prepare",
+          "ipa": "/prɪˈpeə/",
+          "meaning": "chuẩn bị",
+          "example": "We need time to prepare."
+        },
+        {
+          "term": "indoors",
+          "ipa": "/ˌɪnˈdɔːz/",
+          "meaning": "ở trong nhà",
+          "example": "The activity is indoors."
+        },
+        {
+          "term": "agree",
+          "ipa": "/əˈɡriː/",
+          "meaning": "đồng ý, thống nhất",
+          "example": "We agreed to decide on Friday."
+        }
+      ],
+      [
+        {
+          "pattern": "If + present simple, will + base verb",
+          "explanation": "Nêu điều kiện có thể xảy ra và kết quả tương lai.",
+          "examples": [
+            "If it rains, we will stay indoors.",
+            "We will cycle if the weather is clear."
+          ]
+        },
+        {
+          "pattern": "because + reason / so + result",
+          "explanation": "Dùng liên từ để làm rõ quan hệ lý do và kết quả.",
+          "examples": [
+            "We chose the centre because it was indoors.",
+            "It may rain, so we need another plan."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Đưa ra hai phương án cuối tuần và một điều kiện cho mỗi phương án.",
+          "example": "If it is sunny, we will play badminton. If it rains, we will visit a museum."
+        },
+        {
+          "prompt": "Giải thích lựa chọn của bạn bằng because trong 3–4 câu.",
+          "example": "I prefer the museum because it is easy to reach and everyone can join."
+        }
+      ],
+      null
+    ],
+    [
+      63,
+      6,
+      "Giving an opinion with reasons",
+      3,
+      "## Mục tiêu\nViết đoạn nêu ý kiến có lý do, ví dụ và một ý đối lập đơn giản.\n\n## Nội dung\nMột đoạn ý kiến rõ ràng thường có quan điểm, lý do và ví dụ. I think / In my view dùng để mở ý kiến; for example dẫn minh họa. However giúp chuyển sang ý tương phản nhưng không tự thay cho một lý do. Kết luận nên bám vào những ý đã giải thích. Tách cảm nhận cá nhân khỏi khẳng định về tất cả mọi người.\n\n## Reading\nIn my view, a school reading club should let students choose some of the books. Choice can make reading feel more personal. For example, one student may enjoy science stories while another prefers mysteries. However, a shared book can still be useful because it gives the group something to discuss together. I would therefore combine one common book with one freely chosen book each month. This plan gives students both independence and a shared activity.\n\n## Tự kiểm tra\n1. Does the writer want to remove all shared books?\n2. What two parts does the proposed plan include?\nGợi ý: Không; một sách chung và một sách tự chọn mỗi tháng.\n\n## Pronunciation\nNgắt cụm sau In my view và For example. Nhấn từ thể hiện đối lập như however để người nghe theo dõi lập luận.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Present perfect | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "opinion",
+          "ipa": "/əˈpɪnjən/",
+          "meaning": "ý kiến",
+          "example": "In my opinion, choice matters."
+        },
+        {
+          "term": "shared",
+          "ipa": "/ʃeəd/",
+          "meaning": "được chia sẻ, dùng chung",
+          "example": "A shared book supports discussion."
+        },
+        {
+          "term": "independence",
+          "ipa": "/ˌɪndɪˈpendəns/",
+          "meaning": "sự độc lập",
+          "example": "The plan gives learners independence."
+        },
+        {
+          "term": "combine",
+          "ipa": "/kəmˈbaɪn/",
+          "meaning": "kết hợp",
+          "example": "We can combine the two ideas."
+        },
+        {
+          "term": "prefer",
+          "ipa": "/prɪˈfɜː/",
+          "meaning": "thích hơn",
+          "example": "Some students prefer mysteries."
+        },
+        {
+          "term": "therefore",
+          "ipa": "/ˈðeəfɔː/",
+          "meaning": "vì vậy",
+          "example": "The cost is lower; therefore, we chose it."
+        }
+      ],
+      [
+        {
+          "pattern": "Opinion + because + reason",
+          "explanation": "Cần giải thích vì sao bạn có ý kiến đó.",
+          "examples": [
+            "I prefer small groups because everyone can speak.",
+            "I think choice matters because interests differ."
+          ]
+        },
+        {
+          "pattern": "However, + contrasting idea",
+          "explanation": "Dùng however để chuyển sang ý khác có tính tương phản.",
+          "examples": [
+            "Choice is useful. However, shared reading also has benefits."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết 90–120 từ về việc học một mình hay học nhóm, có lý do và ví dụ.",
+          "example": "In my view, a small study group is useful because we can explain ideas to each other."
+        },
+        {
+          "prompt": "Thêm một câu thừa nhận lợi ích của phương án còn lại.",
+          "example": "However, studying alone can help me concentrate on difficult tasks."
+        }
+      ],
+      6
+    ],
+    [
+      71,
+      7,
+      "Comparing two solutions",
+      1,
+      "## Mục tiêu\nSo sánh phương án theo tiêu chí, diễn đạt tương phản và đánh đổi rõ ràng.\n\n## Nội dung\nWhereas nối hai mệnh đề đối lập; although giới thiệu một điều trái với kỳ vọng. Despite theo sau bởi danh từ hoặc V-ing, không phải một mệnh đề đầy đủ trong mẫu cơ bản. Khi đề xuất giải pháp, nói rõ tiêu chí: cost, accessibility, reliability. Một lựa chọn có thể nhanh hơn nhưng đắt hơn; kết luận cần phản ánh đánh đổi đó.\n\n## Reading\nThe library is considering two ways to extend access to study materials. Longer opening hours would give students a quiet place to work, whereas a digital collection would help those who live far away. Although the digital option requires initial training, its materials can be used outside opening hours. Longer hours, by contrast, involve recurring staffing costs. Neither option meets every need. A small digital trial alongside one late-opening evening would allow the library to compare demand before committing to a larger budget.\n\n## Tự kiểm tra\n1. Which option particularly helps students who live far away?\n2. Why does the writer suggest a small trial?\nGợi ý: Bộ sưu tập số; để so sánh nhu cầu trước khi cam kết ngân sách lớn hơn.\n\n## Pronunciation\nĐọc cost, access và reliability với trọng âm rõ ở phần so sánh. Giữ một khoảng ngắt nhẹ trước whereas; nghe lại criterion ở hai giọng.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Zero, first and second conditionals | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "accessibility",
+          "ipa": "",
+          "meaning": "khả năng tiếp cận",
+          "example": "Accessibility is an important criterion."
+        },
+        {
+          "term": "recurring",
+          "ipa": "",
+          "meaning": "lặp lại định kỳ",
+          "example": "Staffing involves recurring costs."
+        },
+        {
+          "term": "alongside",
+          "ipa": "",
+          "meaning": "cùng với, song song",
+          "example": "Run the trial alongside existing services."
+        },
+        {
+          "term": "criterion",
+          "ipa": "",
+          "meaning": "tiêu chí (số ít)",
+          "example": "Cost is one criterion."
+        },
+        {
+          "term": "demand",
+          "ipa": "/dɪˈmɑːnd/",
+          "meaning": "nhu cầu",
+          "example": "The trial will measure demand."
+        },
+        {
+          "term": "commit",
+          "ipa": "/kəˈmɪt/",
+          "meaning": "cam kết",
+          "example": "We should test before we commit."
+        }
+      ],
+      [
+        {
+          "pattern": "Clause + whereas + contrasting clause",
+          "explanation": "So sánh trực tiếp hai tình huống.",
+          "examples": [
+            "The app is convenient, whereas the desk service offers personal support."
+          ]
+        },
+        {
+          "pattern": "Although + clause / Despite + noun or -ing",
+          "explanation": "Hai cấu trúc tương phản khác nhau về thành phần theo sau.",
+          "examples": [
+            "Although the cost is high, the service is reliable.",
+            "Despite the high cost, the service is popular."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "So sánh hai cách học theo ít nhất hai tiêu chí trong 120–150 từ.",
+          "example": "Online study is flexible, whereas a classroom offers immediate discussion."
+        },
+        {
+          "prompt": "Viết lại: Although the service is expensive, people use it. Bắt đầu bằng Despite.",
+          "example": "Despite the high cost, people use the service."
+        }
+      ],
+      null
+    ],
+    [
+      72,
+      7,
+      "Reading a report critically",
+      2,
+      "## Mục tiêu\nPhân biệt điều được báo cáo với điều suy ra, chú ý nguồn và giới hạn của dữ liệu.\n\n## Nội dung\nA report states / suggests / indicates giúp diễn đạt mức độ chắc chắn khác nhau. Câu bị động dùng be + past participle khi chú trọng kết quả hơn người thực hiện: The survey was conducted in May. Một con số từ mẫu nhỏ không tự đại diện cho cả cộng đồng. Khi đọc, hỏi ai cung cấp dữ liệu, ai được khảo sát và điều gì chưa được đo.\n\n## Reading\nA student newsletter reports that a new booking app has reduced queues at one campus café. The article is based on a two-week trial and interviews with twelve volunteers. Most interviewees describe the app as convenient, but the report does not include customers who avoid smartphones. Sales figures were not collected, so the effect on revenue remains unclear. The findings are encouraging, yet they support a limited claim about this trial rather than a conclusion about every café.\n\n## Tự kiểm tra\n1. Which group is missing from the interviews?\n2. Can the report establish an increase in revenue? Why?\nGợi ý: Người tránh dùng smartphone; chưa thể, vì không thu thập số liệu doanh thu.\n\n## Pronunciation\nNhấn vào từ chỉ giới hạn như one, twelve và not khi trình bày kết quả. Nghe revenue và interviewee; đánh dấu trọng âm trước khi đọc lại.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Present perfect | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "interviewee",
+          "ipa": "",
+          "meaning": "người được phỏng vấn",
+          "example": "Each interviewee joined voluntarily."
+        },
+        {
+          "term": "revenue",
+          "ipa": "/ˈrevənjuː/",
+          "meaning": "doanh thu",
+          "example": "Revenue was not measured."
+        },
+        {
+          "term": "finding",
+          "ipa": "/ˈfaɪndɪŋ/",
+          "meaning": "kết quả nghiên cứu",
+          "example": "The findings apply to this trial."
+        },
+        {
+          "term": "sample",
+          "ipa": "/ˈsɑːmpl/",
+          "meaning": "mẫu khảo sát",
+          "example": "The sample is small."
+        },
+        {
+          "term": "claim",
+          "ipa": "/kleɪm/",
+          "meaning": "nhận định, khẳng định",
+          "example": "The evidence supports a limited claim."
+        },
+        {
+          "term": "indicate",
+          "ipa": "/ˈɪndɪkeɪt/",
+          "meaning": "cho thấy, chỉ ra",
+          "example": "The results indicate a possible benefit."
+        }
+      ],
+      [
+        {
+          "pattern": "be + past participle",
+          "explanation": "Dùng bị động để chú trọng việc được thực hiện.",
+          "examples": [
+            "The trial was conducted on campus.",
+            "Sales figures were not collected."
+          ]
+        },
+        {
+          "pattern": "The report suggests that ...",
+          "explanation": "Nêu kết luận thận trọng theo đúng bằng chứng.",
+          "examples": [
+            "The report suggests that some customers found the app convenient."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết hai điều báo cáo cho biết và một điều báo cáo chưa chứng minh được.",
+          "example": "The trial lasted two weeks. Twelve volunteers were interviewed. It does not prove that revenue increased."
+        },
+        {
+          "prompt": "Viết một câu tóm tắt thận trọng thay cho The app always improves cafés.",
+          "example": "The trial suggests that the app may reduce queues in this café."
+        }
+      ],
+      null
+    ],
+    [
+      73,
+      7,
+      "Reaching a compromise",
+      3,
+      "## Mục tiêu\nĐề xuất giải pháp giả định, phản hồi lịch sự và đi đến một thỏa hiệp cụ thể.\n\n## Nội dung\nĐiều kiện loại hai thường dùng if + quá khứ đơn, would + nguyên mẫu để tưởng tượng một tình huống khác hiện tại. Dùng could hoặc might để đưa ra phương án thay vì áp đặt. I see your point, but ... ghi nhận ý kiến trước khi bổ sung trở ngại. Một thỏa hiệp rõ ràng cần nêu việc gì sẽ làm và khi nào sẽ đánh giá lại.\n\n## Reading\nTwo project teams need the same meeting room on Friday. The design team wants a quiet space for interviews, while the coding team needs a large screen for a review. If the coding team moved its review online, it would lose access to the shared screen. Instead, the teams agree to split the afternoon: interviews from one to three, followed by the review. They will evaluate the arrangement after two weeks. The compromise does not give either team everything it wanted, but it addresses the most important needs of both.\n\n## Tự kiểm tra\n1. Why is an online review not an ideal solution for the coding team?\n2. What is the agreed compromise?\nGợi ý: Thiếu màn hình dùng chung; chia buổi chiều và đánh giá lại sau hai tuần.\n\n## Pronunciation\nNhấn trọng âm vào phương án thay thế và điều kiện quan trọng. Luyện cụm I see your point với ngữ điệu ghi nhận, rồi ngắt trước but.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Zero, first and second conditionals | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "compromise",
+          "ipa": "/ˈkɒmprəmaɪz/",
+          "meaning": "thỏa hiệp",
+          "example": "The teams reached a compromise."
+        },
+        {
+          "term": "constraint",
+          "ipa": "",
+          "meaning": "điều kiện hạn chế, ràng buộc",
+          "example": "Room size is a constraint."
+        },
+        {
+          "term": "arrangement",
+          "ipa": "",
+          "meaning": "cách sắp xếp",
+          "example": "We will review the arrangement."
+        },
+        {
+          "term": "evaluate",
+          "ipa": "/ɪˈvæljueɪt/",
+          "meaning": "đánh giá",
+          "example": "Evaluate the plan after two weeks."
+        },
+        {
+          "term": "alternative",
+          "ipa": "",
+          "meaning": "phương án thay thế",
+          "example": "Could we consider an alternative?"
+        },
+        {
+          "term": "address",
+          "ipa": "/əˈdres/",
+          "meaning": "giải quyết, đáp ứng một vấn đề",
+          "example": "The plan addresses both needs."
+        }
+      ],
+      [
+        {
+          "pattern": "If + past simple, would + base verb",
+          "explanation": "Diễn tả giả định khác với tình huống hiện tại.",
+          "examples": [
+            "If we had another room, we would run both meetings together."
+          ]
+        },
+        {
+          "pattern": "Could we ...? / One option might be ...",
+          "explanation": "Đưa ra đề xuất mềm hơn để thương lượng.",
+          "examples": [
+            "Could we split the afternoon?",
+            "One option might be to meet earlier."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết đề xuất giải quyết việc hai nhóm cần dùng cùng thiết bị.",
+          "example": "If we shared the equipment on different days, both teams would have enough time."
+        },
+        {
+          "prompt": "Viết câu phản hồi ghi nhận ý kiến và nêu một hạn chế.",
+          "example": "I see your point, but we still need a screen for the review."
+        }
+      ],
+      7
+    ],
+    [
+      81,
+      8,
+      "Evaluating an argument",
+      1,
+      "## Mục tiêu\nPhân biệt mối liên hệ và quan hệ nguyên nhân; diễn đạt kết luận phù hợp với bằng chứng.\n\n## Nội dung\nLập luận chặt chẽ xác định claim, evidence và giới hạn của suy luận. May, might, appear to và suggest có thể giảm mức độ khẳng định khi bằng chứng chưa quyết định. Hedging không phải làm mọi nhận định mơ hồ; nó giúp mức độ chắc chắn phù hợp dữ liệu. Cân nhắc cách giải thích thay thế trước khi nói rằng một thay đổi gây ra kết quả.\n\n## Reading\nA department introduced quiet working hours and subsequently recorded higher satisfaction scores. It is tempting to attribute the improvement entirely to the new policy. However, the same period included a change of manager and a reduction in urgent deadlines. These factors make a causal interpretation less secure. The results may justify a broader trial, but they do not isolate the effect of quiet hours. A stronger evaluation would compare similar teams over time and examine whether the benefits persist under different workloads.\n\n## Tự kiểm tra\n1. Which alternative explanations weaken a simple causal claim?\n2. What conclusion does the writer consider justified?\nGợi ý: Đổi quản lý và ít hạn chót khẩn hơn; nên thử nghiệm rộng hơn, chưa chứng minh quan hệ nguyên nhân.\n\n## Pronunciation\nChia câu dài thành cụm theo ý nghĩa. Nhấn vào causal, entirely và not khi phân biệt khẳng định mạnh với kết luận thận trọng.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Present perfect | https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "attribute",
+          "ipa": "",
+          "meaning": "quy cho, cho là do",
+          "example": "We cannot attribute the change to one factor alone."
+        },
+        {
+          "term": "causal",
+          "ipa": "",
+          "meaning": "thuộc quan hệ nguyên nhân",
+          "example": "A causal claim needs stronger evidence."
+        },
+        {
+          "term": "isolate",
+          "ipa": "",
+          "meaning": "tách riêng để xác định",
+          "example": "The trial did not isolate the effect."
+        },
+        {
+          "term": "persist",
+          "ipa": "/pəˈsɪst/",
+          "meaning": "tiếp diễn, duy trì",
+          "example": "We do not know whether the benefits persist."
+        },
+        {
+          "term": "subsequently",
+          "ipa": "",
+          "meaning": "sau đó",
+          "example": "Scores subsequently increased."
+        },
+        {
+          "term": "interpretation",
+          "ipa": "",
+          "meaning": "cách diễn giải",
+          "example": "Another interpretation is possible."
+        }
+      ],
+      [
+        {
+          "pattern": "may/might + base verb / appear to + verb",
+          "explanation": "Định mức kết luận theo mức chắc chắn của bằng chứng.",
+          "examples": [
+            "The policy may have contributed to the change.",
+            "The results appear to support further investigation."
+          ]
+        },
+        {
+          "pattern": "would + base verb for a proposed evaluation",
+          "explanation": "Dùng would để mô tả lợi ích của một thiết kế đánh giá được đề xuất.",
+          "examples": [
+            "A comparison group would strengthen the evaluation."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết 150–180 từ đánh giá một nhận định, nêu ít nhất một cách giải thích thay thế.",
+          "example": "The improvement may reflect the new policy, although changes in workload provide an alternative explanation."
+        },
+        {
+          "prompt": "Viết lại The policy definitely caused the improvement theo cách phù hợp dữ liệu đoạn đọc.",
+          "example": "The policy may have contributed, but the trial does not establish its independent effect."
+        }
+      ],
+      null
+    ],
+    [
+      82,
+      8,
+      "Writing a focused proposal",
+      2,
+      "## Mục tiêu\nTổ chức đề xuất theo nhu cầu, hành động, đánh giá và giới hạn; chọn mức trang trọng phù hợp.\n\n## Nội dung\nMột đề xuất súc tích cần trả lời vì sao cần hành động, sẽ làm gì và đánh giá ra sao. Danh hóa như implementation hoặc evaluation có thể giúp nối ý trong văn bản trang trọng, nhưng quá nhiều danh từ trừu tượng làm câu khó đọc. Ưu tiên tác nhân và hành động rõ ràng. Provided that nêu điều kiện; nevertheless ghi nhận trở ngại rồi tiếp tục lập luận.\n\n## Reading\nThis proposal recommends a four-week mentoring pilot for new club members. Informal feedback suggests that newcomers struggle to identify whom to ask for practical advice. Each volunteer mentor would support two members through a weekly check-in. Participation would remain optional, and no sensitive personal information would be collected. The pilot should proceed provided that enough mentors volunteer. Evaluation would combine attendance records with anonymous feedback. Although the sample would be limited, the results could inform a decision on whether to continue the scheme.\n\n## Tự kiểm tra\n1. What condition must be met before the pilot proceeds?\n2. Which two sources will be used to evaluate it?\nGợi ý: Đủ người hướng dẫn tình nguyện; dữ liệu tham gia và phản hồi ẩn danh.\n\n## Pronunciation\nNgắt sau phần nêu mục đích và trước điều kiện provided that. So sánh trọng âm các từ evaluate và evaluation bằng hai giọng.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Inversion and conditionals | https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "pilot",
+          "ipa": "/ˈpaɪlət/",
+          "meaning": "thử nghiệm quy mô nhỏ",
+          "example": "We recommend a four-week pilot."
+        },
+        {
+          "term": "implementation",
+          "ipa": "",
+          "meaning": "việc triển khai",
+          "example": "Implementation depends on volunteer availability."
+        },
+        {
+          "term": "evaluation",
+          "ipa": "",
+          "meaning": "việc đánh giá",
+          "example": "Evaluation will include anonymous feedback."
+        },
+        {
+          "term": "optional",
+          "ipa": "/ˈɒpʃənəl/",
+          "meaning": "tùy chọn, không bắt buộc",
+          "example": "Participation is optional."
+        },
+        {
+          "term": "anonymous",
+          "ipa": "",
+          "meaning": "ẩn danh",
+          "example": "Members can submit anonymous feedback."
+        },
+        {
+          "term": "scheme",
+          "ipa": "/skiːm/",
+          "meaning": "chương trình, kế hoạch",
+          "example": "The scheme supports new members."
+        }
+      ],
+      [
+        {
+          "pattern": "provided that + clause",
+          "explanation": "Nêu điều kiện cần để một kế hoạch được thực hiện.",
+          "examples": [
+            "The pilot can proceed provided that enough mentors volunteer."
+          ]
+        },
+        {
+          "pattern": "Nominalisation with a clear agent",
+          "explanation": "Dùng danh hóa có chọn lọc, vẫn làm rõ ai làm việc gì.",
+          "examples": [
+            "The committee will evaluate the pilot.",
+            "Evaluation will be led by the committee."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết đề xuất 180–220 từ cho một hoạt động của lớp, có cách đánh giá và điều kiện thực hiện.",
+          "example": "This proposal recommends a short peer-support pilot. It should proceed provided that participants can volunteer freely."
+        },
+        {
+          "prompt": "Viết lại câu danh hóa dài theo hướng rõ tác nhân: The implementation of the evaluation will be undertaken by the committee.",
+          "example": "The committee will evaluate the pilot."
+        }
+      ],
+      null
+    ],
+    [
+      83,
+      8,
+      "Negotiating with nuance",
+      3,
+      "## Mục tiêu\nThừa nhận một phần quan điểm, giới hạn cam kết và dùng đảo ngữ điều kiện trong văn cảnh trang trọng.\n\n## Nội dung\nConcession thừa nhận một điểm hợp lý mà vẫn giữ điều kiện cần thiết: While I accept ..., I would ... . Đảo ngữ điều kiện có thể dùng trong văn phong trang trọng: Should + subject + base verb cho một tình huống có thể phát sinh; Had + subject + past participle cho điều kiện quá khứ không xảy ra. Dùng cấu trúc để làm rõ ý, không để thay thế một cam kết cụ thể.\n\n## Reading\nDuring a planning meeting, Mira accepts that an earlier launch could help the club reach more learners. Nevertheless, she is reluctant to promise a date before the accessibility review is complete. She proposes releasing a limited pilot first, provided that essential issues have been resolved. Should further concerns arise, the team will revise the schedule rather than quietly reduce its standards. Her colleague agrees, noting that a smaller initial release would still provide useful feedback. Their agreement separates a shared goal from the conditions under which it can responsibly be pursued.\n\n## Tự kiểm tra\n1. Why does Mira hesitate to promise a launch date?\n2. Does the agreement reject the goal of an earlier release?\nGợi ý: Chưa hoàn thành rà soát khả năng tiếp cận; không, họ chọn pilot có điều kiện.\n\n## Pronunciation\nLuyện ngắt cụm với While I accept ... và nhấn từ chỉ điều kiện. Nghe các từ reluctant, revise và nevertheless; nói lại câu dài với nhịp rõ ràng.\nChọn giọng Anh–Anh hoặc Anh–Mỹ để nghe mẫu, sau đó đọc lại. Đây là bài tự luyện, chưa chấm điểm phát âm.\n\n## Nguồn tham khảo\nOELP tự biên soạn đoạn đọc, ví dụ và bài tập; các liên kết dưới dùng tham khảo chủ điểm và luyện thêm.\nBritish Council — Inversion and conditionals | https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals\nBritish Council — Listening practice | https://learnenglish.britishcouncil.org/en/listen-and-watch",
+      [
+        {
+          "term": "concession",
+          "ipa": "",
+          "meaning": "sự nhượng bộ, thừa nhận một điểm",
+          "example": "A concession can move a discussion forward."
+        },
+        {
+          "term": "reluctant",
+          "ipa": "/rɪˈlʌktənt/",
+          "meaning": "miễn cưỡng, không sẵn lòng",
+          "example": "She is reluctant to promise a date."
+        },
+        {
+          "term": "revise",
+          "ipa": "/rɪˈvaɪz/",
+          "meaning": "điều chỉnh, sửa lại",
+          "example": "We may need to revise the schedule."
+        },
+        {
+          "term": "pursue",
+          "ipa": "/pəˈsjuː/",
+          "meaning": "theo đuổi",
+          "example": "The goal can be pursued responsibly."
+        },
+        {
+          "term": "nevertheless",
+          "ipa": "",
+          "meaning": "tuy vậy",
+          "example": "The plan is promising; nevertheless, risks remain."
+        },
+        {
+          "term": "resolve",
+          "ipa": "/rɪˈzɒlv/",
+          "meaning": "giải quyết",
+          "example": "Essential issues must be resolved."
+        }
+      ],
+      [
+        {
+          "pattern": "Should + subject + base verb, ...",
+          "explanation": "Đảo ngữ điều kiện trang trọng cho tình huống có thể phát sinh.",
+          "examples": [
+            "Should further issues arise, we will revise the schedule."
+          ]
+        },
+        {
+          "pattern": "Had + subject + past participle, would have + past participle",
+          "explanation": "Điều kiện trái với quá khứ; bỏ if và đảo had lên trước chủ ngữ.",
+          "examples": [
+            "Had we known about the delay, we would have changed the plan."
+          ]
+        }
+      ],
+      [
+        {
+          "prompt": "Viết phản hồi 120–160 từ: đồng ý mục tiêu nhưng đặt một điều kiện hợp lý.",
+          "example": "While I accept the value of an early release, I would support it only if essential checks are complete."
+        },
+        {
+          "prompt": "Viết lại bằng đảo ngữ: If we had received the feedback earlier, we would have revised the proposal.",
+          "example": "Had we received the feedback earlier, we would have revised the proposal."
+        }
+      ],
+      8
+    ]
+  ]
+}

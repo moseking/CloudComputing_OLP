@@ -1,0 +1,1698 @@
+{
+  "type": "generated-tts",
+  "generator": "edge-tts 7.3.1",
+  "voices": {
+    "uk": {
+      "id": "en-GB-SoniaNeural",
+      "locale": "en-GB",
+      "label": "Anh–Anh"
+    },
+    "us": {
+      "id": "en-US-JennyNeural",
+      "locale": "en-US",
+      "label": "Anh–Mỹ"
+    }
+  },
+  "byText": {
+    "Hello! My name is Mai. I am a student in Da Nang. My classmate is Ben. He is from Bristol, but he is in Viet Nam now. We are in the same English class. I like books and Ben likes music. After class, we say hello to our teacher and walk to the library together.": {
+      "uk": {
+        "src": "/audio/learning/bfb92f42c32c8c0d661c-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 133488,
+        "sha256": "38394870267af8ff92fe6ec02873f94c649227feba53b356fd142aa12054b599"
+      },
+      "us": {
+        "src": "/audio/learning/bfb92f42c32c8c0d661c-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 148464,
+        "sha256": "9ea8c49d10d5556ef88dbf1e78b9b6db8f9be71c2af2a9392245d111c6c183bc"
+      }
+    },
+    "classmate": {
+      "uk": {
+        "src": "/audio/learning/66f9b98dde76ccbaceba-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "6afa7d875f66d2d8c1c1d927fe8f14bcb027c4947b265a6718e71b0de12872bf"
+      },
+      "us": {
+        "src": "/audio/learning/66f9b98dde76ccbaceba-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "12d0216125e556ac5b1e549417a8e4e205c447d9cc2e75546dd220c11de3e9af"
+      }
+    },
+    "student": {
+      "uk": {
+        "src": "/audio/learning/264c8c381bf16c982a4e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "d55a58d82a1833dd1aaabb12bc0c56796b62dba1e1bc335415289e31c02c8415"
+      },
+      "us": {
+        "src": "/audio/learning/264c8c381bf16c982a4e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "681f36a8e65154be59520a1d5a62d58e3e98a10c728cf28621b9ed2720b8b1ad"
+      }
+    },
+    "teacher": {
+      "uk": {
+        "src": "/audio/learning/1057a9604e04b274da5a-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "1596636455915024685637fdda8ff0bdcb0fb50a6569f9667c40d9d3c72a938b"
+      },
+      "us": {
+        "src": "/audio/learning/1057a9604e04b274da5a-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "2ed3152c366bded2b4211f61852170d6e1d79c31a2db2a610c62ebf07f67750e"
+      }
+    },
+    "library": {
+      "uk": {
+        "src": "/audio/learning/b718f1354f7247312eca-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "fa81214615abcf68434bb101a75e9af56553d41407f3397a391adb773d56937c"
+      },
+      "us": {
+        "src": "/audio/learning/b718f1354f7247312eca-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "c97db27844b3165aec88d5a3c2792a605f46d4fa2cf0f03287406df980ce403e"
+      }
+    },
+    "together": {
+      "uk": {
+        "src": "/audio/learning/0c24734d7bf5954f08e5-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "c2bc804717aec3946bd606b64219014f9001dd4a0d2cf977269dab1cffd2ddad"
+      },
+      "us": {
+        "src": "/audio/learning/0c24734d7bf5954f08e5-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "3de96be3bc9c6c8f3b397d4298042e665532dfb2f9b22ddd68fe2295bb86c85c"
+      }
+    },
+    "music": {
+      "uk": {
+        "src": "/audio/learning/80f189984e5ca70287d1-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "9d6672fd2d030fabcb9afbc92f900b652d5af81e3e35922cb094526733bafcf6"
+      },
+      "us": {
+        "src": "/audio/learning/80f189984e5ca70287d1-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "5a9ef3eb96fbe8a8c1db8967f3f68192c65ca7ab29ba8ac90d3fbf393b7dd97d"
+      }
+    },
+    "This is my room. There is a desk near the window and a chair next to it. On the desk, there is an orange notebook and a small lamp. These books are for my English class. My blue bag is under the chair. The room is small, but it is bright and quiet. I study here every evening.": {
+      "us": {
+        "src": "/audio/learning/38b090a3b6cbb9da5988-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 140832,
+        "sha256": "55d41812badfa888d23d08647e1fe8c2739b8511dcf99a3caa6a455554efcea3"
+      },
+      "uk": {
+        "src": "/audio/learning/38b090a3b6cbb9da5988-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 128736,
+        "sha256": "31c2595daeda8e9d277878c81a78823d80eb80c7b714472452b07ce6f3f0d8f2"
+      }
+    },
+    "desk": {
+      "uk": {
+        "src": "/audio/learning/49be417ad74080a0031b-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "3147d77aff4281c913072b7aedaf09f0a6f48eb509934c8c627bb3e0508ac7c0"
+      },
+      "us": {
+        "src": "/audio/learning/49be417ad74080a0031b-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "fcc600e532098dfcd0138def2bb6a31ba07d9bafebe7426db03813f55b2fce6c"
+      }
+    },
+    "chair": {
+      "uk": {
+        "src": "/audio/learning/3d7eb3d3dab17ee509a6-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "6e653a0c271193930614837345d6f20abe8b52d6042221e9879a28de0229af63"
+      },
+      "us": {
+        "src": "/audio/learning/3d7eb3d3dab17ee509a6-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "ad21d4b2892e81789f1293c1207ab2ebd25f981bb6388652e04464e7f149a21d"
+      }
+    },
+    "window": {
+      "uk": {
+        "src": "/audio/learning/44ff7b02c80d38b26dd6-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 7488,
+        "sha256": "aadd07c00db162fbb41ce8b29800deea6616432f6d0764ee800f402ce00422c3"
+      },
+      "us": {
+        "src": "/audio/learning/44ff7b02c80d38b26dd6-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "c423e0217ed22425cb17e62abc5aa539d2401d5d6a65bbd407a26b1d2d7e8e76"
+      }
+    },
+    "notebook": {
+      "us": {
+        "src": "/audio/learning/b53bcf919f24746d7209-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "f805ad8e881667f935c65d82d148febc0d3cf03d7cc5fe31d6a8c9370609eecf"
+      },
+      "uk": {
+        "src": "/audio/learning/b53bcf919f24746d7209-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "8452aa5e52854d555f485fa028e8ba47131597ee55cb7182e3ee0b87d84f9269"
+      }
+    },
+    "under": {
+      "uk": {
+        "src": "/audio/learning/d767748a603799c85319-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "05537b2cb2bb011e8deb86655b8f1f6ef8d5252b3ff14d31cbb8f0c596d62334"
+      },
+      "us": {
+        "src": "/audio/learning/d767748a603799c85319-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "4683fa3170d093b7b6917212291db3ff874a056822f3a4207c2b0c72662a737f"
+      }
+    },
+    "quiet": {
+      "uk": {
+        "src": "/audio/learning/008f0747f4e27c8462ba-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "7d82254d3dfb69cbcf91b5b7dbf2e33a6ed9df70eb3c58a3ab5760aef5e5c3b8"
+      },
+      "us": {
+        "src": "/audio/learning/008f0747f4e27c8462ba-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "94809dc9e8c5fad66c3b1926a079ee3a74c709850fa1d46b0fb826e32a81bfd8"
+      }
+    },
+    "Mina: Good morning. Can I have a cheese sandwich, please? Leo: Of course. Would you like a drink? Mina: Yes, I’d like a cup of tea. Leo: Anything else? Mina: No, thank you. How much is it? Leo: It is six pounds altogether. Mina: Here you are. Thank you! Leo: You’re welcome. Your order will be ready soon.": {
+      "us": {
+        "src": "/audio/learning/dcda78adc96bc798aa29-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 210672,
+        "sha256": "27630d2502ae83001c10b9a4b9a702534fd43ea275ffd10e54a6e82abeb2cbbc"
+      },
+      "uk": {
+        "src": "/audio/learning/dcda78adc96bc798aa29-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 178992,
+        "sha256": "8b1706215a7a202c265a4f030292a493f8c76a7263834b0bd5366906dd19a34a"
+      }
+    },
+    "sandwich": {
+      "uk": {
+        "src": "/audio/learning/8f5c570f55dd7921c986-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "90a6290122a76fa27855e51c9be851ebe2dd4efec15e2dbfa2e2843200a3dfdc"
+      },
+      "us": {
+        "src": "/audio/learning/8f5c570f55dd7921c986-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11520,
+        "sha256": "3b0a67f2720f189625f524eb3efc531e095e6ab02520997baffa543b3dbd5f6e"
+      }
+    },
+    "order": {
+      "uk": {
+        "src": "/audio/learning/3eeb7e96e59ce40f9cb1-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 6912,
+        "sha256": "e3f85c001718c93fe758bd78b54caef58785bf75f968dd7f6eb2c000ed16d19d"
+      },
+      "us": {
+        "src": "/audio/learning/3eeb7e96e59ce40f9cb1-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "db92b2547b403d877af96d19403343dd90bc174ee9424dde0b10ae484209af01"
+      }
+    },
+    "drink": {
+      "uk": {
+        "src": "/audio/learning/218ae6b44966c8a9913e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "9757fd7743580aa48a78a528242be2dee0b734711908b9e92ba6b024c6fa2545"
+      },
+      "us": {
+        "src": "/audio/learning/218ae6b44966c8a9913e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "727f113453eee9a02c2629c674a8c8f948ab9f70cb508794e8e5853e576307cb"
+      }
+    },
+    "cup": {
+      "uk": {
+        "src": "/audio/learning/c6171781d65f3ccce113-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "aa0786c34de718453a2ef23e55025567e5f830137361b5819a9b59d55d86572d"
+      },
+      "us": {
+        "src": "/audio/learning/c6171781d65f3ccce113-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "54c8f8f4d7c616c4329bb692945596fb6977b99e032ab263c6a11d52a871c7ba"
+      }
+    },
+    "altogether": {
+      "uk": {
+        "src": "/audio/learning/87e56ce6429768c90138-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "798f65269d5149bbf4736c5dcbeadc2388320cf2eb09f538364436bdd727934c"
+      },
+      "us": {
+        "src": "/audio/learning/87e56ce6429768c90138-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11664,
+        "sha256": "af5d6cc2b8893c46b743a89c877350fda189fe0243f7a7297f2d8aac5f5cb037"
+      }
+    },
+    "ready": {
+      "uk": {
+        "src": "/audio/learning/b24d6d33736ecd5604a4-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "7e592d597193482ae91e4c238b0c037de6e5d5b886940fa6193a85ba6899def8"
+      },
+      "us": {
+        "src": "/audio/learning/b24d6d33736ecd5604a4-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "866fe217c97048280ce38696cbaea595fcd3ecb19e33285b4831f6a0efad6e32"
+      }
+    },
+    "Ravi arrives at Green Street station. He wants to visit the town museum. A local resident tells him to go straight along Green Street, turn right at the bakery, and cross the small bridge. The museum is opposite the park, next to a bookshop. Ravi repeats the directions to check that he has understood. The resident smiles and says the walk takes about ten minutes.": {
+      "us": {
+        "src": "/audio/learning/351ed6332161de9b25f5-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 167184,
+        "sha256": "326b2b00e283e4a35f836f5e0e04b0ac173f2b18cd98db07a486e1555b63d20a"
+      },
+      "uk": {
+        "src": "/audio/learning/351ed6332161de9b25f5-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 160992,
+        "sha256": "7b07012f84f25e52d5672c9aa585e25a5a252314f2c9858a6428d61ceff5c7f4"
+      }
+    },
+    "straight": {
+      "uk": {
+        "src": "/audio/learning/2a424875a8475a99175f-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "64048ee220d42cb1fed954a50940e1c97b509ec5a4c9303030f887330dcdd614"
+      },
+      "us": {
+        "src": "/audio/learning/2a424875a8475a99175f-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "33c6e79a06d8b0cf99fc474890e34c2e8753eeb80aeaa1bc39bc14492cc8e8e6"
+      }
+    },
+    "opposite": {
+      "uk": {
+        "src": "/audio/learning/d9f62c2ad0ad79d037d3-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "0e6c324a649257372e09c40519422e8933c4e996e20a9708a9db32fcba1d0c63"
+      },
+      "us": {
+        "src": "/audio/learning/d9f62c2ad0ad79d037d3-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "5fa98efbbb0de0a8b9d038654f72ee59f9d29a5b1b3b1954de8ee2978ad29d8c"
+      }
+    },
+    "bridge": {
+      "uk": {
+        "src": "/audio/learning/17f29b073143d8cd97b5-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f3372cf8163fe20e9b2b6d70ad784e7b3eff45f5d602dc9af3b476b10460e1e9"
+      },
+      "us": {
+        "src": "/audio/learning/17f29b073143d8cd97b5-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "ee1cf065fd8f93898fc116c0a8002b5b0561b45813eb366eea421e01b132b0b6"
+      }
+    },
+    "bakery": {
+      "uk": {
+        "src": "/audio/learning/144ac86d05c00f559949-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "15a3acef39ca4069acd1d1d0989e9749e874c22240a90c77e934c2697ac330bc"
+      },
+      "us": {
+        "src": "/audio/learning/144ac86d05c00f559949-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "f9c9c36ff77f170d19f04d954dc852538453d4577d01995e986801fc4e67988a"
+      }
+    },
+    "resident": {
+      "uk": {
+        "src": "/audio/learning/84816ff383c826e9c11e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "a9ad2952762b7bf1b6375765851787510624abed0e64de17c2583e19e017e3ed"
+      },
+      "us": {
+        "src": "/audio/learning/84816ff383c826e9c11e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "ab16999fa1f3752441522857d58b98b8a21cc3c49a5040204b82d9d206e5f76a"
+      }
+    },
+    "directions": {
+      "uk": {
+        "src": "/audio/learning/b36fd74a8e0dc652645d-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "30590356984482ada511f07f57e4e31023e1a242508dafd9453fcbbd74aa7d41"
+      },
+      "us": {
+        "src": "/audio/learning/b36fd74a8e0dc652645d-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11952,
+        "sha256": "94dbb8a5d8a8f44ef7b26c6e038dd7004767b45e1ceca631b71419de4c2e625f"
+      }
+    },
+    "Receptionist: Welcome to Oak Hotel. How can I help? Nora: I have a reservation under the name Nora Tran. Receptionist: Yes, a single room for two nights. May I see your passport? Nora: Certainly. Could I have a room away from the lift? Receptionist: Room 204 is quiet. Breakfast starts at seven. Nora: Thank you. Could you tell me where the stairs are? Receptionist: Just behind you, on the left.": {
+      "us": {
+        "src": "/audio/learning/95fcc638091f2d1b476c-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 230112,
+        "sha256": "2c0c431b917376a78bcaa2d53ce3b13a7e86ea1ca8d2d04da08ec81040741e82"
+      },
+      "uk": {
+        "src": "/audio/learning/95fcc638091f2d1b476c-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 215712,
+        "sha256": "0e6c9ca6efd4ed6c2f65cbfc358a766c9ed6a3fdd64239b79b8ce11ebd9b142d"
+      }
+    },
+    "reservation": {
+      "uk": {
+        "src": "/audio/learning/9efa077f044e7a779c65-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "5467b5a64c3e1e716cd844656ae0a261887ecb37b0ef02a3e6bd71762f11f7a3"
+      },
+      "us": {
+        "src": "/audio/learning/9efa077f044e7a779c65-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12096,
+        "sha256": "1104c193158fae8d2ff612edde3434826d0012c628236526ea66c902c53800a4"
+      }
+    },
+    "passport": {
+      "uk": {
+        "src": "/audio/learning/cbc471ca60092bbe6c63-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "c8bba9553775eeaa2db4ebd1d2086352e223779f5f3893cf92b617c61b1d8f76"
+      },
+      "us": {
+        "src": "/audio/learning/cbc471ca60092bbe6c63-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11376,
+        "sha256": "9cf8a304cc5ba4cc156da89ae75c6a463da936d7eba89c82312192577811048e"
+      }
+    },
+    "single room": {
+      "uk": {
+        "src": "/audio/learning/cf7ae13e44d84545481e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f57593e03074a5eabbaf156b199ae0328d1602a71adf9f6f9638d6fabb986688"
+      },
+      "us": {
+        "src": "/audio/learning/cf7ae13e44d84545481e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11952,
+        "sha256": "995b89096397597d2ee73d04cfd9b6da688d1a1c7ef8195839fa4dda58b80679"
+      }
+    },
+    "lift": {
+      "uk": {
+        "src": "/audio/learning/5364b92e50b1944f33d1-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "613137b5c7e6c77a72a970690daea1619bad60002b84189bfcb4febfac8db66c"
+      },
+      "us": {
+        "src": "/audio/learning/5364b92e50b1944f33d1-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "cfbda7d3b0d2a9bdaf9166141dccd5d492b0403b8b2580b6a4ba318429dbaf83"
+      }
+    },
+    "elevator": {
+      "uk": {
+        "src": "/audio/learning/41762bcf88c5e7148181-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "319e97ee837708be99d27ecb7c8caeb2f9072794fcdbfb8a5083986874c42c7c"
+      },
+      "us": {
+        "src": "/audio/learning/41762bcf88c5e7148181-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "93f1db51f59fc98daade6ac2fd26a3a523299b8bba69804d1745a35f24e505fa"
+      }
+    },
+    "stairs": {
+      "uk": {
+        "src": "/audio/learning/0eeea780b063634befb9-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "db615297fc8da705967cdaeb05956f9a6e3cbaf2821f5c5ae6b4db6d3a97693d"
+      },
+      "us": {
+        "src": "/audio/learning/0eeea780b063634befb9-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "d31e161230424af2b25cf2ec56dcc5c2cfaf01d3019741f973539c343402a12e"
+      }
+    },
+    "Last weekend, Linh and her brother took a train to Hue. First, they left their bags at a small hotel. Then they visited an old garden and tried a local dish. It rained in the afternoon, so they went to a café instead of walking by the river. They did not visit every place on their list, but they enjoyed the trip. Finally, they bought postcards and returned home on Sunday evening.": {
+      "us": {
+        "src": "/audio/learning/f99baeb5a4bc33c63574-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 172080,
+        "sha256": "f3c5e0554d649bc95ee91b5a0d60cd7eea95b926526d916b0dbc4c3f54c3121b"
+      },
+      "uk": {
+        "src": "/audio/learning/f99baeb5a4bc33c63574-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 167760,
+        "sha256": "37f2768f1a0fc5ec57739448bf1971e98d0102df919b66144d2aeac9c50b67f7"
+      }
+    },
+    "trip": {
+      "uk": {
+        "src": "/audio/learning/34a389d790fc2bdd8458-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "48e299674b81a0000876bea19c836dba49acaf23495fc303bdc4c695610ee3bf"
+      },
+      "us": {
+        "src": "/audio/learning/34a389d790fc2bdd8458-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "4a98192d1d07beae3fc3a7080206ad8df5e1f77712912e0ccd802e5fde364205"
+      }
+    },
+    "postcard": {
+      "uk": {
+        "src": "/audio/learning/22f0b24b528b0902de75-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "d8f4ff7746e0c9b31b3089a1c23aab43bce0a3a5ab294011d040634833a67757"
+      },
+      "us": {
+        "src": "/audio/learning/22f0b24b528b0902de75-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "91f4fec8a99e923772f0f1826a4f10a068ae352c5bd2dc61ebd51ef4f83ca52f"
+      }
+    },
+    "instead": {
+      "uk": {
+        "src": "/audio/learning/99262a0284ae7670f20f-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "2656e118211b930c817e68315018c59267fb58ec75d7f3ae267b0aa1d152d705"
+      },
+      "us": {
+        "src": "/audio/learning/99262a0284ae7670f20f-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "2db805a9a550474fc750a7c652d0644c5121b8541ec5340e145c3d5fe4296a46"
+      }
+    },
+    "return": {
+      "uk": {
+        "src": "/audio/learning/7187f0675eb382793974-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f367eda0eb1c96159f5ceed9aa6ba32c1ed012ab9cb92bbb30b9e07d39af202c"
+      },
+      "us": {
+        "src": "/audio/learning/7187f0675eb382793974-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "0bd7d6b02d940f1c1fcab2a497a1810cdfd0f1e880fc744354484add09ef0fdb"
+      }
+    },
+    "local": {
+      "uk": {
+        "src": "/audio/learning/25bf8e1a2393f1108d37-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "2c719d96ab0d2023e4c90dbdb24b396a6e1316776cf401e565a3d943f100c441"
+      },
+      "us": {
+        "src": "/audio/learning/25bf8e1a2393f1108d37-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "8d2a9873ca921adcc2511ce9995a22b1d5c5034e48fc7a68276c78f1d040a4c6"
+      }
+    },
+    "finally": {
+      "uk": {
+        "src": "/audio/learning/205c3e16c66ff0b84570-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "76e4453c86e4120cb3c23ecaabc79cb7b880d13c356825ddb22d5fff7b50dd90"
+      },
+      "us": {
+        "src": "/audio/learning/205c3e16c66ff0b84570-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "d6a0d050ce0d471548ca0d1bb7dc16f898f2df7a7faa4566a4e4ac3311da85aa"
+      }
+    },
+    "I have volunteered at several community events, but one Saturday has stayed in my memory. Last spring, our club organised a book exchange. I helped visitors find books and spoke to people I had never met before. At first, I was nervous about starting conversations. By the end of the day, I felt more confident. Since then, I have joined two other events. Volunteering has helped me practise listening as well as speaking.": {
+      "us": {
+        "src": "/audio/learning/70405e546ee7a10d625c-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 182160,
+        "sha256": "86c372b0a05616057d1ae9ef90b37fdf3f197f6c93718220ec87b23011e75162"
+      },
+      "uk": {
+        "src": "/audio/learning/70405e546ee7a10d625c-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 177840,
+        "sha256": "1efc58533a879acdf097325edfa21c51bcd100a1ea9cb0d21d16b5f24ebdcda1"
+      }
+    },
+    "volunteer": {
+      "uk": {
+        "src": "/audio/learning/dcbb0f3cafb30402d5ed-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "b2856dcea403473fdfc5784bab03dbf70688a9d6cf50d983cfbad0cf30d8ebee"
+      },
+      "us": {
+        "src": "/audio/learning/dcbb0f3cafb30402d5ed-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11664,
+        "sha256": "b59d1d8114de73bd8522123c8728c9f4c75f54720946ab4008492095ffb7c410"
+      }
+    },
+    "community": {
+      "uk": {
+        "src": "/audio/learning/f354ee99e2bc863ce19d-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "0efa8d3d3fca76ec168d86cb5bf00d1aafc335112e7d5555f98c7f0c841f5580"
+      },
+      "us": {
+        "src": "/audio/learning/f354ee99e2bc863ce19d-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "c386541141670136ca90de0f0f67756f65a312cedcef15435262633eb2e116e0"
+      }
+    },
+    "exchange": {
+      "uk": {
+        "src": "/audio/learning/ab27b729d9cc4cb1c009-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "1dc04cd930024bcc026b245286fb447141527e64c3b4f888d313b8645b6be2dc"
+      },
+      "us": {
+        "src": "/audio/learning/ab27b729d9cc4cb1c009-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11520,
+        "sha256": "0398bb600227ab28709ead6a6be827826a3950f1f3a9fc7f56bfce5b065240df"
+      }
+    },
+    "confident": {
+      "uk": {
+        "src": "/audio/learning/26c8cca6e668df65cc08-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "607af428341411bde66d715badbb86201542d44f3534121005805d6ff7bf0e60"
+      },
+      "us": {
+        "src": "/audio/learning/26c8cca6e668df65cc08-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "deb7b9a398b9801fd0b6f9add3353feae7ef99015d9e6afa4bd4dc862d35d23f"
+      }
+    },
+    "experience": {
+      "uk": {
+        "src": "/audio/learning/53e5e7c5a884893739c4-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "b4649936adc49c083b276d3a932bc38750f23757bcd4ec455e02849136f6d24e"
+      },
+      "us": {
+        "src": "/audio/learning/53e5e7c5a884893739c4-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12528,
+        "sha256": "c73dd2a4c120709227dfc5a8c4dd0a4d70cf5d3c8c71090fc6bd112ff288f9f7"
+      }
+    },
+    "several": {
+      "uk": {
+        "src": "/audio/learning/2740e59ffb8c5eff0e0f-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "25c2a2d153c85330ae152dcca2adaa5fd2be3c35ca4af6f2cca714645dd61375"
+      },
+      "us": {
+        "src": "/audio/learning/2740e59ffb8c5eff0e0f-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "1c005a92452dbc14ea37f2fd41646b95cc3ab06a420478ef50ed7cf614c21f3a"
+      }
+    },
+    "Our study group has two plans for Saturday: a cycling trip or a visit to the science centre. Cycling costs less, but the weather forecast is uncertain. The science centre is indoors and has an exhibition about energy. If it rains, we will choose the centre. If the weather is clear, we will cycle to the lake. We have agreed to decide on Friday evening so everyone has time to prepare.": {
+      "us": {
+        "src": "/audio/learning/c66563ec55cc0ac187d5-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 162576,
+        "sha256": "7fae38b2c4a81ff1f0d8ed9fad6c5fecb925c46e8e5a57ff3ec9d2d1eea94275"
+      },
+      "uk": {
+        "src": "/audio/learning/c66563ec55cc0ac187d5-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 157824,
+        "sha256": "639f5761d470347641c9cd57188cd7955dee277808f3923a98f8bd39f1465aaa"
+      }
+    },
+    "forecast": {
+      "uk": {
+        "src": "/audio/learning/59f0db478528b4c446cf-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f57032b8680ab4bb14fd3b7970471cca02101f7dee4994d345b1f44e5ee1a605"
+      },
+      "us": {
+        "src": "/audio/learning/59f0db478528b4c446cf-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11808,
+        "sha256": "82b6c81aff360681e19a32c7aff4565af5f98cd9210189b38a90c353874db473"
+      }
+    },
+    "uncertain": {
+      "uk": {
+        "src": "/audio/learning/96642b36a83c4c78c5dc-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "7c32561fac1f30c9cbeda2a5ccede6ed62c109e8f9e3546def9736abcf9be4f3"
+      },
+      "us": {
+        "src": "/audio/learning/96642b36a83c4c78c5dc-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "552640a71fd115e1eb1a28323dd2749b073949dc3fcc2da8f20a19b5c717300b"
+      }
+    },
+    "exhibition": {
+      "uk": {
+        "src": "/audio/learning/83a2bff84b1d599d9eed-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "496cc10dd5ec6d68b9d8d72d31ce2bd3ac2934a76e045657504a095544d5fed0"
+      },
+      "us": {
+        "src": "/audio/learning/83a2bff84b1d599d9eed-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11808,
+        "sha256": "d3361f6999fb0980896862723f19a484475e95148a2787165be5f4f6fe80d1e1"
+      }
+    },
+    "prepare": {
+      "uk": {
+        "src": "/audio/learning/45666d976bab316d970e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "381c9f9185fb791e050b19d812dba5cdcf6a7bba9ef4653103a6d422d40f90c4"
+      },
+      "us": {
+        "src": "/audio/learning/45666d976bab316d970e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "75c6ad1cc5a19095041a782b8eba914b3d383f2bf1429d475ad864c29883ce40"
+      }
+    },
+    "indoors": {
+      "uk": {
+        "src": "/audio/learning/eb0343b30bd2d644df61-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "e2873bfd9912000aaa7c4e23183754d95379e50fea946b3b2fbadd4feb4d2819"
+      },
+      "us": {
+        "src": "/audio/learning/eb0343b30bd2d644df61-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "a5e52f57ff51861de75678fb2f5d740e06537e88a2baed3b664fc723fe268461"
+      }
+    },
+    "agree": {
+      "uk": {
+        "src": "/audio/learning/94d5c9d96025716090f1-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "ed860f88cb27a304155661fae379c14a7a6214b39a4e77b4690fbc0422c9bc2f"
+      },
+      "us": {
+        "src": "/audio/learning/94d5c9d96025716090f1-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "e3f9d5bc465b88a176d1f52d6399690320741319748e62c78c689c0ef8b1828b"
+      }
+    },
+    "In my view, a school reading club should let students choose some of the books. Choice can make reading feel more personal. For example, one student may enjoy science stories while another prefers mysteries. However, a shared book can still be useful because it gives the group something to discuss together. I would therefore combine one common book with one freely chosen book each month. This plan gives students both independence and a shared activity.": {
+      "us": {
+        "src": "/audio/learning/89ef6609366b9c8b1f69-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 178560,
+        "sha256": "df03c2bd1c845761ddb607d0e82e301d43bf919a6711d82ee50ba638b4ce23d6"
+      },
+      "uk": {
+        "src": "/audio/learning/89ef6609366b9c8b1f69-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 173952,
+        "sha256": "15fba88f010ed1a6968302064d805fa875be1da77e8cbd97ee3ce542f51ccad0"
+      }
+    },
+    "opinion": {
+      "uk": {
+        "src": "/audio/learning/4379105aca40fc3c6b7c-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "c1bc0581b1bbbfa2e011fb4788b2dcdd83c18f0d266905f99e819c7d45328594"
+      },
+      "us": {
+        "src": "/audio/learning/4379105aca40fc3c6b7c-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "c78ed4b3aa5ad9f40d353eb4068d25b85517f8fa29dafdded344d146a4708c80"
+      }
+    },
+    "shared": {
+      "uk": {
+        "src": "/audio/learning/a4d26868017c0ccffe2e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "14abc13f95689321c8292caea318c5435bb78fbd69b44487a84a2007ee2e70f2"
+      },
+      "us": {
+        "src": "/audio/learning/a4d26868017c0ccffe2e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "f462d77f27f835bff87327927cf2062c9af4797e646ab6b344e0381c96130d4e"
+      }
+    },
+    "independence": {
+      "uk": {
+        "src": "/audio/learning/fbb6337a2ba75d089e1e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "d3cc679097865cebd6161550ad1da3910bb09962884eaeb3dffdaa2bc04141c1"
+      },
+      "us": {
+        "src": "/audio/learning/fbb6337a2ba75d089e1e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12528,
+        "sha256": "cf441d37f9d629a474f27d0639dd166801d18e85e7d7c2cd5bc6dd47f4979771"
+      }
+    },
+    "combine": {
+      "uk": {
+        "src": "/audio/learning/6bd1454e4848ba9ec483-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "5757d69cf54e18145d6b386128460b1292d68b721650b477b5758ceda30ae0db"
+      },
+      "us": {
+        "src": "/audio/learning/6bd1454e4848ba9ec483-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "952181f9073ebe633a6f4dae98e25c25d6c294e308b8ec62f3fb66dc2914b65d"
+      }
+    },
+    "prefer": {
+      "uk": {
+        "src": "/audio/learning/472dc7749c49f123491f-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "858b7af3b9805c8c53ec877c22075058ee5a4eb2208eb188145945781de80d38"
+      },
+      "us": {
+        "src": "/audio/learning/472dc7749c49f123491f-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "d201ce11dbeb4ac11c78464f0911a6117e08ee52cc7adceaf35b2d6c008100d8"
+      }
+    },
+    "therefore": {
+      "uk": {
+        "src": "/audio/learning/bae0db182974fd465595-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "2f17b89136f19ef930d5118973ffb5724839cab839b617a149564e1bf4646216"
+      },
+      "us": {
+        "src": "/audio/learning/bae0db182974fd465595-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "547f54c82df63903a96625737a2784de2b4b67fbf3594e6b52015fd2d0f8c909"
+      }
+    },
+    "The library is considering two ways to extend access to study materials. Longer opening hours would give students a quiet place to work, whereas a digital collection would help those who live far away. Although the digital option requires initial training, its materials can be used outside opening hours. Longer hours, by contrast, involve recurring staffing costs. Neither option meets every need. A small digital trial alongside one late-opening evening would allow the library to compare demand before committing to a larger budget.": {
+      "us": {
+        "src": "/audio/learning/ca9332f7eb8cd810cdf0-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 216720,
+        "sha256": "20a3f5aa3c8bdb9d0f68fbcb415ba4a0b2bd7a4f78808d54223d6c92374014a4"
+      },
+      "uk": {
+        "src": "/audio/learning/ca9332f7eb8cd810cdf0-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 213552,
+        "sha256": "40f8c601ec800e4d0f6a3a7ab2bbf6cfd23688adbb1ba342931f30a35d228c70"
+      }
+    },
+    "accessibility": {
+      "uk": {
+        "src": "/audio/learning/714db89df42bdb7ce4be-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "1323e28e428072433b84154f7cd06f88722aa36e2a1b8463226fd528fee820be"
+      },
+      "us": {
+        "src": "/audio/learning/714db89df42bdb7ce4be-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 13104,
+        "sha256": "6d362f574b61fc8a5dea3e3042ff8dc8ab089ce0937021cba0a80b1b51a0545d"
+      }
+    },
+    "recurring": {
+      "uk": {
+        "src": "/audio/learning/a4fdbb2966a73cfc4531-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "ad833d0cf8c4090d596b24f9f09701cbb82366693f05b397890407934d6dfd4a"
+      },
+      "us": {
+        "src": "/audio/learning/a4fdbb2966a73cfc4531-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "15eaffe9439c143977dd1780bd44b0f2391b23adc5e6a82017ddb750188b32df"
+      }
+    },
+    "alongside": {
+      "uk": {
+        "src": "/audio/learning/0cfcdc2f0991b0be4482-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "406e037d730c79b6f29eec98bdbd0d47ebb00b01d267724000512e82644e3f9c"
+      },
+      "us": {
+        "src": "/audio/learning/0cfcdc2f0991b0be4482-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11808,
+        "sha256": "ae9dc1d25b2a23f6b7633873951c9bd3e93cb33b2e1409f4789529854c54acbe"
+      }
+    },
+    "criterion": {
+      "uk": {
+        "src": "/audio/learning/5f435b82e7e9e75e9819-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f4e93b0f4e1b3be685234279285d5dab4dc896e27262994805e8d94bb56b34c7"
+      },
+      "us": {
+        "src": "/audio/learning/5f435b82e7e9e75e9819-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11808,
+        "sha256": "3c951d7547dcf0aef534c2aa9c941bbc551da25e89eece44af2809b98dfbd101"
+      }
+    },
+    "demand": {
+      "uk": {
+        "src": "/audio/learning/dffc177fd0bbfd674906-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "b9be651d5dc1a38c2e1607dc8c9a787a663058f5d4c0a2cd9015bab64b29fb41"
+      },
+      "us": {
+        "src": "/audio/learning/dffc177fd0bbfd674906-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "347fd615bdc635b2247a111c47f7aa9a774c6ad9e2387aab5d9de14d076dea2e"
+      }
+    },
+    "commit": {
+      "uk": {
+        "src": "/audio/learning/9505cacb7c710ed17125-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "8549d884c115d05ea996876ea66bcedda1f37f89317e68f555e13678f14aca4d"
+      },
+      "us": {
+        "src": "/audio/learning/9505cacb7c710ed17125-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "2fd2486c374f3dcff5157e8ae4d4aed51f8a9c844976613b1d2e761166e4030c"
+      }
+    },
+    "A student newsletter reports that a new booking app has reduced queues at one campus café. The article is based on a two-week trial and interviews with twelve volunteers. Most interviewees describe the app as convenient, but the report does not include customers who avoid smartphones. Sales figures were not collected, so the effect on revenue remains unclear. The findings are encouraging, yet they support a limited claim about this trial rather than a conclusion about every café.": {
+      "us": {
+        "src": "/audio/learning/14aab6ec3fc17a2d89fc-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 189792,
+        "sha256": "0b6fc281b44a0ee78319ba39f570754430304b4ecd45920f3941ee101db5c54f"
+      },
+      "uk": {
+        "src": "/audio/learning/14aab6ec3fc17a2d89fc-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 190512,
+        "sha256": "1585102be0794b39723ec3a78112277ca835eac2735a7b90dde7110d8a265ae9"
+      }
+    },
+    "interviewee": {
+      "uk": {
+        "src": "/audio/learning/1b6776b0315b8318d9b8-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "cb09983eebe25eade12d23866d305ae0b8faeed3590ae0d29f6ff75720d9b1a7"
+      },
+      "us": {
+        "src": "/audio/learning/1b6776b0315b8318d9b8-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11664,
+        "sha256": "34c04a0e74a2a310b92d483dc06208891a281d6e5783776ca51bb163aee3d5a2"
+      }
+    },
+    "revenue": {
+      "uk": {
+        "src": "/audio/learning/371f7e4223809d8bce3d-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "1292c5c358ee5b08b3f4de687f10db9042d000c2c8739792dccf96f75eb1e1c6"
+      },
+      "us": {
+        "src": "/audio/learning/371f7e4223809d8bce3d-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "0016d1870f6c8ea9557140af95c9c5bfbfdc14097d28422954b3d7a846f2d33b"
+      }
+    },
+    "finding": {
+      "uk": {
+        "src": "/audio/learning/8bf18252cb6dadd5f42f-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "4a312fd94e1e694f80170f76e68963ab13d7470c6d64cb4604c30aa01527a2ed"
+      },
+      "us": {
+        "src": "/audio/learning/8bf18252cb6dadd5f42f-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "35d787d596c0cb50e033464c786e6620304f7fc479a938c31d758cdfd2c6063d"
+      }
+    },
+    "sample": {
+      "uk": {
+        "src": "/audio/learning/af2bdbe1aa9b6ec1e2ad-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "2e04c8f0c1effde0dbf9132dbac7c6822a29838ea46b08835189e7e8856d100b"
+      },
+      "us": {
+        "src": "/audio/learning/af2bdbe1aa9b6ec1e2ad-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "73b69a0927c91867a09757a25e6bc01d6ab6d1426409496955d61f1bbd63611d"
+      }
+    },
+    "claim": {
+      "uk": {
+        "src": "/audio/learning/dd1b3c312cf7d8161303-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "746537eefa846615cc235733a6195b6268bd7927970462178fb024a406df9a5c"
+      },
+      "us": {
+        "src": "/audio/learning/dd1b3c312cf7d8161303-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "14ca5bfb57466e79416acc742f155dfbcb926e87f78f7071de738f4501f1c114"
+      }
+    },
+    "indicate": {
+      "uk": {
+        "src": "/audio/learning/4932c716f725df5e480e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "6b2fec605731933f8192ac9d3ee5a3adfbf08f35a505543a6f182403ea120032"
+      },
+      "us": {
+        "src": "/audio/learning/4932c716f725df5e480e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "6f7aa4b780fd1265fa10451ac1cbc1339be99699b8c1ea6fb5180a93c81c226b"
+      }
+    },
+    "Two project teams need the same meeting room on Friday. The design team wants a quiet space for interviews, while the coding team needs a large screen for a review. If the coding team moved its review online, it would lose access to the shared screen. Instead, the teams agree to split the afternoon: interviews from one to three, followed by the review. They will evaluate the arrangement after two weeks. The compromise does not give either team everything it wanted, but it addresses the most important needs of both.": {
+      "us": {
+        "src": "/audio/learning/be92f1a006d98dbc70f3-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 202032,
+        "sha256": "35398a83186ab729323caa9f0e11367bf1f13ce57eecb5a6f10c9c58b6f98c68"
+      },
+      "uk": {
+        "src": "/audio/learning/be92f1a006d98dbc70f3-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 200016,
+        "sha256": "908c1637f33a32e23722a7bde885e84752e380129ce8de365a50daca7cdf3185"
+      }
+    },
+    "compromise": {
+      "uk": {
+        "src": "/audio/learning/1caece2e3bd1aa695359-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "3cf8d18e4379c729792dffbf4b7ed7d27772f6e3c96dbb4a1ed405a14905588b"
+      },
+      "us": {
+        "src": "/audio/learning/1caece2e3bd1aa695359-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12096,
+        "sha256": "efe5d556d20224a28292088b589f945135694ad2d4f6d64ba162ee9b5038691e"
+      }
+    },
+    "constraint": {
+      "uk": {
+        "src": "/audio/learning/bd00a996380547acaa70-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "ed79bdb03154f02f7defc0270dc1fd30dee6db53390d05ca1f3f91ec173a90dc"
+      },
+      "us": {
+        "src": "/audio/learning/bd00a996380547acaa70-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "c0f2e0fc557260c93da9d7bd611b7d0b71bab5fe33760d227c5ffb5312d5e17e"
+      }
+    },
+    "arrangement": {
+      "uk": {
+        "src": "/audio/learning/438b5e575a59cd42e234-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "cc659cf3c72b8b7867d05361ad4b0a5dc22c58fbf15918e02adc96560600b8ff"
+      },
+      "us": {
+        "src": "/audio/learning/438b5e575a59cd42e234-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11664,
+        "sha256": "7430d01d1b936c0ccf19142ddd73510ac661d3ebf3697b0d09a41bf7d5c0a88f"
+      }
+    },
+    "evaluate": {
+      "uk": {
+        "src": "/audio/learning/10aca1d8b724381a8cbe-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "d386c7f2d3d61ce208644a83147ca0a7f59c6ca705ceafa44a24d23e59d4c2ca"
+      },
+      "us": {
+        "src": "/audio/learning/10aca1d8b724381a8cbe-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11808,
+        "sha256": "3bcf999e3ef5724923a6468bfcabbfdb3085bed82697be10f91f685b5ec62387"
+      }
+    },
+    "alternative": {
+      "uk": {
+        "src": "/audio/learning/27747689baf9903c9aae-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "82f71582667b0f57d97efa820d56ae485c74a3ac9049ceb6a071bbc1cf86d075"
+      },
+      "us": {
+        "src": "/audio/learning/27747689baf9903c9aae-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12096,
+        "sha256": "7319ed62e40e321054a05484e20944119edfbbda4953a922ba0155b874d02ff9"
+      }
+    },
+    "address": {
+      "uk": {
+        "src": "/audio/learning/d80c9bf910f144738ef9-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "94e469c3d89bddb5bbb347265379d08cdd1f0dcaa5002576d90e4d2a81af9bb0"
+      },
+      "us": {
+        "src": "/audio/learning/d80c9bf910f144738ef9-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "37541326ec0327b343dfba3de4dd59173088bb5494fd8bd4da7a948e4a04896f"
+      }
+    },
+    "A department introduced quiet working hours and subsequently recorded higher satisfaction scores. It is tempting to attribute the improvement entirely to the new policy. However, the same period included a change of manager and a reduction in urgent deadlines. These factors make a causal interpretation less secure. The results may justify a broader trial, but they do not isolate the effect of quiet hours. A stronger evaluation would compare similar teams over time and examine whether the benefits persist under different workloads.": {
+      "us": {
+        "src": "/audio/learning/112640c9a23a143a1183-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 218016,
+        "sha256": "68e40d869213c202d39a63b70627b0b28a2b70c89f050d88a0a6cf091c72132c"
+      },
+      "uk": {
+        "src": "/audio/learning/112640c9a23a143a1183-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 214128,
+        "sha256": "74aeae5aa84964722842f630a9277837b5acfad38acfc0635fc826be08b00e52"
+      }
+    },
+    "attribute": {
+      "uk": {
+        "src": "/audio/learning/a92bfd02c450af0360de-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "f013ad2735f94b8c95866da3738072745a17c848e9aafb1a25406a6c1a4675f2"
+      },
+      "us": {
+        "src": "/audio/learning/a92bfd02c450af0360de-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "fe91d2bc81011ac3675b640bd8e66bbbbf82c5bd79cfa571b0be1a5c05cae0d8"
+      }
+    },
+    "causal": {
+      "uk": {
+        "src": "/audio/learning/42a7d499c5f9ec9b8781-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "163afca853aae13c48d39712626f0e7dc809672f19f4e501b9ab5601017f6191"
+      },
+      "us": {
+        "src": "/audio/learning/42a7d499c5f9ec9b8781-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "6769ee60830dc079569f88853919e70c2e5210e8b26fbc728897c260df0b344e"
+      }
+    },
+    "isolate": {
+      "uk": {
+        "src": "/audio/learning/014aadadffadbb5cd719-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "7e4c68dbef08ba4ce0346422d25f5129959e1bac4dfbc50bc345059a6e7cc915"
+      },
+      "us": {
+        "src": "/audio/learning/014aadadffadbb5cd719-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "81d1a9a0d502461a82985c1fd37b48b4b564cf2f1ecb92b6043a76e98fa06ef2"
+      }
+    },
+    "persist": {
+      "uk": {
+        "src": "/audio/learning/1c61425b1ba94748e725-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "c1c5a5a0bb3b242f644478c9aee0304663e3a8a8cc52a2515ba2d226f388683a"
+      },
+      "us": {
+        "src": "/audio/learning/1c61425b1ba94748e725-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "5b2a3078f6fa57c9abf760c3c54a5c45b71934807461ab85106d1ab9fb8f6d0e"
+      }
+    },
+    "subsequently": {
+      "uk": {
+        "src": "/audio/learning/ce72530a85470c5ba76e-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "3f9bfabd5eef448abb5987b48d7a62eee835693d8180a33eae417fe3527a63bb"
+      },
+      "us": {
+        "src": "/audio/learning/ce72530a85470c5ba76e-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12672,
+        "sha256": "f68b2775fec29857b9353aef94e47ebca5b9b258ff8c57e0bb766fae6fc2e16a"
+      }
+    },
+    "interpretation": {
+      "uk": {
+        "src": "/audio/learning/6e0534af16e1fe990db0-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "85becc3b84f653a4aca3b1d8f9d7d2a5824d471bb77ab53460c5f1394018bbd4"
+      },
+      "us": {
+        "src": "/audio/learning/6e0534af16e1fe990db0-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 13104,
+        "sha256": "079c1d7a22a287d47e6aa75fe5000efdee2bb8424541333ffcf93cbe3548376d"
+      }
+    },
+    "This proposal recommends a four-week mentoring pilot for new club members. Informal feedback suggests that newcomers struggle to identify whom to ask for practical advice. Each volunteer mentor would support two members through a weekly check-in. Participation would remain optional, and no sensitive personal information would be collected. The pilot should proceed provided that enough mentors volunteer. Evaluation would combine attendance records with anonymous feedback. Although the sample would be limited, the results could inform a decision on whether to continue the scheme.": {
+      "us": {
+        "src": "/audio/learning/04a914415c52bd5e79d6-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 226656,
+        "sha256": "3d6b714af7cd8325d686f750dbaaeb4eafaeb2967054aa4652cd847463d06ff7"
+      },
+      "uk": {
+        "src": "/audio/learning/04a914415c52bd5e79d6-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 227952,
+        "sha256": "cb37ab5a96b31a1b43d7f901a53c06f77d47b6c0b13db295cf93ea7e6fded578"
+      }
+    },
+    "pilot": {
+      "uk": {
+        "src": "/audio/learning/07ae38b93d8054d84aac-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "c3ba339d4d1bfa8fe629ae4a6e9bb42c4eb12a125d014ae84fe93dabe2a39188"
+      },
+      "us": {
+        "src": "/audio/learning/07ae38b93d8054d84aac-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "3911e93a5342d6539e1d4d88579f2465ad789d4426a1af219cd25f181e6553df"
+      }
+    },
+    "implementation": {
+      "uk": {
+        "src": "/audio/learning/da31012c40330e7e2153-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "8b84f6b168c0b01208514681eb779a97dec092aa3be17fce3e9240649bd88454"
+      },
+      "us": {
+        "src": "/audio/learning/da31012c40330e7e2153-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 13104,
+        "sha256": "5efbd6699f07961c74851d70050635353ce0e5f5c1ad2653dc9a1e022f08245a"
+      }
+    },
+    "evaluation": {
+      "uk": {
+        "src": "/audio/learning/efe77b201dc216c0edf4-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "5f79890626590907a7ab08af7cfd78253079266d565a57c4ee0ae5cb5f80ce46"
+      },
+      "us": {
+        "src": "/audio/learning/efe77b201dc216c0edf4-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12960,
+        "sha256": "4ef17a8cdb000de6398291306c1ca7fff749ecde0812eb8c42c7fd525c8f5738"
+      }
+    },
+    "optional": {
+      "uk": {
+        "src": "/audio/learning/ec91fdd9256cb75ae611-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "8dced611ff7a77d374da4aba99ae1627abb20b24c9ae41691883dce37b302311"
+      },
+      "us": {
+        "src": "/audio/learning/ec91fdd9256cb75ae611-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "6819e59f44541f2d892966cf69be38372253b8b457ca792b7a3b418b2ae5609e"
+      }
+    },
+    "anonymous": {
+      "uk": {
+        "src": "/audio/learning/2f183a4e64493af3f377-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "71c1dc35edc6855538baf5649edf33cc841397418e18f6b7070e513b79c0a49d"
+      },
+      "us": {
+        "src": "/audio/learning/2f183a4e64493af3f377-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11664,
+        "sha256": "6ea56f5ab0087fe7b19eb26055d7da6da2f32cafafd7f5eae75450848671e0a0"
+      }
+    },
+    "scheme": {
+      "uk": {
+        "src": "/audio/learning/cd892494455f6fa019e5-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "5e9f7a5312ba413c06215c661e6ed5b637ada19be510cbcd4fac127c8480a1dc"
+      },
+      "us": {
+        "src": "/audio/learning/cd892494455f6fa019e5-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "559e336158cba7cdbff3edc365561044dec7c76e53c1090b941d41baec5e8818"
+      }
+    },
+    "During a planning meeting, Mira accepts that an earlier launch could help the club reach more learners. Nevertheless, she is reluctant to promise a date before the accessibility review is complete. She proposes releasing a limited pilot first, provided that essential issues have been resolved. Should further concerns arise, the team will revise the schedule rather than quietly reduce its standards. Her colleague agrees, noting that a smaller initial release would still provide useful feedback. Their agreement separates a shared goal from the conditions under which it can responsibly be pursued.": {
+      "us": {
+        "src": "/audio/learning/be74d6bfde73d65769c1-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 227232,
+        "sha256": "40ae427f7cf1c21531fe1681c57669bd7e964475664eb2efd5266f1571a0dc61"
+      },
+      "uk": {
+        "src": "/audio/learning/be74d6bfde73d65769c1-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 228672,
+        "sha256": "e33c15734c0979f92cfe3ac5b25ed1afd335112b9f33ba330938790023a2ae78"
+      }
+    },
+    "concession": {
+      "uk": {
+        "src": "/audio/learning/b9aca78e330a930b0012-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "8dedb657df4fa69eef634dece6e72e6e199cdf0f66b80416107cf907d74fa29b"
+      },
+      "us": {
+        "src": "/audio/learning/b9aca78e330a930b0012-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11376,
+        "sha256": "d8b836cf90c242282601d0f54ab4eec93bfe216a499db34275e970f9a28d65de"
+      }
+    },
+    "reluctant": {
+      "uk": {
+        "src": "/audio/learning/f2de1346d707ccb43785-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "4eb5c3aca12593a8b8631cdfc0a465c96a0d66fb1a7dba0759a331c1215e0f9a"
+      },
+      "us": {
+        "src": "/audio/learning/f2de1346d707ccb43785-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11376,
+        "sha256": "fccde28bc2fc6d91fa453a1629295b10e7ad34edfc93e77529bbe79c90afad55"
+      }
+    },
+    "revise": {
+      "uk": {
+        "src": "/audio/learning/aa53d35cdecfe4a2bc65-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "6829f5d492b45afe35a1ad668df6aaefb0183e89128d025fa23da178fdca59d2"
+      },
+      "us": {
+        "src": "/audio/learning/aa53d35cdecfe4a2bc65-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "9173d709b9f31a855c77f18746bb67a85b38dda98b7e33f1e133c09bdf51dc6f"
+      }
+    },
+    "pursue": {
+      "uk": {
+        "src": "/audio/learning/0f571e7c2d332077617c-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "276210828bde2f2b3b90e32629589ae652a6f44bab69076f4c6a2a83617e6741"
+      },
+      "us": {
+        "src": "/audio/learning/0f571e7c2d332077617c-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "eaf48f0a78aabb50496f11e33749f00975ea7ab6784d930c0f264259e0ca671c"
+      }
+    },
+    "nevertheless": {
+      "uk": {
+        "src": "/audio/learning/45ecebb38d4c1fd79a19-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "da7d37e03a309749e7062f57ba7b6bc37e707f802605f8680d662c0f19da435b"
+      },
+      "us": {
+        "src": "/audio/learning/45ecebb38d4c1fd79a19-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 12384,
+        "sha256": "d3b68140a590274f1dca450cb3d3cff7831a70ebefefcc75bc0d5c047643dfd5"
+      }
+    },
+    "resolve": {
+      "uk": {
+        "src": "/audio/learning/fdf09cdfc26cccf610ed-uk.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "locale": "en-GB",
+        "bytes": 11232,
+        "sha256": "43e90041be907682b320d958d0658bba28ba1b54799587ad6ab984f6122f35e2"
+      },
+      "us": {
+        "src": "/audio/learning/fdf09cdfc26cccf610ed-us.mp3",
+        "voice": "en-US-JennyNeural",
+        "locale": "en-US",
+        "bytes": 11232,
+        "sha256": "70b3cd1e666d7f4339e6479405d95511d0cc7661bdcf1d322c8c4d863b47b50b"
+      }
+    }
+  }
+}

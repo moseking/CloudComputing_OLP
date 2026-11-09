@@ -1,3 +1,4 @@
+import { t } from '../lib/i18n.js';
 import React, { useState } from 'react';
 import {
   BookOpen,
@@ -24,7 +25,6 @@ import {
   useResource,
 } from '../components/UI.jsx';
 import { LEVELS } from '../lib/learning.js';
-
 const emptyLesson = () => ({
   title: '',
   position: 1,
@@ -47,18 +47,23 @@ const makeQuestion = () => ({
   kind: 'single_choice',
   prompt: '',
   options: [
-    { id: 'a', text: '' },
-    { id: 'b', text: '' },
+    {
+      id: 'a',
+      text: '',
+    },
+    {
+      id: 'b',
+      text: '',
+    },
   ],
   correct_answer: '',
   points: 1,
 });
-
 function ArrayEditor({ title, items, onChange, blank, children, max = 30 }) {
   return (
     <section className="space-y-3 rounded-2xl border border-border p-4">
       <div className="flex items-center justify-between gap-3">
-        <h3 className="text-sm font-bold">{title}</h3>
+        <h3 className="text-sm font-bold">{t(title)}</h3>
         <Button
           type="button"
           variant="soft"
@@ -67,43 +72,56 @@ function ArrayEditor({ title, items, onChange, blank, children, max = 30 }) {
           onClick={() => onChange([...items, blank()])}
         >
           <Plus size={14} />
-          Thêm
+          {t('Thêm')}
         </Button>
       </div>
-      {items.map((item, index) => (
-        <div key={index} className="space-y-3 rounded-xl bg-slate-50 p-4">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-semibold text-muted">
-              {title} {index + 1}
-            </span>
-            <button
-              type="button"
-              aria-label={`Bỏ ${title} ${index + 1} khỏi bản nháp`}
-              onClick={() => onChange(items.filter((_, i) => i !== index))}
-              className="rounded-lg p-2 text-error hover:bg-red-50"
-            >
-              <Trash2 size={16} />
-            </button>
-          </div>
-          {children(
-            item,
-            (field, value) =>
-              onChange(
-                items.map((row, i) =>
-                  i === index ? { ...row, [field]: value } : row,
-                ),
+      {t(
+        items.map((item, index) => (
+          <div key={index} className="space-y-3 rounded-xl bg-slate-50 p-4">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-muted">
+                {t(title)} {t(index + 1)}
+              </span>
+              <button
+                type="button"
+                aria-label={t('Bỏ {0} {1} khỏi bản nháp', {
+                  0: title,
+                  1: index + 1,
+                })}
+                onClick={() => onChange(items.filter((_, i) => i !== index))}
+                className="rounded-lg p-2 text-error hover:bg-red-50"
+              >
+                <Trash2 size={16} />
+              </button>
+            </div>
+            {t(
+              children(
+                item,
+                (field, value) =>
+                  onChange(
+                    items.map((row, i) =>
+                      i === index
+                        ? {
+                            ...row,
+                            [field]: value,
+                          }
+                        : row,
+                    ),
+                  ),
+                index,
               ),
-            index,
-          )}
-        </div>
-      ))}
-      {!items.length && (
-        <p className="text-xs text-muted">Chưa thêm nội dung.</p>
+            )}
+          </div>
+        )),
+      )}
+      {t(
+        !items.length && (
+          <p className="text-xs text-muted">{t('Chưa thêm nội dung.')}</p>
+        ),
       )}
     </section>
   );
 }
-
 function NewCourse({ onCreated }) {
   const languages = useResource('/api/languages');
   const [saving, setSaving] = useState(false);
@@ -119,7 +137,11 @@ function NewCourse({ onCreated }) {
     try {
       const result = await api('/api/courses', {
         method: 'POST',
-        body: { ...values, price: Number(values.price), currency: 'VND' },
+        body: {
+          ...values,
+          price: Number(values.price),
+          currency: 'VND',
+        },
       });
       setNotice(
         `Đã tạo khóa học “${result.course.title}” (ID ${result.course.id}).`,
@@ -134,27 +156,36 @@ function NewCourse({ onCreated }) {
   }
   return (
     <Card>
-      <h2 className="mb-5 text-xl font-bold">Tạo khóa học</h2>
-      <ErrorBox>{error || languages.error}</ErrorBox>
-      <SuccessBox>{notice}</SuccessBox>
+      <h2 className="mb-5 text-xl font-bold">{t('Tạo khóa học')}</h2>
+      <ErrorBox>{t(error || t(languages.error))}</ErrorBox>
+      <SuccessBox>{t(notice)}</SuccessBox>
       <form onSubmit={submit} className="space-y-5">
-        <Input label="Tên khóa học" name="title" maxLength={150} required />
+        <Input
+          label={t('Tên khóa học')}
+          name="title"
+          maxLength={150}
+          required
+        />
         <div className="grid gap-4 sm:grid-cols-3">
-          <Select label="Ngôn ngữ" name="language_code" required>
-            <option value="">Chọn ngôn ngữ</option>
-            {languages.data?.items.map((item) => (
-              <option key={item.code} value={item.code}>
-                {item.name}
-              </option>
-            ))}
+          <Select label={t('Ngôn ngữ')} name="language_code" required>
+            <option value="">{t('Chọn ngôn ngữ')}</option>
+            {t(
+              languages.data?.items.map((item) => (
+                <option key={item.code} value={item.code}>
+                  {t(item.name)}
+                </option>
+              )),
+            )}
           </Select>
-          <Select label="CEFR" name="level">
-            {LEVELS.map((item) => (
-              <option key={item.code}>{item.code}</option>
-            ))}
+          <Select label={t('CEFR')} name="level">
+            {t(
+              LEVELS.map((item) => (
+                <option key={item.code}>{t(item.code)}</option>
+              )),
+            )}
           </Select>
           <Input
-            label="Giá (VND)"
+            label={t('Giá (VND)')}
             name="price"
             type="number"
             min="0"
@@ -165,33 +196,32 @@ function NewCourse({ onCreated }) {
           />
         </div>
         <Textarea
-          label="Mô tả khóa học"
+          label={t('Mô tả khóa học')}
           name="description"
           rows={3}
           maxLength={5000}
           required
         />
         <Textarea
-          label="Điều kiện đầu vào"
+          label={t('Điều kiện đầu vào')}
           name="prerequisites"
           rows={2}
           maxLength={2000}
         />
         <Textarea
-          label="Mục tiêu học tập"
+          label={t('Mục tiêu học tập')}
           name="learning_goals"
           rows={2}
           maxLength={2000}
         />
         <Button busy={saving}>
           <Plus size={16} />
-          Tạo khóa học
+          {t('Tạo khóa học')}
         </Button>
       </form>
     </Card>
   );
 }
-
 function LessonEditor({ courseId, lessons, onSaved }) {
   const [selected, setSelected] = useState('');
   const [draft, setDraft] = useState(emptyLesson);
@@ -201,7 +231,10 @@ function LessonEditor({ courseId, lessons, onSaved }) {
   const [notice, setNotice] = useState('');
   const [loadedId, setLoadedId] = useState('');
   function update(field, value) {
-    setDraft((current) => ({ ...current, [field]: value }));
+    setDraft((current) => ({
+      ...current,
+      [field]: value,
+    }));
   }
   async function load(id) {
     setSelected(id);
@@ -236,7 +269,10 @@ function LessonEditor({ courseId, lessons, onSaved }) {
         selected
           ? `/api/lessons/${selected}`
           : `/api/courses/${courseId}/lessons`,
-        { method: selected ? 'PUT' : 'POST', body: lessonBody(draft) },
+        {
+          method: selected ? 'PUT' : 'POST',
+          body: lessonBody(draft),
+        },
       );
       setNotice(
         `Đã lưu bài học “${result.lesson.title}” (ID ${result.lesson.id}).`,
@@ -253,172 +289,189 @@ function LessonEditor({ courseId, lessons, onSaved }) {
   }
   return (
     <Card>
-      <h2 className="mb-5 text-xl font-bold">Nội dung bài học</h2>
+      <h2 className="mb-5 text-xl font-bold">{t('Nội dung bài học')}</h2>
       <Select
-        label="Chọn bài học để sửa"
+        label={t('Chọn bài học để sửa')}
         value={selected}
         disabled={saving || loading}
         onChange={(event) => load(event.target.value)}
       >
-        <option value="">+ Tạo bài học mới</option>
-        {lessons.map((item) => (
-          <option key={item.id} value={item.id}>
-            {item.position}. {item.title}
-          </option>
-        ))}
+        <option value="">{t('+ Tạo bài học mới')}</option>
+        {t(
+          lessons.map((item) => (
+            <option key={item.id} value={item.id}>
+              {t(item.position)}. {t(item.title)}
+            </option>
+          )),
+        )}
       </Select>
-      <ErrorBox>{error}</ErrorBox>
-      <SuccessBox>{notice}</SuccessBox>
-      {loading ? (
-        <Loading />
-      ) : selected && loadedId !== selected ? (
-        <p className="mt-4 text-sm text-muted">
-          Chưa tải được bài học. Chọn lại để thử lại.
-        </p>
-      ) : (
-        <form onSubmit={submit} className="mt-6 space-y-5">
-          <div className="grid gap-4 sm:grid-cols-[1fr_120px]">
-            <Input
-              label="Tên bài học"
-              value={draft.title}
-              onChange={(event) => update('title', event.target.value)}
+      <ErrorBox>{t(error)}</ErrorBox>
+      <SuccessBox>{t(notice)}</SuccessBox>
+      {t(
+        loading ? (
+          <Loading />
+        ) : selected && loadedId !== selected ? (
+          <p className="mt-4 text-sm text-muted">
+            {t('Chưa tải được bài học. Chọn lại để thử lại.')}
+          </p>
+        ) : (
+          <form onSubmit={submit} className="mt-6 space-y-5">
+            <div className="grid gap-4 sm:grid-cols-[1fr_120px]">
+              <Input
+                label={t('Tên bài học')}
+                value={draft.title}
+                onChange={(event) => update('title', event.target.value)}
+                required
+                maxLength={150}
+              />
+              <Input
+                label={t('Thứ tự bài')}
+                type="number"
+                min="1"
+                value={draft.position}
+                onChange={(event) => update('position', event.target.value)}
+                required
+              />
+            </div>
+            <Textarea
+              label={t('Theory / Lý thuyết')}
+              rows={6}
+              value={draft.theory}
+              onChange={(event) => update('theory', event.target.value)}
+              maxLength={20000}
               required
-              maxLength={150}
             />
+            <ArrayEditor
+              title={t('Từ vựng')}
+              items={draft.vocabulary}
+              max={100}
+              onChange={(value) => update('vocabulary', value)}
+              blank={() => ({
+                term: '',
+                ipa: '',
+                meaning: '',
+                example: '',
+              })}
+            >
+              {t((word, set) => (
+                <>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    <Input
+                      label={t('Từ / cụm từ')}
+                      value={word.term}
+                      onChange={(event) => set('term', event.target.value)}
+                      required
+                      maxLength={150}
+                    />
+                    <Input
+                      label={t('Phiên âm IPA')}
+                      value={word.ipa}
+                      onChange={(event) => set('ipa', event.target.value)}
+                      maxLength={200}
+                    />
+                  </div>
+                  <Input
+                    label={t('Nghĩa')}
+                    value={word.meaning}
+                    onChange={(event) => set('meaning', event.target.value)}
+                    required
+                    maxLength={1000}
+                  />
+                  <Input
+                    label={t('Câu ví dụ')}
+                    value={word.example}
+                    onChange={(event) => set('example', event.target.value)}
+                    required
+                    maxLength={1000}
+                  />
+                </>
+              ))}
+            </ArrayEditor>
+            <ArrayEditor
+              title={t('Ngữ pháp')}
+              items={draft.grammar}
+              onChange={(value) => update('grammar', value)}
+              blank={() => ({
+                pattern: '',
+                explanation: '',
+                examples: [''],
+              })}
+            >
+              {t((item, set) => (
+                <>
+                  <Input
+                    label={t('Cấu trúc')}
+                    value={item.pattern}
+                    onChange={(event) => set('pattern', event.target.value)}
+                    required
+                    maxLength={500}
+                  />
+                  <Textarea
+                    label={t('Giải thích')}
+                    rows={2}
+                    value={item.explanation}
+                    onChange={(event) => set('explanation', event.target.value)}
+                    required
+                    maxLength={2000}
+                  />
+                  <Textarea
+                    label={t('Các ví dụ (mỗi dòng một câu, tối đa 20)')}
+                    value={item.examples.join('\n')}
+                    onChange={(event) =>
+                      set('examples', event.target.value.split('\n'))
+                    }
+                    required
+                  />
+                </>
+              ))}
+            </ArrayEditor>
+            <ArrayEditor
+              title={t('Tự luyện')}
+              items={draft.practice}
+              onChange={(value) => update('practice', value)}
+              blank={() => ({
+                prompt: '',
+                example: '',
+              })}
+            >
+              {t((item, set) => (
+                <>
+                  <Textarea
+                    label={t('Đề bài tự luyện')}
+                    value={item.prompt}
+                    onChange={(event) => set('prompt', event.target.value)}
+                    required
+                    maxLength={2000}
+                  />
+                  <Textarea
+                    label={t('Gợi ý / ví dụ')}
+                    value={item.example}
+                    onChange={(event) => set('example', event.target.value)}
+                    maxLength={2000}
+                  />
+                </>
+              ))}
+            </ArrayEditor>
             <Input
-              label="Thứ tự bài"
+              label={t('Quiz ID liên kết (để trống nếu chưa có)')}
               type="number"
               min="1"
-              value={draft.position}
-              onChange={(event) => update('position', event.target.value)}
-              required
+              value={draft.quiz_id}
+              onChange={(event) => update('quiz_id', event.target.value)}
+              hint={t(
+                'Chỉ liên kết Quiz thuộc đúng khóa học. Bạn có thể tạo Quiz tại mục Quizzes rồi quay lại điền ID.',
+              )}
             />
-          </div>
-          <Textarea
-            label="Theory / Lý thuyết"
-            rows={6}
-            value={draft.theory}
-            onChange={(event) => update('theory', event.target.value)}
-            maxLength={20000}
-            required
-          />
-          <ArrayEditor
-            title="Từ vựng"
-            items={draft.vocabulary}
-            max={100}
-            onChange={(value) => update('vocabulary', value)}
-            blank={() => ({ term: '', ipa: '', meaning: '', example: '' })}
-          >
-            {(word, set) => (
-              <>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  <Input
-                    label="Từ / cụm từ"
-                    value={word.term}
-                    onChange={(event) => set('term', event.target.value)}
-                    required
-                    maxLength={150}
-                  />
-                  <Input
-                    label="Phiên âm IPA"
-                    value={word.ipa}
-                    onChange={(event) => set('ipa', event.target.value)}
-                    maxLength={200}
-                  />
-                </div>
-                <Input
-                  label="Nghĩa"
-                  value={word.meaning}
-                  onChange={(event) => set('meaning', event.target.value)}
-                  required
-                  maxLength={1000}
-                />
-                <Input
-                  label="Câu ví dụ"
-                  value={word.example}
-                  onChange={(event) => set('example', event.target.value)}
-                  required
-                  maxLength={1000}
-                />
-              </>
-            )}
-          </ArrayEditor>
-          <ArrayEditor
-            title="Ngữ pháp"
-            items={draft.grammar}
-            onChange={(value) => update('grammar', value)}
-            blank={() => ({ pattern: '', explanation: '', examples: [''] })}
-          >
-            {(item, set) => (
-              <>
-                <Input
-                  label="Cấu trúc"
-                  value={item.pattern}
-                  onChange={(event) => set('pattern', event.target.value)}
-                  required
-                  maxLength={500}
-                />
-                <Textarea
-                  label="Giải thích"
-                  rows={2}
-                  value={item.explanation}
-                  onChange={(event) => set('explanation', event.target.value)}
-                  required
-                  maxLength={2000}
-                />
-                <Textarea
-                  label="Các ví dụ (mỗi dòng một câu, tối đa 20)"
-                  value={item.examples.join('\n')}
-                  onChange={(event) =>
-                    set('examples', event.target.value.split('\n'))
-                  }
-                  required
-                />
-              </>
-            )}
-          </ArrayEditor>
-          <ArrayEditor
-            title="Tự luyện"
-            items={draft.practice}
-            onChange={(value) => update('practice', value)}
-            blank={() => ({ prompt: '', example: '' })}
-          >
-            {(item, set) => (
-              <>
-                <Textarea
-                  label="Đề bài tự luyện"
-                  value={item.prompt}
-                  onChange={(event) => set('prompt', event.target.value)}
-                  required
-                  maxLength={2000}
-                />
-                <Textarea
-                  label="Gợi ý / ví dụ"
-                  value={item.example}
-                  onChange={(event) => set('example', event.target.value)}
-                  maxLength={2000}
-                />
-              </>
-            )}
-          </ArrayEditor>
-          <Input
-            label="Quiz ID liên kết (để trống nếu chưa có)"
-            type="number"
-            min="1"
-            value={draft.quiz_id}
-            onChange={(event) => update('quiz_id', event.target.value)}
-            hint="Chỉ liên kết Quiz thuộc đúng khóa học. Bạn có thể tạo Quiz tại mục Quizzes rồi quay lại điền ID."
-          />
-          <Button busy={saving}>
-            <Save size={16} />
-            {selected ? 'Lưu thay đổi bài học' : 'Tạo bài học'}
-          </Button>
-        </form>
+            <Button busy={saving}>
+              <Save size={16} />
+              {t(selected ? t('Lưu thay đổi bài học') : t('Tạo bài học'))}
+            </Button>
+          </form>
+        ),
       )}
     </Card>
   );
 }
-
 function NewQuiz({ courseId, lessons }) {
   const [title, setTitle] = useState('');
   const [lessonId, setLessonId] = useState('');
@@ -457,45 +510,48 @@ function NewQuiz({ courseId, lessons }) {
   }
   return (
     <Card>
-      <h2 className="mb-2 text-xl font-bold">Tạo Quiz</h2>
+      <h2 className="mb-2 text-xl font-bold">{t('Tạo Quiz')}</h2>
       <p className="mb-5 text-xs leading-relaxed text-muted">
-        Đáp án do Admin nhập khi tạo nội dung; người học chỉ nhận đáp án sau khi
-        nộp bài. Quiz hiện chưa hỗ trợ sửa hoặc xóa.
+        {t(
+          'Đáp án do Admin nhập khi tạo nội dung; người học chỉ nhận đáp án sau khi nộp bài. Quiz hiện chưa hỗ trợ sửa hoặc xóa.',
+        )}
       </p>
-      <ErrorBox>{error}</ErrorBox>
-      <SuccessBox>{notice}</SuccessBox>
+      <ErrorBox>{t(error)}</ErrorBox>
+      <SuccessBox>{t(notice)}</SuccessBox>
       <form onSubmit={submit} className="space-y-5">
         <Input
-          label="Tên Quiz"
+          label={t('Tên Quiz')}
           value={title}
           onChange={(event) => setTitle(event.target.value)}
           required
           maxLength={150}
         />
         <Select
-          label="Bài học liên quan"
+          label={t('Bài học liên quan')}
           value={lessonId}
           onChange={(event) => setLessonId(event.target.value)}
         >
-          <option value="">Không chọn bài học</option>
-          {lessons.map((item) => (
-            <option key={item.id} value={item.id}>
-              {item.title}
-            </option>
-          ))}
+          <option value="">{t('Không chọn bài học')}</option>
+          {t(
+            lessons.map((item) => (
+              <option key={item.id} value={item.id}>
+                {t(item.title)}
+              </option>
+            )),
+          )}
         </Select>
         <ArrayEditor
-          title="Câu hỏi"
+          title={t('Câu hỏi')}
           items={questions}
           max={100}
           onChange={setQuestions}
           blank={makeQuestion}
         >
-          {(item, set) => (
+          {t((item, set) => (
             <>
               <div className="grid gap-3 sm:grid-cols-2">
                 <Select
-                  label="Loại câu hỏi"
+                  label={t('Loại câu hỏi')}
                   value={item.kind}
                   onChange={(event) => {
                     const kind = event.target.value;
@@ -510,8 +566,14 @@ function NewQuiz({ courseId, lessons }) {
                                 kind === 'fill_blank'
                                   ? []
                                   : [
-                                      { id: 'a', text: '' },
-                                      { id: 'b', text: '' },
+                                      {
+                                        id: 'a',
+                                        text: '',
+                                      },
+                                      {
+                                        id: 'b',
+                                        text: '',
+                                      },
                                     ],
                             }
                           : row,
@@ -519,11 +581,13 @@ function NewQuiz({ courseId, lessons }) {
                     );
                   }}
                 >
-                  <option value="single_choice">Trắc nghiệm một đáp án</option>
-                  <option value="fill_blank">Điền từ</option>
+                  <option value="single_choice">
+                    {t('Trắc nghiệm một đáp án')}
+                  </option>
+                  <option value="fill_blank">{t('Điền từ')}</option>
                 </Select>
                 <Input
-                  label="Điểm câu hỏi"
+                  label={t('Điểm câu hỏi')}
                   type="number"
                   min="1"
                   max="10"
@@ -533,86 +597,91 @@ function NewQuiz({ courseId, lessons }) {
                 />
               </div>
               <Textarea
-                label="Nội dung câu hỏi"
+                label={t('Nội dung câu hỏi')}
                 value={item.prompt}
                 onChange={(event) => set('prompt', event.target.value)}
                 required
                 maxLength={5000}
               />
-              {item.kind === 'single_choice' && (
-                <ArrayEditor
-                  title="Lựa chọn"
-                  items={item.options}
-                  max={6}
-                  onChange={(value) => set('options', value)}
-                  blank={() => ({
-                    id: String.fromCharCode(97 + item.options.length),
-                    text: '',
-                  })}
-                >
-                  {(option, setOption) => (
-                    <div className="grid gap-3 sm:grid-cols-[80px_1fr]">
-                      <Input
-                        label="Mã"
-                        value={option.id}
-                        onChange={(event) =>
-                          setOption('id', event.target.value)
-                        }
-                        maxLength={30}
-                        required
-                      />
-                      <Input
-                        label="Nội dung lựa chọn"
-                        value={option.text}
-                        onChange={(event) =>
-                          setOption('text', event.target.value)
-                        }
-                        maxLength={2000}
-                        required
-                      />
-                    </div>
-                  )}
-                </ArrayEditor>
+              {t(
+                item.kind === 'single_choice' && (
+                  <ArrayEditor
+                    title={t('Lựa chọn')}
+                    items={item.options}
+                    max={6}
+                    onChange={(value) => set('options', value)}
+                    blank={() => ({
+                      id: String.fromCharCode(97 + item.options.length),
+                      text: '',
+                    })}
+                  >
+                    {t((option, setOption) => (
+                      <div className="grid gap-3 sm:grid-cols-[80px_1fr]">
+                        <Input
+                          label={t('Mã')}
+                          value={option.id}
+                          onChange={(event) =>
+                            setOption('id', event.target.value)
+                          }
+                          maxLength={30}
+                          required
+                        />
+                        <Input
+                          label={t('Nội dung lựa chọn')}
+                          value={option.text}
+                          onChange={(event) =>
+                            setOption('text', event.target.value)
+                          }
+                          maxLength={2000}
+                          required
+                        />
+                      </div>
+                    ))}
+                  </ArrayEditor>
+                ),
               )}
-              {item.kind === 'single_choice' ? (
-                <Select
-                  label="Đáp án đúng"
-                  value={item.correct_answer}
-                  onChange={(event) =>
-                    set('correct_answer', event.target.value)
-                  }
-                  required
-                >
-                  <option value="">Chọn mã đáp án</option>
-                  {item.options.map((option, i) => (
-                    <option key={i} value={option.id}>
-                      {option.id}: {option.text}
-                    </option>
-                  ))}
-                </Select>
-              ) : (
-                <Input
-                  label="Đáp án đúng"
-                  value={item.correct_answer}
-                  onChange={(event) =>
-                    set('correct_answer', event.target.value)
-                  }
-                  maxLength={1000}
-                  required
-                />
+              {t(
+                item.kind === 'single_choice' ? (
+                  <Select
+                    label={t('Đáp án đúng')}
+                    value={item.correct_answer}
+                    onChange={(event) =>
+                      set('correct_answer', event.target.value)
+                    }
+                    required
+                  >
+                    <option value="">{t('Chọn mã đáp án')}</option>
+                    {t(
+                      item.options.map((option, i) => (
+                        <option key={i} value={option.id}>
+                          {t(option.id)}: {t(option.text)}
+                        </option>
+                      )),
+                    )}
+                  </Select>
+                ) : (
+                  <Input
+                    label={t('Đáp án đúng')}
+                    value={item.correct_answer}
+                    onChange={(event) =>
+                      set('correct_answer', event.target.value)
+                    }
+                    maxLength={1000}
+                    required
+                  />
+                ),
               )}
             </>
-          )}
+          ))}
         </ArrayEditor>
         <Button busy={saving} disabled={!questions.length}>
           <Plus size={16} />
-          Tạo Quiz
+          {t('Tạo Quiz')}
         </Button>
       </form>
     </Card>
   );
 }
-
 export default function Admin() {
   const catalog = useResource('/api/courses');
   const [tab, setTab] = useState('courses');
@@ -622,108 +691,138 @@ export default function Admin() {
     courseId ? `/api/courses/${courseId}/lessons` : null,
   );
   const tabs = [
-    { id: 'courses', label: 'Courses', icon: BookOpen },
-    { id: 'lessons', label: 'Lessons', icon: BookOpen },
-    { id: 'quizzes', label: 'Quizzes', icon: Trophy },
+    {
+      id: 'courses',
+      label: 'Courses',
+      icon: BookOpen,
+    },
+    {
+      id: 'lessons',
+      label: 'Lessons',
+      icon: BookOpen,
+    },
+    {
+      id: 'quizzes',
+      label: 'Quizzes',
+      icon: Trophy,
+    },
   ];
   return (
     <>
       <PageTitle
-        eyebrow="ADMIN WORKSPACE"
-        title="Quản trị nội dung"
+        eyebrow={t('ADMIN WORKSPACE')}
+        title={t('Quản trị nội dung')}
         action={
           <Badge tone="purple">
             <ShieldCheck size={13} />
-            Admin
+            {t('Admin')}
           </Badge>
         }
       >
-        Tạo khóa học, biên soạn bài học và thiết lập Quiz cho hành trình OELP.
+        {t(
+          'Tạo khóa học, biên soạn bài học và thiết lập Quiz cho hành trình OELP.',
+        )}
       </PageTitle>
       <div className="mb-6 flex flex-wrap gap-2">
-        {tabs.map(({ id, label, icon: Icon }) => (
-          <Button
-            key={id}
-            variant={tab === id ? 'primary' : 'secondary'}
-            onClick={() => setTab(id)}
-          >
-            <Icon size={16} />
-            {label}
-          </Button>
-        ))}
-      </div>
-      <ErrorBox onRetry={catalog.reload}>{catalog.error}</ErrorBox>
-      {tab === 'courses' ? (
-        <div className="space-y-6">
-          <NewCourse onCreated={catalog.reload} />
-          <Card>
-            <h2 className="mb-4 text-lg font-bold">Danh mục hiện có</h2>
-            {catalog.loading && <Loading />}
-            <div className="divide-y divide-border">
-              {catalog.data?.items.map((item) => (
-                <a
-                  href={`#/courses/${item.id}`}
-                  key={item.id}
-                  className="flex items-center justify-between gap-3 py-3 text-sm"
-                >
-                  <span>{item.title}</span>
-                  <Badge tone="blue">
-                    {item.level} · ID {item.id}
-                  </Badge>
-                </a>
-              ))}
-            </div>
-            <p className="mt-4 text-xs text-muted">
-              Khóa học chưa có API sửa hoặc xóa.
-            </p>
-          </Card>
-        </div>
-      ) : (
-        <>
-          <Card className="mb-5">
-            <Select
-              label="Khóa học quản trị"
-              value={courseId}
-              onChange={(event) => {
-                setNotice('');
-                setCourseId(event.target.value);
-              }}
+        {t(
+          tabs.map(({ id, label, icon: Icon }) => (
+            <Button
+              key={id}
+              variant={tab === id ? 'primary' : 'secondary'}
+              onClick={() => setTab(id)}
             >
-              <option value="">Chọn khóa học</option>
-              {catalog.data?.items.map((item) => (
-                <option key={item.id} value={item.id}>
-                  {item.title} · {item.level}
-                </option>
-              ))}
-            </Select>
-          </Card>
-          <SuccessBox>{notice}</SuccessBox>
-          <ErrorBox onRetry={lessons.reload}>{lessons.error}</ErrorBox>
-          {lessons.loading ? (
-            <Loading />
-          ) : !courseId ? (
-            <Empty compact>Chọn một khóa học để quản lý nội dung.</Empty>
-          ) : (
-            lessons.data &&
-            (tab === 'lessons' ? (
-              <LessonEditor
-                key={courseId}
-                courseId={courseId}
-                lessons={lessons.data.items}
-                onSaved={(text) => {
-                  setNotice(text);
-                  lessons.reload();
+              <Icon size={16} />
+              {t(label)}
+            </Button>
+          )),
+        )}
+      </div>
+      <ErrorBox onRetry={catalog.reload}>{t(catalog.error)}</ErrorBox>
+      {t(
+        tab === 'courses' ? (
+          <div className="space-y-6">
+            <NewCourse onCreated={catalog.reload} />
+            <Card>
+              <h2 className="mb-4 text-lg font-bold">
+                {t('Danh mục hiện có')}
+              </h2>
+              {t(catalog.loading && <Loading />)}
+              <div className="divide-y divide-border">
+                {t(
+                  catalog.data?.items.map((item) => (
+                    <a
+                      href={`#/courses/${item.id}`}
+                      key={item.id}
+                      className="flex items-center justify-between gap-3 py-3 text-sm"
+                    >
+                      <span>{t(item.title)}</span>
+                      <Badge tone="blue">
+                        {t(item.level)}
+                        {t(' · ID ')}
+                        {t(item.id)}
+                      </Badge>
+                    </a>
+                  )),
+                )}
+              </div>
+              <p className="mt-4 text-xs text-muted">
+                {t('Khóa học chưa có API sửa hoặc xóa.')}
+              </p>
+            </Card>
+          </div>
+        ) : (
+          <>
+            <Card className="mb-5">
+              <Select
+                label={t('Khóa học quản trị')}
+                value={courseId}
+                onChange={(event) => {
+                  setNotice('');
+                  setCourseId(event.target.value);
                 }}
-              />
-            ) : (
-              <NewQuiz
-                key={courseId}
-                courseId={courseId}
-                lessons={lessons.data.items}
-              />
-            ))
-          )}
-        </>
+              >
+                <option value="">{t('Chọn khóa học')}</option>
+                {t(
+                  catalog.data?.items.map((item) => (
+                    <option key={item.id} value={item.id}>
+                      {t(item.title)} · {t(item.level)}
+                    </option>
+                  )),
+                )}
+              </Select>
+            </Card>
+            <SuccessBox>{t(notice)}</SuccessBox>
+            <ErrorBox onRetry={lessons.reload}>{t(lessons.error)}</ErrorBox>
+            {t(
+              lessons.loading ? (
+                <Loading />
+              ) : !courseId ? (
+                <Empty compact>
+                  {t('Chọn một khóa học để quản lý nội dung.')}
+                </Empty>
+              ) : (
+                lessons.data &&
+                (tab === 'lessons' ? (
+                  <LessonEditor
+                    key={courseId}
+                    courseId={courseId}
+                    lessons={lessons.data.items}
+                    onSaved={(text) => {
+                      setNotice(text);
+                      lessons.reload();
+                    }}
+                  />
+                ) : (
+                  <NewQuiz
+                    key={courseId}
+                    courseId={courseId}
+                    lessons={lessons.data.items}
+                  />
+                ))
+              ),
+            )}
+          </>
+        ),
       )}
     </>
   );
